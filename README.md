@@ -1,6 +1,6 @@
 # MOBIO
 
-CARD's draft Mobilome Ontology (MOBIO) describing mobile genetic elements relative to antimicrobial resistance and virulence.
+The Mobilome Ontology describes bacterial mobile genetic elements, their mechanisms, and associated epidemiology. It is integrated with the Comprehensive Antibiotic Resistance Database (https://card.mcmaster.ca), a curated resource containing high quality reference data on the molecular basis of antimicrobial resistance.
 
 ## License
 
