@@ -9,8 +9,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mobile_elements_ontology.owl">
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11:10:2018 11:55</oboInOwl:date>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cv2obo</oboInOwl:auto-generated-by>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11:02:2019 14:56</oboInOwl:date>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:default-namespace>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARD</oboInOwl:saved-by>
@@ -217,7 +217,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transposable element (TE or transposon) is a DNA sequence that can change its position within a genome, sometimes creating or reversing mutations and altering the cell&apos;s genome size. Transposition often results in duplication of the same genetic material. Transposons were originally discovered as &quot;jumping genes&quot; by Barbara McClintock.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transposable element (TE or transposon) is a DNA sequence that can change its position within a genome, sometimes creating or reversing mutations and altering the cell&apos;s genome size. Transposition often results in duplication of the same genetic material. Transposons were originally discovered as jumping genes by Barbara McClintock.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transposon</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000003</oboInOwl:id>
@@ -1060,7 +1060,7 @@ Molecular chaperones have been shown to be involved in both the assembly and dis
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This system is also used by most bacteria for chromosome segregation. Type I partition system are composed of an ATPase which contains Walker motifs and a CBP which is structurally distinct in type Ia and Ib. ATPases and CBP from type Ia are longer than the one from type Ib, but both CBPs contain an arginine finger in their N-terminal part. ParA proteins from different plasmids and bacterial species show 25 to 30% of sequence identity to the protein ParA of the plasmid P1. The partition of type I system uses a &quot;diffusion-ratchet&quot; mechanism. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This system is also used by most bacteria for chromosome segregation. Type I partition system are composed of an ATPase which contains Walker motifs and a CBP which is structurally distinct in type Ia and Ib. ATPases and CBP from type Ia are longer than the one from type Ib, but both CBPs contain an arginine finger in their N-terminal part. ParA proteins from different plasmids and bacterial species show 25 to 30% of sequence identity to the protein ParA of the plasmid P1. The partition of type I system uses a diffusion-ratchet mechanism.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type 1 Partition System</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000056</oboInOwl:id>
@@ -3099,7 +3099,7 @@ a nuclease which is involved in DNA recombination.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA polymerases are enzymes that synthesize DNA molecules from deoxyribonucleotides, the building blocks of DNA. These enzymes are essential to DNA replication and usually work in pairs to create two identical DNA strands from a single original DNA molecule. During this process, DNA polymerase &quot;reads&quot; the existing DNA strands to create two new strands that match the existing ones.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA polymerases are enzymes that synthesize DNA molecules from deoxyribonucleotides, the building blocks of DNA. These enzymes are essential to DNA replication and usually work in pairs to create two identical DNA strands from a single original DNA molecule. During this process, DNA polymerase reads the existing DNA strands to create two new strands that match the existing ones.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000174</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA polymerase</rdfs:label>
@@ -3526,7 +3526,7 @@ a nuclease which is involved in DNA recombination.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called &quot;sticky ends&quot; with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by &quot;sticky ends&quot; are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called sticky ends with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by &quot;sticky ends&quot; are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA transposon</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000205</oboInOwl:id>

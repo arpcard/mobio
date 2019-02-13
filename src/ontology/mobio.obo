@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:10:2018 11:55
+date: 11:02:2019 14:56
 saved-by: CARD
 auto-generated-by: cv2obo
 default-namespace: mobile_elements_ontology
@@ -23,7 +23,7 @@ is_a: MOBIO:0000001 ! mobile genetic element
 id: MOBIO:0000003
 name: transposable element
 namespace: mobile_elements_ontology
-def: "A transposable element (TE or transposon) is a DNA sequence that can change its position within a genome, sometimes creating or reversing mutations and altering the cell's genome size. Transposition often results in duplication of the same genetic material. Transposons were originally discovered as \"jumping genes\" by Barbara McClintock." []
+def: "A transposable element (TE or transposon) is a DNA sequence that can change its position within a genome, sometimes creating or reversing mutations and altering the cell's genome size. Transposition often results in duplication of the same genetic material. Transposons were originally discovered as jumping genes by Barbara McClintock." []
 is_a: MOBIO:0000001 ! mobile genetic element
 relationship: part_of MOBIO:0000002 ! plasmid
 synonym: "transposon" EXACT []
@@ -174,7 +174,7 @@ is_a: MOBIO:0000185 ! complex or subunit involved in plasmid maitenance
 id: MOBIO:0000026
 name: pilX7
 namespace: mobile_elements_ontology
-def: "Protein involved in the conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli." [PMID:19717626, PMID:18375554]
+def: "Protein involved in the conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli." [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
@@ -210,7 +210,7 @@ is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 id: MOBIO:0000031
 name: pilX11
 namespace: mobile_elements_ontology
-def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to P-type DNA transfer ATPase VirB11." [PMID:18375554, PMID:19717626]
+def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to P-type DNA transfer ATPase VirB11." [PMID:19717626, PMID:18375554]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
@@ -224,7 +224,7 @@ is_a: MOBIO:0000181 ! conjugation coupling protein
 id: MOBIO:0000033
 name: RelE
 namespace: mobile_elements_ontology
-def: "Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." [PMID:21324908, PMID:15576765, PMID:18375554, PMID:9767574, PMID:22210768, PMID:12526800]
+def: "Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." [PMID:22210768, PMID:21324908, PMID:9767574, PMID:15576765, PMID:18375554, PMID:12526800]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000123 ! RelB/RelE Type II toxin-antitoxin system
 
@@ -413,7 +413,7 @@ is_a: MOBIO:0000011 ! mechanism of plasmid maintenance
 id: MOBIO:0000056
 name: Type I Partition System
 namespace: mobile_elements_ontology
-def: "This system is also used by most bacteria for chromosome segregation. Type I partition system are composed of an ATPase which contains Walker motifs and a CBP which is structurally distinct in type Ia and Ib. ATPases and CBP from type Ia are longer than the one from type Ib, but both CBPs contain an arginine finger in their N-terminal part. ParA proteins from different plasmids and bacterial species show 25 to 30% of sequence identity to the protein ParA of the plasmid P1. The partition of type I system uses a \"diffusion-ratchet\" mechanism. " []
+def: "This system is also used by most bacteria for chromosome segregation. Type I partition system are composed of an ATPase which contains Walker motifs and a CBP which is structurally distinct in type Ia and Ib. ATPases and CBP from type Ia are longer than the one from type Ib, but both CBPs contain an arginine finger in their N-terminal part. ParA proteins from different plasmids and bacterial species show 25 to 30% of sequence identity to the protein ParA of the plasmid P1. The partition of type I system uses a diffusion-ratchet mechanism." []
 is_a: MOBIO:0000055 ! plasmid partition system
 relationship: part_of MOBIO:0000007 ! Fertility F-Plasmids
 synonym: "Type 1 Partition System" EXACT []
@@ -504,7 +504,7 @@ relationship: regulates MOBIO:0000047 ! replication initiation protein RepA
 id: MOBIO:0000068
 name: SopA
 namespace: mobile_elements_ontology
-def: "This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon. " [PMID:25753630, PMID:2670941]
+def: "This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon. " [PMID:2670941, PMID:25753630]
 is_a: MOBIO:0000186 ! partitioning protein
 relationship: part_of MOBIO:0000058 ! Type Ib partition system
 
@@ -512,7 +512,7 @@ relationship: part_of MOBIO:0000058 ! Type Ib partition system
 id: MOBIO:0000069
 name: SopB
 namespace: mobile_elements_ontology
-def: "SopB is involved in the control of plasmid partitioning. It is trans-acting and binds specifically with the DNA segment containing the sopC region. The presence of SopB in the SopAB complex enhances SopA binding to the target DNA sequence." [PMID:25753630, PMID:2670941]
+def: "SopB is involved in the control of plasmid partitioning. It is trans-acting and binds specifically with the DNA segment containing the sopC region. The presence of SopB in the SopAB complex enhances SopA binding to the target DNA sequence." [PMID:2670941, PMID:25753630]
 is_a: MOBIO:0000186 ! partitioning protein
 relationship: part_of MOBIO:0000058 ! Type Ib partition system
 
@@ -548,7 +548,7 @@ is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
 id: MOBIO:0000074
 name: PsiB
 namespace: mobile_elements_ontology
-def: "The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response. " [PMID:19818715, PMID:25753630]
+def: "The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response. " [PMID:25753630, PMID:19818715]
 is_a: MOBIO:0000195 ! SOS response inhibitor
 
 [Term]
@@ -1147,7 +1147,7 @@ relationship: part_of MOBIO:0000023 ! Type II TA System
 id: MOBIO:0000156
 name: YafN
 namespace: mobile_elements_ontology
-def: "antitoxin of YafO-YafN TA system" [PMID:19617347, PMID:16738553, PMID:9278503, PMID:16397293]
+def: "antitoxin of YafO-YafN TA system" [PMID:19617347, PMID:9278503, PMID:16738553, PMID:16397293]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 
 [Term]
@@ -1252,7 +1252,7 @@ is_a: MOBIO:0000182 ! subunit of relaxosome
 id: MOBIO:0000171
 name: MazG
 namespace: mobile_elements_ontology
-def: "MazG is transcribed in the same polycistronic mRNA as MazE and MazF. It is a nucleotide pyrophosphohydrolase and breaks down  guanosine 3',5'-bispyrophosphate (ppGpp). The activity of MazG is inhibited by the MazEF complex. However, it is hypothesized that MazG reduces the deleterious effect of the MazF toxin." [PMID:24459253, PMID:16390452]
+def: "MazG is transcribed in the same polycistronic mRNA as MazE and MazF. It is a nucleotide pyrophosphohydrolase and breaks down  guanosine 3',5'-bispyrophosphate (ppGpp). The activity of MazG is inhibited by the MazEF complex. However, it is hypothesized that MazG reduces the deleterious effect of the MazF toxin." [PMID:16390452, PMID:24459253]
 is_a: MOBIO:0000155 ! Type II TA mediator
 relationship: part_of MOBIO:0000172 ! MazEF Type II toxin-antitoxin system
 
@@ -1275,7 +1275,7 @@ is_a: MOBIO:0000194 ! SOS response protein
 id: MOBIO:0000174
 name: DNA polymerase
 namespace: mobile_elements_ontology
-def: "DNA polymerases are enzymes that synthesize DNA molecules from deoxyribonucleotides, the building blocks of DNA. These enzymes are essential to DNA replication and usually work in pairs to create two identical DNA strands from a single original DNA molecule. During this process, DNA polymerase \"reads\" the existing DNA strands to create two new strands that match the existing ones." []
+def: "DNA polymerases are enzymes that synthesize DNA molecules from deoxyribonucleotides, the building blocks of DNA. These enzymes are essential to DNA replication and usually work in pairs to create two identical DNA strands from a single original DNA molecule. During this process, DNA polymerase reads the existing DNA strands to create two new strands that match the existing ones." []
 is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
 relationship: participates_in MOBIO:0000013 ! theta type
 
@@ -1493,7 +1493,7 @@ synonym: "retrotransposon" EXACT []
 id: MOBIO:0000205
 name: class II transposable element
 namespace: mobile_elements_ontology
-def: "Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called \"sticky ends\" with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by \"sticky ends\" are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats." []
+def: "Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called sticky ends with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by \"sticky ends\" are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats." []
 is_a: MOBIO:0000003 ! transposable element
 synonym: "DNA transposon" EXACT []
 
@@ -1617,14 +1617,14 @@ def: "Resistance plasmids carrying KPC Carbapenemases found in Klebsiella pneumo
 is_a: MOBIO:0000008 ! Resistance Plasmids
 
 [Typedef]
+id: regulates
+name: regulates
+xref: RO:regulates
+
+[Typedef]
 id: part_of
 name: part_of
 xref: RO:part_of
-
-[Typedef]
-id: participates_in
-name: participates_in
-xref: RO:participates_in
 
 [Typedef]
 id: is_a
@@ -1632,7 +1632,7 @@ name: is_a
 xref: RO:is_a
 
 [Typedef]
-id: regulates
-name: regulates
-xref: RO:regulates
+id: participates_in
+name: participates_in
+xref: RO:participates_in
 
