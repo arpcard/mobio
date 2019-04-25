@@ -10,7 +10,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mobile_elements_ontology.owl">
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cv2obo</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11:02:2019 14:56</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25:04:2019 14:51</oboInOwl:date>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:default-namespace>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARD</oboInOwl:saved-by>
@@ -657,7 +657,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topoisomerases are enzymes that participate in the overwinding or underwinding of DNA. They bind to double-stranded DNA and cut the phosphate backbone of either one or both the DNA strands. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topoisomerases are enzymes that participate in the overwinding or underwinding of DNA. They bind to double-stranded DNA and cut the phosphate backbone of either one or both the DNA strands.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000034</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA topoisomerase</rdfs:label>
@@ -944,7 +944,7 @@ Molecular chaperones have been shown to be involved in both the assembly and dis
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type II systems are organized in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antitoxin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000049</oboInOwl:id>
@@ -975,7 +975,7 @@ Molecular chaperones have been shown to be involved in both the assembly and dis
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000051</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type II toxin</rdfs:label>
@@ -1163,7 +1163,7 @@ Molecular chaperones have been shown to be involved in both the assembly and dis
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000193"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PifA is encoded on plasmid F and is responsible for the exclusion of phage T7. E. coli cells that carry plasmid F inhibit the growth of bacteriophage T7. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PifA is encoded on plasmid F and is responsible for the exclusion of phage T7. E. coli cells that carry plasmid F inhibit the growth of bacteriophage T7.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000064</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pifA</rdfs:label>
@@ -1171,7 +1171,7 @@ Molecular chaperones have been shown to be involved in both the assembly and dis
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000064"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PifA is encoded on plasmid F and is responsible for the exclusion of phage T7. E. coli cells that carry plasmid F inhibit the growth of bacteriophage T7. </owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PifA is encoded on plasmid F and is responsible for the exclusion of phage T7. E. coli cells that carry plasmid F inhibit the growth of bacteriophage T7.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7883717</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1238,7 +1238,7 @@ Molecular chaperones have been shown to be involved in both the assembly and dis
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000068</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SopA</rdfs:label>
@@ -1246,7 +1246,7 @@ Molecular chaperones have been shown to be involved in both the assembly and dis
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000068"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon. </owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25753630</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2670941</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -1348,7 +1348,7 @@ Molecular chaperones have been shown to be involved in both the assembly and dis
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000195"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response. </obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000074</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PsiB</rdfs:label>
@@ -1356,7 +1356,7 @@ Molecular chaperones have been shown to be involved in both the assembly and dis
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000074"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response. </owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19818715</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25753630</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -3526,7 +3526,7 @@ a nuclease which is involved in DNA recombination.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called sticky ends with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by &quot;sticky ends&quot; are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called sticky ends with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by sticky ends are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA transposon</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000205</oboInOwl:id>

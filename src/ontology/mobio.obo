@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:02:2019 14:56
+date: 25:04:2019 14:51
 saved-by: CARD
 auto-generated-by: cv2obo
 default-namespace: mobile_elements_ontology
@@ -224,7 +224,7 @@ is_a: MOBIO:0000181 ! conjugation coupling protein
 id: MOBIO:0000033
 name: RelE
 namespace: mobile_elements_ontology
-def: "Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." [PMID:22210768, PMID:21324908, PMID:9767574, PMID:15576765, PMID:18375554, PMID:12526800]
+def: "Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." [PMID:9767574, PMID:21324908, PMID:22210768, PMID:12526800, PMID:15576765, PMID:18375554]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000123 ! RelB/RelE Type II toxin-antitoxin system
 
@@ -232,7 +232,7 @@ relationship: part_of MOBIO:0000123 ! RelB/RelE Type II toxin-antitoxin system
 id: MOBIO:0000034
 name: DNA topoisomerase
 namespace: mobile_elements_ontology
-def: "Topoisomerases are enzymes that participate in the overwinding or underwinding of DNA. They bind to double-stranded DNA and cut the phosphate backbone of either one or both the DNA strands. " []
+def: "Topoisomerases are enzymes that participate in the overwinding or underwinding of DNA. They bind to double-stranded DNA and cut the phosphate backbone of either one or both the DNA strands." []
 is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
 relationship: participates_in MOBIO:0000013 ! theta type
 relationship: participates_in MOBIO:0000014 ! strand displacement
@@ -300,7 +300,7 @@ synonym: "DfrA" EXACT []
 id: MOBIO:0000042
 name: Class 1 Integrase
 namespace: mobile_elements_ontology
-def: "Class 1 Integrase is a site-specific recombination enzyme that is part of the class 1 integron system. It recognizes the recombination site, attI1, which is where it will catalyze the insertion of gene casettes." [PMID:18193080, PMID:8574395]
+def: "Class 1 Integrase is a site-specific recombination enzyme that is part of the class 1 integron system. It recognizes the recombination site, attI1, which is where it will catalyze the insertion of gene casettes." [PMID:8574395, PMID:18193080]
 is_a: MOBIO:0000104 ! recombinase
 relationship: part_of MOBIO:0000043 ! integron
 synonym: "Intl1" EXACT []
@@ -358,7 +358,7 @@ relationship: participates_in MOBIO:0000017 ! conjugative transfer
 id: MOBIO:0000049
 name: Type II post-segregation antitoxin
 namespace: mobile_elements_ontology
-def: "Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression. " []
+def: "Type II systems are organized in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression." []
 is_a: MOBIO:0000191 ! component of a TA system
 relationship: part_of MOBIO:0000023 ! Type II TA System
 synonym: "antitoxin" EXACT []
@@ -374,7 +374,7 @@ is_a: MOBIO:0000045 ! transcriptional regulator of operons found in MGEs
 id: MOBIO:0000051
 name: Type II toxin
 namespace: mobile_elements_ontology
-def: "Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression. " []
+def: "Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression." []
 is_a: MOBIO:0000191 ! component of a TA system
 relationship: part_of MOBIO:0000023 ! Type II TA System
 
@@ -472,7 +472,7 @@ relationship: part_of MOBIO:0000058 ! Type Ib partition system
 id: MOBIO:0000064
 name: pifA
 namespace: mobile_elements_ontology
-def: "PifA is encoded on plasmid F and is responsible for the exclusion of phage T7. E. coli cells that carry plasmid F inhibit the growth of bacteriophage T7. " [PMID:7883717]
+def: "PifA is encoded on plasmid F and is responsible for the exclusion of phage T7. E. coli cells that carry plasmid F inhibit the growth of bacteriophage T7." [PMID:7883717]
 is_a: MOBIO:0000193 ! protein conferring phage resistance
 
 [Term]
@@ -504,7 +504,7 @@ relationship: regulates MOBIO:0000047 ! replication initiation protein RepA
 id: MOBIO:0000068
 name: SopA
 namespace: mobile_elements_ontology
-def: "This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon. " [PMID:2670941, PMID:25753630]
+def: "This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon." [PMID:2670941, PMID:25753630]
 is_a: MOBIO:0000186 ! partitioning protein
 relationship: part_of MOBIO:0000058 ! Type Ib partition system
 
@@ -548,7 +548,7 @@ is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
 id: MOBIO:0000074
 name: PsiB
 namespace: mobile_elements_ontology
-def: "The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response. " [PMID:25753630, PMID:19818715]
+def: "The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response." [PMID:19818715, PMID:25753630]
 is_a: MOBIO:0000195 ! SOS response inhibitor
 
 [Term]
@@ -725,7 +725,7 @@ relationship: part_of MOBIO:0000124 ! PemI/PemK type II Toxin-antitoxin system
 id: MOBIO:0000098
 name: PemK
 namespace: mobile_elements_ontology
-def: "Toxic component of a type II toxin-antitoxin (TA) module. Probably functions as an endoribonuclease. Responsible for the stable maintenance of the plasmid during cell division by postsegregational killing of plasmid-less daughter cells. Neutralized by coexpression with cognate antitoxin PemI. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis." [PMID:25753630, PMID:17416361]
+def: "Toxic component of a type II toxin-antitoxin (TA) module. Probably functions as an endoribonuclease. Responsible for the stable maintenance of the plasmid during cell division by postsegregational killing of plasmid-less daughter cells. Neutralized by coexpression with cognate antitoxin PemI. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis." [PMID:17416361, PMID:25753630]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000124 ! PemI/PemK type II Toxin-antitoxin system
 
@@ -853,7 +853,7 @@ is_a: MOBIO:0000046 ! replication initiation protein
 id: MOBIO:0000117
 name: Fertility inhibition protein
 namespace: mobile_elements_ontology
-def: "One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes. The transfer genes are responsible for the process, called conjugal transfer, in which DNA is transmitted from one bacterial host to another. RNA-binding that interacts with the traJ mRNA and its antisense RNA, finP, stabilizing finP against endonucleolytic degradation and facilitating sense-antisense RNA recognition." [PMID:9819055, PMID:25753630, PMID:26899414]
+def: "One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes. The transfer genes are responsible for the process, called conjugal transfer, in which DNA is transmitted from one bacterial host to another. RNA-binding that interacts with the traJ mRNA and its antisense RNA, finP, stabilizing finP against endonucleolytic degradation and facilitating sense-antisense RNA recognition." [PMID:25753630, PMID:9819055, PMID:26899414]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 relationship: part_of MOBIO:0000007 ! Fertility F-Plasmids
 synonym: "FinO" EXACT []
@@ -1147,7 +1147,7 @@ relationship: part_of MOBIO:0000023 ! Type II TA System
 id: MOBIO:0000156
 name: YafN
 namespace: mobile_elements_ontology
-def: "antitoxin of YafO-YafN TA system" [PMID:19617347, PMID:9278503, PMID:16738553, PMID:16397293]
+def: "antitoxin of YafO-YafN TA system" [PMID:16738553, PMID:9278503, PMID:16397293, PMID:19617347]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 
 [Term]
@@ -1161,7 +1161,7 @@ is_a: MOBIO:0000181 ! conjugation coupling protein
 id: MOBIO:0000158
 name: TraS
 namespace: mobile_elements_ontology
-def: "TraS is an entry exclusion protein, involved in blocking the transfer of redundant DNA between donor cells." [PMID:11150665, PMID:337311]
+def: "TraS is an entry exclusion protein, involved in blocking the transfer of redundant DNA between donor cells." [PMID:337311, PMID:11150665]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
@@ -1267,7 +1267,7 @@ is_a: MOBIO:0000023 ! Type II TA System
 id: MOBIO:0000173
 name: RecA
 namespace: mobile_elements_ontology
-def: "RecA is a protein that binds single-stranded DNA, forming a nucleoprotein filament. When bound, RecA may either target a homologous double-stranded DNA sequence and catalyze recombination, or it catalyzes the autocleavage of LexA. This allows for the expression of SOS genes." [PMID:24459253, PMID:6244554, PMID:16000023]
+def: "RecA is a protein that binds single-stranded DNA, forming a nucleoprotein filament. When bound, RecA may either target a homologous double-stranded DNA sequence and catalyze recombination, or it catalyzes the autocleavage of LexA. This allows for the expression of SOS genes." [PMID:16000023, PMID:24459253, PMID:6244554]
 is_a: MOBIO:0000104 ! recombinase
 is_a: MOBIO:0000194 ! SOS response protein
 
@@ -1493,7 +1493,7 @@ synonym: "retrotransposon" EXACT []
 id: MOBIO:0000205
 name: class II transposable element
 namespace: mobile_elements_ontology
-def: "Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called sticky ends with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by \"sticky ends\" are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats." []
+def: "Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called sticky ends with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by sticky ends are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats." []
 is_a: MOBIO:0000003 ! transposable element
 synonym: "DNA transposon" EXACT []
 
@@ -1627,12 +1627,12 @@ name: part_of
 xref: RO:part_of
 
 [Typedef]
-id: is_a
-name: is_a
-xref: RO:is_a
-
-[Typedef]
 id: participates_in
 name: participates_in
 xref: RO:participates_in
+
+[Typedef]
+id: is_a
+name: is_a
+xref: RO:is_a
 
