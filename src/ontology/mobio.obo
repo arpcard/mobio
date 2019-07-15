@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:04:2019 14:51
+date: 15:07:2019 10:59
 saved-by: CARD
 auto-generated-by: cv2obo
 default-namespace: mobile_elements_ontology
@@ -181,7 +181,7 @@ is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 id: MOBIO:0000027
 name: pilX8
 namespace: mobile_elements_ontology
-def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli." [PMID:19717626, PMID:18375554]
+def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli." [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
@@ -196,7 +196,7 @@ relationship: part_of MOBIO:0000006 ! Col Plasmids
 id: MOBIO:0000029
 name: pilX9
 namespace: mobile_elements_ontology
-def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.\n" [PMID:19717626, PMID:18375554]
+def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.\n" [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
@@ -224,7 +224,7 @@ is_a: MOBIO:0000181 ! conjugation coupling protein
 id: MOBIO:0000033
 name: RelE
 namespace: mobile_elements_ontology
-def: "Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." [PMID:9767574, PMID:21324908, PMID:22210768, PMID:12526800, PMID:15576765, PMID:18375554]
+def: "Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." [PMID:21324908, PMID:18375554, PMID:12526800, PMID:15576765, PMID:9767574, PMID:22210768]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000123 ! RelB/RelE Type II toxin-antitoxin system
 
@@ -548,14 +548,14 @@ is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
 id: MOBIO:0000074
 name: PsiB
 namespace: mobile_elements_ontology
-def: "The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response." [PMID:19818715, PMID:25753630]
+def: "The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response." [PMID:25753630, PMID:19818715]
 is_a: MOBIO:0000195 ! SOS response inhibitor
 
 [Term]
 id: MOBIO:0000075
 name: PsiA
 namespace: mobile_elements_ontology
-def: "PsiA is a protein encoded in the Psi region, which also encodes the PsiB protein. PsiA and PsiB are most likely transcribed in a polycistronic manner. The role of PsiA has not been identified, however it does not seem to influence SOS inhibition mediated by PsiB." [PMID:2201950, PMID:25753630]
+def: "PsiA is a protein encoded in the Psi region, which also encodes the PsiB protein. PsiA and PsiB are most likely transcribed in a polycistronic manner. The role of PsiA has not been identified, however it does not seem to influence SOS inhibition mediated by PsiB." [PMID:25753630, PMID:2201950]
 is_a: MOBIO:0000195 ! SOS response inhibitor
 
 [Term]
@@ -853,7 +853,7 @@ is_a: MOBIO:0000046 ! replication initiation protein
 id: MOBIO:0000117
 name: Fertility inhibition protein
 namespace: mobile_elements_ontology
-def: "One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes. The transfer genes are responsible for the process, called conjugal transfer, in which DNA is transmitted from one bacterial host to another. RNA-binding that interacts with the traJ mRNA and its antisense RNA, finP, stabilizing finP against endonucleolytic degradation and facilitating sense-antisense RNA recognition." [PMID:25753630, PMID:9819055, PMID:26899414]
+def: "One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes. The transfer genes are responsible for the process, called conjugal transfer, in which DNA is transmitted from one bacterial host to another. RNA-binding that interacts with the traJ mRNA and its antisense RNA, finP, stabilizing finP against endonucleolytic degradation and facilitating sense-antisense RNA recognition." [PMID:9819055, PMID:26899414, PMID:25753630]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 relationship: part_of MOBIO:0000007 ! Fertility F-Plasmids
 synonym: "FinO" EXACT []
@@ -961,7 +961,7 @@ is_a: MOBIO:0000023 ! Type II TA System
 id: MOBIO:0000131
 name: ParE
 namespace: mobile_elements_ontology
-def: "Toxin component of a toxin-antitoxin (TA) module involved in plasmid partition. Acts by inhibiting DNA gyrase, converting supercoiled plasmid DNA into a singly cleaved linear form in an ATP-dependent fashion. To do so it probably interacts with one of the gyrase subunits. Gyrase inhibition is prevented by antitoxin ParD, and is reversed in vitro by incubation with ParD. In cells that have lost the plasmid filamentation and growth inhibition occur; this is suppressed when ParD is supplied in trans. The parDE operon alone is capable of stabilizing an RK2-derived minireplicon under defined growth conditions in several different Gram-negative bacteria. It does so by the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system." [PMID:25232178, PMID:26823590]
+def: "Toxin component of a toxin-antitoxin (TA) module involved in plasmid partition. Acts by inhibiting DNA gyrase, converting supercoiled plasmid DNA into a singly cleaved linear form in an ATP-dependent fashion. To do so it probably interacts with one of the gyrase subunits. Gyrase inhibition is prevented by antitoxin ParD, and is reversed in vitro by incubation with ParD. In cells that have lost the plasmid filamentation and growth inhibition occur; this is suppressed when ParD is supplied in trans. The parDE operon alone is capable of stabilizing an RK2-derived minireplicon under defined growth conditions in several different Gram-negative bacteria. It does so by the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system." [PMID:26823590, PMID:25232178]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000130 ! ParDE type II toxin-antitoxin system
 
@@ -1147,7 +1147,7 @@ relationship: part_of MOBIO:0000023 ! Type II TA System
 id: MOBIO:0000156
 name: YafN
 namespace: mobile_elements_ontology
-def: "antitoxin of YafO-YafN TA system" [PMID:16738553, PMID:9278503, PMID:16397293, PMID:19617347]
+def: "antitoxin of YafO-YafN TA system" [PMID:9278503, PMID:19617347, PMID:16397293, PMID:16738553]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 
 [Term]
@@ -1252,7 +1252,7 @@ is_a: MOBIO:0000182 ! subunit of relaxosome
 id: MOBIO:0000171
 name: MazG
 namespace: mobile_elements_ontology
-def: "MazG is transcribed in the same polycistronic mRNA as MazE and MazF. It is a nucleotide pyrophosphohydrolase and breaks down  guanosine 3',5'-bispyrophosphate (ppGpp). The activity of MazG is inhibited by the MazEF complex. However, it is hypothesized that MazG reduces the deleterious effect of the MazF toxin." [PMID:16390452, PMID:24459253]
+def: "MazG is transcribed in the same polycistronic mRNA as MazE and MazF. It is a nucleotide pyrophosphohydrolase and breaks down  guanosine 3',5'-bispyrophosphate (ppGpp). The activity of MazG is inhibited by the MazEF complex. However, it is hypothesized that MazG reduces the deleterious effect of the MazF toxin." [PMID:24459253, PMID:16390452]
 is_a: MOBIO:0000155 ! Type II TA mediator
 relationship: part_of MOBIO:0000172 ! MazEF Type II toxin-antitoxin system
 
@@ -1267,7 +1267,7 @@ is_a: MOBIO:0000023 ! Type II TA System
 id: MOBIO:0000173
 name: RecA
 namespace: mobile_elements_ontology
-def: "RecA is a protein that binds single-stranded DNA, forming a nucleoprotein filament. When bound, RecA may either target a homologous double-stranded DNA sequence and catalyze recombination, or it catalyzes the autocleavage of LexA. This allows for the expression of SOS genes." [PMID:16000023, PMID:24459253, PMID:6244554]
+def: "RecA is a protein that binds single-stranded DNA, forming a nucleoprotein filament. When bound, RecA may either target a homologous double-stranded DNA sequence and catalyze recombination, or it catalyzes the autocleavage of LexA. This allows for the expression of SOS genes." [PMID:6244554, PMID:24459253, PMID:16000023]
 is_a: MOBIO:0000104 ! recombinase
 is_a: MOBIO:0000194 ! SOS response protein
 
@@ -1318,7 +1318,7 @@ is_a: MOBIO:0000194 ! SOS response protein
 id: MOBIO:0000180
 name: adiY
 namespace: mobile_elements_ontology
-def: "adiY is a DNA-binding transcriptional activator of the adi system. Implicated in arginine-dependent acid resistance in Escherichia coli." [PMID:12867448, PMID:8704970]
+def: "adiY is a DNA-binding transcriptional activator of the adi system. Implicated in arginine-dependent acid resistance in Escherichia coli." [PMID:8704970, PMID:12867448]
 is_a: MOBIO:0000045 ! transcriptional regulator of operons found in MGEs
 
 [Term]
@@ -1616,10 +1616,460 @@ namespace: mobile_elements_ontology
 def: "Resistance plasmids carrying KPC Carbapenemases found in Klebsiella pneumoniae" []
 is_a: MOBIO:0000008 ! Resistance Plasmids
 
-[Typedef]
-id: regulates
-name: regulates
-xref: RO:regulates
+[Term]
+id: MOBIO:0000223
+name: pONE429
+namespace: mobile_elements_ontology
+def: "pONE429 plasmid was first isolated from selenomonas ruminatium S20. It has a similar replicase protein to POM1, pSN2 and pIM13 plasmids. It uses the rolling circle replication mechanism." [PMID:9871109]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000225
+name: KP1 plasmid
+namespace: mobile_elements_ontology
+def: "KP1 is a cryptic plasmid found at high copy number isolated from Flavobacterium species. The plasmid contains two open reading frames of significant length" [PMID:9871109]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000226
+name: R27
+namespace: mobile_elements_ontology
+def: "A Temperature-sensitive conjugative plasmid R27, the prototype for the IncHI1 family of plasmids. A number of insertion elements were found, including the full Tn 10 transposon, which carries tetracycline resistance genes and two transfer regions, Tra1 and Tra2." [PMID:10773089]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000227
+name: pSS
+namespace: mobile_elements_ontology
+def: "A large virulence plasmid, pSS, that contains a novel toxin-antitoxin system (stbDE homologs) downstream of the replication region." [PMID:16122562]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000228
+name: pKLC102
+namespace: mobile_elements_ontology
+def: "Plasmid pKLC102 coexists as a plasmid and genome island in clone C strains. Mobility suggested to be conjugative." [PMID:14702321]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000229
+name: pRK100
+namespace: mobile_elements_ontology
+def: "Conjugative F-like plasmid. Two functional replication regions, a F plasmid related RepFIB and a R1 plasmid related RepFIIA replication region." [PMID:12932736]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000230
+name: pJ3356
+namespace: mobile_elements_ontology
+def: "Plasmid containing genes that confer resistance to mupirocin on a strain of  Staphylococcus aureus isolated from a hospital." [PMID:8825372]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000231
+name: pRGO1
+namespace: mobile_elements_ontology
+def: "pRGO1 is a cryptic plasmid from Propionibacterium acidipropionici E214. It has six open reading frames, which are designated Orf1 to Orf6" [PMID:11055911]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000232
+name: pO157
+namespace: mobile_elements_ontology
+def: "pO157 is a 93-kb plasmid found in clinical Entetrohemorrhagic Escherichia coli (EHEC) isolates world-wide. It shares strikingly similar genes and DNA sequences with F-factor and the transmissible drug-resistant plasmid R100" [PMID:9628576]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000233
+name: pOSAK1
+namespace: mobile_elements_ontology
+def: "pOSAK1 is a 3.3kb plasmid prevalent in Entetrohemorrhagic Esherichia coli (EHEC) strains isolated in Japan. It possesses a ColE1-like replication system, and the DNA sequence is extremely similar to that of a drug resistant plasmid, NTP16" [PMID:9628576]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000234
+name: pTi-SAKURA
+namespace: mobile_elements_ontology
+def: "pTi-SAKURA plasmid was first isolated from a bacterium Agrobacterium tumefaciens, which had been found in a crown gall tumor on Japanese cherry tree SAKURA" [PMID:9586048, PMID:9524202, PMID:10721727]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000235
+name: pSSU1
+namespace: mobile_elements_ontology
+def: "pSSU1 was first isolated from Streptococcus suis serotype 2 strain DAT1. It has six major open reading frames (ORFs)" [PMID:10568806]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000236
+name: pLTK2
+namespace: mobile_elements_ontology
+def: "pLTK2 is a 2295 bp length and has a major open reading frame of 951bp. It has a putative replication that shows high homology to those of other gram-positive bacterial plasmids that replicate by the rolling circle mechanism" [PMID:16232699]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000237
+name: EAF plasmid
+namespace: mobile_elements_ontology
+def: "EAF (adherence factor) plasmid encodes two known virulence-related operons, the bfp operon and bfpTVW(perABC) operons" [PMID:10496929]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000238
+name: pKDSC50
+namespace: mobile_elements_ontology
+def: "pKDSC50 is a large virulence plasmid from Salmonella enterica serovar cholrerasuis strain RF-1. It encodes a known virulence-associated operon, the spv operon, which is composed of genes essential for systematic infection by nontyphoidal salmonella" [PMID:11254626]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000239
+name: pUO1
+namespace: mobile_elements_ontology
+def: "pUO1 is a self-transmissible plasmid that carries tow holoacetate-catabolic transposons, TnHad1 and TnHad2" [PMID:16391056, PMID:14594853, PMID:11976102]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000240
+name: pWig1
+namespace: mobile_elements_ontology
+def: "pWig1 is a small plasmid of 5200bp found in the annotated genome of tsetse flies, Wigglesworthia glossinidia blevipalpis" [PMID:12219091]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000241
+name: pDB1
+namespace: mobile_elements_ontology
+def: "pDB1 is a construct plasmid formed by ligation of partial replicon of pDR1-1B, with an erythromycin resistance gene into pBluescript II KS(+)" [PMID:17986766]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000242
+name: pLA103
+namespace: mobile_elements_ontology
+def: "pLA103 is a 14-kb plasmid and it encodes 46 amino acid precursor including a 20 amino acid N-terminal extension" [PMID:8554765, PMID:8566697]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000243
+name: pMG160
+namespace: mobile_elements_ontology
+def: "pMG160 plasmid is a 3.4kb cryptic plasmid obtained from a new isolate of Rhodobacter blasticus. The complete nucleotide sequence of this plasmid contains three open reading frames (ORFs)" [PMID:12570988]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000244
+name: pAG5
+namespace: mobile_elements_ontology
+def: "pAG5 is a cryptic plasmid of 5648 bp in G.oxydans strains and has one open reading frame (ORF) for a possible replication protein" [PMID:12619700]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000245
+name: pSLA2-L
+namespace: mobile_elements_ontology
+def: "pSLA2-L is a 200kb linear plasmid involved in the production of two macrolide antibiotics, lankamycin(Lm) and lankacidin(Lc), in streptomyces rochei. It also contains two PKS gene clusters for Lm and unknown type-II polyketide" [PMID:9836424, PMID:12791134, PMID:10767533, PMID:10954087]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000246
+name: pCAR1
+namespace: mobile_elements_ontology
+def: "pCAR1 is a 199-kb plasmid that carries genes involved in the degradation of carbazole and dioxin" [PMID:15466034, PMID:19134166, PMID:20639326, PMID:19270415, PMID:19930443, PMID:19376894, PMID:12547188, PMID:17675379, PMID:16672459]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000247
+name: pMS260
+namespace: mobile_elements_ontology
+def: "pMS260 is an 8.1-kb plasmid isolated from Actinobacillus pleuropneumoniae and encodes steptomycin (SM) and sulfonamide (SA) resistance" [PMID:14711528]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000248
+name: Collb-P9
+namespace: mobile_elements_ontology
+def: "The Collb-P9 is a 93kb-pair IncI alpha group plasmid. Genetic analyses reveal that it contains at least two structural genes, repZ and inc." [PMID:11254626]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000249
+name: pMGT
+namespace: mobile_elements_ontology
+def: "pMGT is a 3.7-kb cryptic plasmid found in Magnetospirillum magneticum MGT-1" [PMID:12839813]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000250
+name: pTT8
+namespace: mobile_elements_ontology
+def: "pTT8 is a cryptic plasmid from Thermus thermophilus HB8 with eight putative open reading frames" [PMID:15109829]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000251
+name: pPI-1
+namespace: mobile_elements_ontology
+def: "pPI-1 is a 30.3kb plasmid of Staphylococcus warneri ISK-1 encoding the biosynthesis of and immunity to the lactici-481 type lantibiotic nukacin ISK-1" [PMID:15737403, PMID:11193411, PMID:15322349]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000252
+name: pPI-2
+namespace: mobile_elements_ontology
+def: "pPI-2 is a 2.8kb plasmid of staphylococcus warneri ISK-1" [PMID:15737403]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000253
+name: pRE8424
+namespace: mobile_elements_ontology
+def: "The pRE8424 is a 5987-bp circular plasmid from Rhodococcus erythropolis DSM8424, and it has six open reading frames (ORFs)" [PMID:15345444]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000254
+name: pMBO-1
+namespace: mobile_elements_ontology
+def: "pMBO-1 is a plasmid from Moraxella bovis strain Epp63" [PMID:16879933]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000255
+name: pHTbeta
+namespace: mobile_elements_ontology
+def: "The pHTbeta is a pheromone-independent pMG1-like plasmid that carries Tn1546-like transposons encoding vancomycin resistance" [PMID:16267297]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000256
+name: pTB6
+namespace: mobile_elements_ontology
+def: "pTB6 is a 3624 bp plasmid from Bifidobacterium longum similar to rolling circle replication plasmids pKJ36 and pB44" [PMID:15725673]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000257
+name: pBCNF5603
+namespace: mobile_elements_ontology
+def: "pBCNF5603 is a bacteriocin-encoding plasmid" [PMID:26055257]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000258
+name: pMU1
+namespace: mobile_elements_ontology
+def: "pMU1 is an 8.7kb plasmid isolated from Eikenella corrodens 1073 known to affect pilus formation and colony morphology" [PMID:15869847]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000259
+name: pMG1
+namespace: mobile_elements_ontology
+def: "pMG1 is a 65.1kb pheromone-independent Enterococcus faecium plasmid that carries a Tn4001-like transposon encoding gentamicin resistance" [PMID:18795955]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000260
+name: pA1
+namespace: mobile_elements_ontology
+def: "pA1 is a 46.6kb plasmid from Sphigomonas sp. A1 strain and its sequence corresponds to the typical IncP-1beta plasmid backbone without any accessory genes" [PMID:16445980]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000261
+name: pCPF4969
+namespace: mobile_elements_ontology
+def: "pCPF4969 is a 70.5kb plasmid with a conserved region that potentially encodes virulence factors and carries ORFs found on the conjugative transposon Tn916" []
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000262
+name: pCPF5603
+namespace: mobile_elements_ontology
+def: "pCPF5603 is a 75.3kb plasmid with a conserved region that potentially encodes virulence factors and carries ORFs on conjugative transposons Tn916" []
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000263
+name: plasmid NAH7
+namespace: mobile_elements_ontology
+def: "NAH7 is a Pseudomonas plasmid found to be transposable only in the presence of a transposase encoded by Tn1721" [PMID:2175388]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000264
+name: plasmid pBP136
+namespace: mobile_elements_ontology
+def: "pBP136 is IncP-1 beta plasmid from the human pathogen Bordtella pertussis, the primary aetiological agent of whooping cough" [PMID:17159199]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000265
+name: pWW53
+namespace: mobile_elements_ontology
+def: "pWW53 is a TOL plasmid in Pseudomonas putida MT53 and it encodes toluene-xylene catabolism" [PMID:8473862, PMID:9260942, PMID:17408691, PMID:2997136, PMID:3027047, PMID:22925377, PMID:3309179, PMID:10877777, PMID:3076178, PMID:1331988, PMID:11591664]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000266
+name: pLS30
+namespace: mobile_elements_ontology
+def: "pLS30 is a stable plasmid that shuttles between subtilitis species by conjugational transfer" []
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000267
+name: pLB1
+namespace: mobile_elements_ontology
+def: "pLB1 plasmid is found in alpha-proteobacterial strain Sphingobium japonicum UT26 and it is involved in gamma-hexachlorocyclohexane degradation" []
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000268
+name: pYAN-1
+namespace: mobile_elements_ontology
+def: "pYAN-1 is a small cryptic indigenous plasmid isolated from Sphigobium yanoikuyae" []
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000269
+name: pYAN-2
+namespace: mobile_elements_ontology
+def: "pYAN-2 is a small cryptic indigenous plasmid isolated from Sphigobium yanoikuyae and it contain mobAm, mobs and repA genes" [PMID:18391447]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000270
+name: pNC500
+namespace: mobile_elements_ontology
+def: "pNC500 is a 7.6kb cryptic plasmid detected in degrading Rhodococcus rhodochrous (formerly Nocardia corallina) B-2767" [PMID:17043815]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000271
+name: pCAR3
+namespace: mobile_elements_ontology
+def: "pCAR3 is a 245-kb circular plasmid isolated from Sphingomonas sp. strain KAI, and it contains carbazole degradative car-I gene cluster involved in the conversion of carbazole to anthranilate" [PMID:17172338, PMID:16672458, PMID:15796992, PMID:12052549]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000272
+name: pP99-018
+namespace: mobile_elements_ontology
+def: "pP99-018 is a multi-drug resistance plasmid isolated from Photobacterium damselae subsp. piscicida, which is a bacterium fish pathogen that causes a disease known as pasteurellosis" [PMID:18070959]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000273
+name: pP91278
+namespace: mobile_elements_ontology
+def: "pP91278 is a multi-drug resistance plasmid isolated from Photobacterium damselae subsp. piscicida, which is a bacterium fish pathogen that causes a disease known as pasteurellosis" [PMID:18070959]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000274
+name: pTZ2162
+namespace: mobile_elements_ontology
+def: "pTZ2162 is a 35.4 plasmid encoding multi-drug efflux gene qacB and it is widely distributed in methicillin-resistant Staphylococcus aureus (MRSA)" [PMID:18539327]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000275
+name: pHDC
+namespace: mobile_elements_ontology
+def: "pHDC is a 30kbp plasmid and it encodes a single copy of the pyruvol dependent histidine decarboxylase gene (hdc) in Tetragenococcus halophilus isolated from fish sauce" [PMID:18573560]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000276
+name: pCBM588
+namespace: mobile_elements_ontology
+def: "pCBM588 is a small cryptic bacteriocinogenic plasmid of Clostridium butyricum" [PMID:19840859]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000277
+name: pLB925A02
+namespace: mobile_elements_ontology
+def: "pLB925A02 is a 3524bp plasmid isolated from lactobacillus brevis strain, and it encodes a novel bacteriocin, brevicin 925A which is effective against certain Lactic acid bacteria (LAB)" [PMID:19372160]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000278
+name: pLB925A03
+namespace: mobile_elements_ontology
+def: "pLB925A03 is a 8881bp plasmid isolated from lactobacillus brevis strain" [PMID:19372160]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000279
+name: pLB925A04
+namespace: mobile_elements_ontology
+def: "pLB925A04 is a 65037bp plasmid isolated from lactobacillus brevis strain" [PMID:19372160]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000280
+name: pMG2200
+namespace: mobile_elements_ontology
+def: "pMG2200 is a pheromone-responsive plasmid and it encodes VanB-type vancomycin resistance and a Bac41-type bacteriocin" [PMID:19029325]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000281
+name: pDK1
+namespace: mobile_elements_ontology
+def: "pDK1 is a 128kbp toluene-catabolic (TOL) plasmids in Pseudomonas putida HS1" [PMID:22925377, PMID:20581207, PMID:1366507, PMID:7240090, PMID:3076182, PMID:1331988, PMID:8473862, PMID:7287632, PMID:1672868]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000282
+name: pLgLA39
+namespace: mobile_elements_ontology
+def: "pLgLA39 is a 33.3kb plasmid and it encodes genes related to gassericin A production/immunity (gaa), as well as gene for replication, plasmid maintenance, and conjugative transfer" [PMID:19666732, PMID:9648219]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000283
+name: pCP8533etx
+namespace: mobile_elements_ontology
+def: "pCP8533etx is an epsilon-toxin plasmid isolated from Clostridium perfringens type B strain NCTC8533, and the plasmid carries tcp conjugative transfer genes and encodes potential virulence factors including beta2-toxin, sortase and collagen adhesin" [PMID:18776010]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000284
+name: pP9014
+namespace: mobile_elements_ontology
+def: "pP9014 is an IncP-1 plasmid isolated from Photobacterium damselae subsp.piscicida, a causative agent of pseudotuberculosis" [PMID:23602560]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000285
+name: pUE30
+namespace: mobile_elements_ontology
+def: "pUE30 is a small cryptic plasmid from pUE30 from Deinococcus radiopugnans ATCC19172, and it possesses two open reading frames" [PMID:19504653]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000286
+name: pCAR2
+namespace: mobile_elements_ontology
+def: "pCAR2 is a self-transmissible plasmid isolated from Pseudomonas putida strain HS01 and it carries the transposon Tn4676" [PMID:19930443, PMID:15856217, PMID:19376894, PMID:16328978, PMID:19134166, PMID:20639326, PMID:19270415]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000287
+name: EcOYNIM_1998
+namespace: mobile_elements_ontology
+def: "EcOYNIM_1998 is a plasmid harvested from a non-insect-transmissible pyhtoplasma strain (OY-NIM) and it lacks the 157bp region upstream of orf2" [PMID:19631261]
+is_a: MOBIO:0000002 ! plasmid
+
+[Term]
+id: MOBIO:0000288
+name: EcoYNIM_2002_2004
+namespace: mobile_elements_ontology
+def: "EcoYNIM_2002_2004 is a plasmid harvested from a non-insect-transmissible pythoplasma strain (OY-NIM) and it lacks the entire orf8 and orf2, while the repBp is inserted" [PMID:19631261]
+is_a: MOBIO:0000002 ! plasmid
 
 [Typedef]
 id: part_of
@@ -1627,12 +2077,17 @@ name: part_of
 xref: RO:part_of
 
 [Typedef]
+id: is_a
+name: is_a
+xref: RO:is_a
+
+[Typedef]
 id: participates_in
 name: participates_in
 xref: RO:participates_in
 
 [Typedef]
-id: is_a
-name: is_a
-xref: RO:is_a
+id: regulates
+name: regulates
+xref: RO:regulates
 
