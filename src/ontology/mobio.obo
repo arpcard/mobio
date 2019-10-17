@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:09:2019 08:47
+date: 17:10:2019 12:54
 saved-by: CARD
 auto-generated-by: cv2obo
 default-namespace: mobile_elements_ontology
@@ -174,7 +174,7 @@ is_a: MOBIO:0000185 ! complex or subunit involved in plasmid maitenance
 id: MOBIO:0000026
 name: pilX7
 namespace: mobile_elements_ontology
-def: "Protein involved in the conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli." [PMID:19717626, PMID:18375554]
+def: "Protein involved in the conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli." [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
@@ -203,14 +203,14 @@ is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 id: MOBIO:0000030
 name: pilX10
 namespace: mobile_elements_ontology
-def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to type IV secretory pathway VirB10 protein" [PMID:19717626, PMID:18375554]
+def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to type IV secretory pathway VirB10 protein" [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000031
 name: pilX11
 namespace: mobile_elements_ontology
-def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to P-type DNA transfer ATPase VirB11." [PMID:19717626, PMID:18375554]
+def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to P-type DNA transfer ATPase VirB11." [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
@@ -224,7 +224,7 @@ is_a: MOBIO:0000181 ! conjugation coupling protein
 id: MOBIO:0000033
 name: RelE
 namespace: mobile_elements_ontology
-def: "Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." [PMID:22210768, PMID:21324908, PMID:12526800, PMID:15576765, PMID:9767574, PMID:18375554]
+def: "Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." [PMID:9767574, PMID:12526800, PMID:15576765, PMID:21324908, PMID:18375554, PMID:22210768]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000123 ! RelB/RelE Type II toxin-antitoxin system
 
@@ -555,7 +555,7 @@ is_a: MOBIO:0000195 ! SOS response inhibitor
 id: MOBIO:0000075
 name: PsiA
 namespace: mobile_elements_ontology
-def: "PsiA is a protein encoded in the Psi region, which also encodes the PsiB protein. PsiA and PsiB are most likely transcribed in a polycistronic manner. The role of PsiA has not been identified, however it does not seem to influence SOS inhibition mediated by PsiB." [PMID:25753630, PMID:2201950]
+def: "PsiA is a protein encoded in the Psi region, which also encodes the PsiB protein. PsiA and PsiB are most likely transcribed in a polycistronic manner. The role of PsiA has not been identified, however it does not seem to influence SOS inhibition mediated by PsiB." [PMID:2201950, PMID:25753630]
 is_a: MOBIO:0000195 ! SOS response inhibitor
 
 [Term]
@@ -725,7 +725,7 @@ relationship: part_of MOBIO:0000124 ! PemI/PemK type II Toxin-antitoxin system
 id: MOBIO:0000098
 name: PemK
 namespace: mobile_elements_ontology
-def: "Toxic component of a type II toxin-antitoxin (TA) module. Probably functions as an endoribonuclease. Responsible for the stable maintenance of the plasmid during cell division by postsegregational killing of plasmid-less daughter cells. Neutralized by coexpression with cognate antitoxin PemI. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis." [PMID:25753630, PMID:17416361]
+def: "Toxic component of a type II toxin-antitoxin (TA) module. Probably functions as an endoribonuclease. Responsible for the stable maintenance of the plasmid during cell division by postsegregational killing of plasmid-less daughter cells. Neutralized by coexpression with cognate antitoxin PemI. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis." [PMID:17416361, PMID:25753630]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000124 ! PemI/PemK type II Toxin-antitoxin system
 
@@ -853,7 +853,7 @@ is_a: MOBIO:0000046 ! replication initiation protein
 id: MOBIO:0000117
 name: Fertility inhibition protein
 namespace: mobile_elements_ontology
-def: "One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes. The transfer genes are responsible for the process, called conjugal transfer, in which DNA is transmitted from one bacterial host to another. RNA-binding that interacts with the traJ mRNA and its antisense RNA, finP, stabilizing finP against endonucleolytic degradation and facilitating sense-antisense RNA recognition." [PMID:25753630, PMID:26899414, PMID:9819055]
+def: "One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes. The transfer genes are responsible for the process, called conjugal transfer, in which DNA is transmitted from one bacterial host to another. RNA-binding that interacts with the traJ mRNA and its antisense RNA, finP, stabilizing finP against endonucleolytic degradation and facilitating sense-antisense RNA recognition." [PMID:25753630, PMID:9819055, PMID:26899414]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 relationship: part_of MOBIO:0000007 ! Fertility F-Plasmids
 synonym: "FinO" EXACT []
@@ -961,7 +961,7 @@ is_a: MOBIO:0000023 ! Type II TA System
 id: MOBIO:0000131
 name: ParE
 namespace: mobile_elements_ontology
-def: "Toxin component of a toxin-antitoxin (TA) module involved in plasmid partition. Acts by inhibiting DNA gyrase, converting supercoiled plasmid DNA into a singly cleaved linear form in an ATP-dependent fashion. To do so it probably interacts with one of the gyrase subunits. Gyrase inhibition is prevented by antitoxin ParD, and is reversed in vitro by incubation with ParD. In cells that have lost the plasmid filamentation and growth inhibition occur; this is suppressed when ParD is supplied in trans. The parDE operon alone is capable of stabilizing an RK2-derived minireplicon under defined growth conditions in several different Gram-negative bacteria. It does so by the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system." [PMID:25232178, PMID:26823590]
+def: "Toxin component of a toxin-antitoxin (TA) module involved in plasmid partition. Acts by inhibiting DNA gyrase, converting supercoiled plasmid DNA into a singly cleaved linear form in an ATP-dependent fashion. To do so it probably interacts with one of the gyrase subunits. Gyrase inhibition is prevented by antitoxin ParD, and is reversed in vitro by incubation with ParD. In cells that have lost the plasmid filamentation and growth inhibition occur; this is suppressed when ParD is supplied in trans. The parDE operon alone is capable of stabilizing an RK2-derived minireplicon under defined growth conditions in several different Gram-negative bacteria. It does so by the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system." [PMID:26823590, PMID:25232178]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000130 ! ParDE type II toxin-antitoxin system
 
@@ -1147,7 +1147,7 @@ relationship: part_of MOBIO:0000023 ! Type II TA System
 id: MOBIO:0000156
 name: YafN
 namespace: mobile_elements_ontology
-def: "antitoxin of YafO-YafN TA system" [PMID:19617347, PMID:9278503, PMID:16397293, PMID:16738553]
+def: "antitoxin of YafO-YafN TA system" [PMID:16397293, PMID:19617347, PMID:9278503, PMID:16738553]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 
 [Term]
@@ -1161,7 +1161,7 @@ is_a: MOBIO:0000181 ! conjugation coupling protein
 id: MOBIO:0000158
 name: TraS
 namespace: mobile_elements_ontology
-def: "TraS is an entry exclusion protein, involved in blocking the transfer of redundant DNA between donor cells." [PMID:337311, PMID:11150665]
+def: "TraS is an entry exclusion protein, involved in blocking the transfer of redundant DNA between donor cells." [PMID:11150665, PMID:337311]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
@@ -1267,7 +1267,7 @@ is_a: MOBIO:0000023 ! Type II TA System
 id: MOBIO:0000173
 name: RecA
 namespace: mobile_elements_ontology
-def: "RecA is a protein that binds single-stranded DNA, forming a nucleoprotein filament. When bound, RecA may either target a homologous double-stranded DNA sequence and catalyze recombination, or it catalyzes the autocleavage of LexA. This allows for the expression of SOS genes." [PMID:6244554, PMID:16000023, PMID:24459253]
+def: "RecA is a protein that binds single-stranded DNA, forming a nucleoprotein filament. When bound, RecA may either target a homologous double-stranded DNA sequence and catalyze recombination, or it catalyzes the autocleavage of LexA. This allows for the expression of SOS genes." [PMID:24459253, PMID:16000023, PMID:6244554]
 is_a: MOBIO:0000104 ! recombinase
 is_a: MOBIO:0000194 ! SOS response protein
 
@@ -1690,7 +1690,7 @@ is_a: MOBIO:0000002 ! plasmid
 id: MOBIO:0000234
 name: pTi-SAKURA
 namespace: mobile_elements_ontology
-def: "pTi-SAKURA plasmid was first isolated from a bacterium Agrobacterium tumefaciens, which had been found in a crown gall tumor on Japanese cherry tree SAKURA" [PMID:9524202, PMID:9586048, PMID:10721727]
+def: "pTi-SAKURA plasmid was first isolated from a bacterium Agrobacterium tumefaciens, which had been found in a crown gall tumor on Japanese cherry tree SAKURA" [PMID:9524202, PMID:10721727, PMID:9586048]
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
@@ -1767,14 +1767,14 @@ is_a: MOBIO:0000002 ! plasmid
 id: MOBIO:0000245
 name: pSLA2-L
 namespace: mobile_elements_ontology
-def: "pSLA2-L is a 200kb linear plasmid involved in the production of two macrolide antibiotics, lankamycin(Lm) and lankacidin(Lc), in streptomyces rochei. It also contains two PKS gene clusters for Lm and unknown type-II polyketide" [PMID:12791134, PMID:10767533, PMID:10954087, PMID:9836424]
+def: "pSLA2-L is a 200kb linear plasmid involved in the production of two macrolide antibiotics, lankamycin(Lm) and lankacidin(Lc), in streptomyces rochei. It also contains two PKS gene clusters for Lm and unknown type-II polyketide" [PMID:10954087, PMID:9836424, PMID:12791134, PMID:10767533]
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
 id: MOBIO:0000246
 name: pCAR1
 namespace: mobile_elements_ontology
-def: "pCAR1 is a 199-kb plasmid that carries genes involved in the degradation of carbazole and dioxin" [PMID:19270415, PMID:19930443, PMID:16672459, PMID:20639326, PMID:12547188, PMID:17675379, PMID:19376894, PMID:15466034, PMID:19134166]
+def: "pCAR1 is a 199-kb plasmid that carries genes involved in the degradation of carbazole and dioxin" [PMID:16672459, PMID:12547188, PMID:19270415, PMID:20639326, PMID:19930443, PMID:19134166, PMID:19376894, PMID:15466034, PMID:17675379]
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
@@ -1809,7 +1809,7 @@ is_a: MOBIO:0000002 ! plasmid
 id: MOBIO:0000251
 name: pPI-1
 namespace: mobile_elements_ontology
-def: "pPI-1 is a 30.3kb plasmid of Staphylococcus warneri ISK-1 encoding the biosynthesis of and immunity to the lactici-481 type lantibiotic nukacin ISK-1" [PMID:15322349, PMID:15737403, PMID:11193411]
+def: "pPI-1 is a 30.3kb plasmid of Staphylococcus warneri ISK-1 encoding the biosynthesis of and immunity to the lactici-481 type lantibiotic nukacin ISK-1" [PMID:11193411, PMID:15737403, PMID:15322349]
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
@@ -1907,7 +1907,7 @@ is_a: MOBIO:0000002 ! plasmid
 id: MOBIO:0000265
 name: pWW53
 namespace: mobile_elements_ontology
-def: "pWW53 is a TOL plasmid in Pseudomonas putida MT53 and it encodes toluene-xylene catabolism" [PMID:3076178, PMID:3027047, PMID:9260942, PMID:22925377, PMID:2997136, PMID:10877777, PMID:11591664, PMID:8473862, PMID:17408691, PMID:3309179, PMID:1331988]
+def: "pWW53 is a TOL plasmid in Pseudomonas putida MT53 and it encodes toluene-xylene catabolism" [PMID:8473862, PMID:11591664, PMID:2997136, PMID:9260942, PMID:3309179, PMID:22925377, PMID:17408691, PMID:10877777, PMID:3076178, PMID:1331988, PMID:3027047]
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
@@ -1949,7 +1949,7 @@ is_a: MOBIO:0000002 ! plasmid
 id: MOBIO:0000271
 name: pCAR3
 namespace: mobile_elements_ontology
-def: "pCAR3 is a 245-kb circular plasmid isolated from Sphingomonas sp. strain KAI, and it contains carbazole degradative car-I gene cluster involved in the conversion of carbazole to anthranilate" [PMID:12052549, PMID:15796992, PMID:16672458, PMID:17172338]
+def: "pCAR3 is a 245-kb circular plasmid isolated from Sphingomonas sp. strain KAI, and it contains carbazole degradative car-I gene cluster involved in the conversion of carbazole to anthranilate" [PMID:16672458, PMID:12052549, PMID:17172338, PMID:15796992]
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
@@ -2019,14 +2019,14 @@ is_a: MOBIO:0000002 ! plasmid
 id: MOBIO:0000281
 name: pDK1
 namespace: mobile_elements_ontology
-def: "pDK1 is a 128kbp toluene-catabolic (TOL) plasmids in Pseudomonas putida HS1" [PMID:7287632, PMID:8473862, PMID:1366507, PMID:3076182, PMID:1331988, PMID:1672868, PMID:7240090, PMID:20581207, PMID:22925377]
+def: "pDK1 is a 128kbp toluene-catabolic (TOL) plasmids in Pseudomonas putida HS1" [PMID:8473862, PMID:1672868, PMID:20581207, PMID:7287632, PMID:3076182, PMID:1366507, PMID:22925377, PMID:1331988, PMID:7240090]
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
 id: MOBIO:0000282
 name: pLgLA39
 namespace: mobile_elements_ontology
-def: "pLgLA39 is a 33.3kb plasmid and it encodes genes related to gassericin A production/immunity (gaa), as well as gene for replication, plasmid maintenance, and conjugative transfer" [PMID:19666732, PMID:9648219]
+def: "pLgLA39 is a 33.3kb plasmid and it encodes genes related to gassericin A production/immunity (gaa), as well as gene for replication, plasmid maintenance, and conjugative transfer" [PMID:9648219, PMID:19666732]
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
@@ -2054,7 +2054,7 @@ is_a: MOBIO:0000002 ! plasmid
 id: MOBIO:0000286
 name: pCAR2
 namespace: mobile_elements_ontology
-def: "pCAR2 is a self-transmissible plasmid isolated from Pseudomonas putida strain HS01 and it carries the transposon Tn4676" [PMID:20639326, PMID:19270415, PMID:19930443, PMID:16328978, PMID:19376894, PMID:15856217, PMID:19134166]
+def: "pCAR2 is a self-transmissible plasmid isolated from Pseudomonas putida strain HS01 and it carries the transposon Tn4676" [PMID:19134166, PMID:20639326, PMID:19270415, PMID:19930443, PMID:15856217, PMID:19376894, PMID:16328978]
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
@@ -2077,11 +2077,6 @@ name: participates_in
 xref: RO:participates_in
 
 [Typedef]
-id: part_of
-name: part_of
-xref: RO:part_of
-
-[Typedef]
 id: regulates
 name: regulates
 xref: RO:regulates
@@ -2090,4 +2085,9 @@ xref: RO:regulates
 id: is_a
 name: is_a
 xref: RO:is_a
+
+[Typedef]
+id: part_of
+name: part_of
+xref: RO:part_of
 
