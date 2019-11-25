@@ -9,6 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mobile_elements_ontology.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
         <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11:10:2018 11:55</oboInOwl:date>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cv2obo</oboInOwl:auto-generated-by>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
@@ -186,7 +187,7 @@
     <!-- http://purl.obolibrary.org/obo/MOBIO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mobile genetic elements (MGEs) are a type of genetic material, a segment of DNA or RNA, that is capable of movement around a genome or that can be transferred from one species or replicon to another. These include transposons, plasmids, bacteriophages, and genomic islands. The mechanism of movement may be self-encoded or may rely on other enzymes and structures, such as a pilus. In bacteria, MGEs are often associated with the movement of antibiotic resistance genes and virulence factors from one species to another, for example by plasmid-mediated transfer.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000001</oboInOwl:id>
@@ -301,7 +302,7 @@
     <!-- http://purl.obolibrary.org/obo/MOBIO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The set of specific processes that needed for plasmid partition, stability, replication, and mobility. These are all processes that allow for the plasmid to move between organisms.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000011</oboInOwl:id>
@@ -361,7 +362,7 @@
     <!-- http://purl.obolibrary.org/obo/MOBIO_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular mechanisms involved in the intracellular and intercellular transfer, integration, stabilization and recombination of mobile genetic elements.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000016</oboInOwl:id>
@@ -828,7 +829,7 @@ Molecular chaperones have been shown to be involved in both the assembly and dis
     <!-- http://purl.obolibrary.org/obo/MOBIO_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO#_part_of"/>
@@ -3249,6 +3250,7 @@ a nuclease which is involved in DNA recombination.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/MOBIO_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genes, proteins, other biological or chemical compounds, their shared components, and their associated mechanisms as they relate to mobile genetic element molecular biology and evolution.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000184</oboInOwl:id>
@@ -3332,7 +3334,7 @@ a nuclease which is involved in DNA recombination.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/MOBIO_0000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins that are involved in the movement of genetic information between different regions on a chromosome, different chromosomes, or different organisms through processes such as genetic recombination.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000190</oboInOwl:id>
@@ -3428,7 +3430,7 @@ a nuclease which is involved in DNA recombination.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/MOBIO_0000197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity and mechanisms related to recombination in mobile genetic elements, including bacteriophage, plasmids and transposons</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_elements_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOBIO:0000197</oboInOwl:id>
@@ -3752,5 +3754,5 @@ a nuclease which is involved in DNA recombination.</obo:IAO_0000115>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
