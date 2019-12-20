@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/arpcard/mobio.svg?branch=master)](https://travis-ci.org/arpcard/mobio)
+
 # MOBIO
 
 The Mobilome Ontology describes bacterial mobile genetic elements, their mechanisms, and associated epidemiology. It is integrated with the Comprehensive Antibiotic Resistance Database (https://card.mcmaster.ca), a curated resource containing high quality reference data on the molecular basis of antimicrobial resistance.
