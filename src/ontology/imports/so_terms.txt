@@ -1,0 +1,2 @@
+http://purl.obolibrary.org/obo/SO_0001037 ## mobile_genetic_element
+http://purl.obolibrary.org/obo/SO_0000364 ## transposable_element_flanking_region 

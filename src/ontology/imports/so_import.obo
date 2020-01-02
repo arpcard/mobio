@@ -1,0 +1,83 @@
+format-version: 1.2
+ontology: mobio/imports/so_import
+
+[Term]
+id: SO:0000001
+name: region
+def: "A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids." [SO:ke]
+synonym: "sequence" EXACT []
+is_a: SO:0000110 ! sequence_feature
+
+[Term]
+id: SO:0000110
+name: sequence_feature
+def: "Any extent of continuous biological sequence." [LAMHDI:mb, SO:ke]
+synonym: "INSDC_feature:misc_feature" EXACT []
+synonym: "INSDC_note:other" EXACT []
+synonym: "INSDC_note:sequence_feature" EXACT []
+synonym: "located sequence feature" RELATED []
+synonym: "located_sequence_feature" EXACT []
+synonym: "sequence feature" EXACT []
+disjoint_from: SO:0000400 ! sequence_attribute
+
+[Term]
+id: SO:0000239
+name: flanking_region
+def: "The sequences extending on either side of a specific region." [SO:ke]
+synonym: "flanking region" EXACT []
+is_a: SO:0001412 ! topologically_defined_region
+
+[Term]
+id: SO:0000364
+name: transposable_element_flanking_region
+def: "The region of sequence surrounding a transposable element." [SO:ke]
+synonym: "transposable element flanking region" EXACT []
+is_a: SO:0000239 ! flanking_region
+
+[Term]
+id: SO:0000400
+name: sequence_attribute
+def: "An attribute describes a quality of sequence." [SO:ke]
+synonym: "sequence attribute" EXACT []
+
+[Term]
+id: SO:0000733
+name: feature_attribute
+def: "An attribute describing a located_sequence_feature." [SO:ke]
+synonym: "feature attribute" EXACT []
+is_a: SO:0000400 ! sequence_attribute
+
+[Term]
+id: SO:0001037
+name: mobile_genetic_element
+def: "A nucleotide region with either intra-genome or intracellular mobility, of varying length, which often carry the information necessary for transfer and recombination with the host genome." [PMID:14681355]
+synonym: "INSDC_feature:mobile_element" EXACT []
+synonym: "MGE" EXACT []
+synonym: "mobile genetic element" EXACT []
+is_a: SO:0001411 ! biological_region
+intersection_of: SO:0000001 ! region
+intersection_of: has_quality SO:0001234 ! mobile
+relationship: has_quality SO:0001234 ! mobile
+
+[Term]
+id: SO:0001234
+name: mobile
+def: "An attribute describing a feature that has either intra-genome or intracellular mobility." [RSC:cb]
+is_a: SO:0000733 ! feature_attribute
+
+[Term]
+id: SO:0001411
+name: biological_region
+def: "A region defined by its disposition to be involved in a biological process." [SO:cb]
+synonym: "biological region" EXACT []
+synonym: "INSDC_misc_feature" BROAD []
+synonym: "INSDC_note:biological_region" EXACT []
+is_a: SO:0000001 ! region
+
+[Term]
+id: SO:0001412
+name: topologically_defined_region
+def: "A region that is defined according to its relations with other regions within the same sequence." [SO:cb]
+synonym: "topologically defined region" EXACT []
+is_a: SO:0000001 ! region
+
