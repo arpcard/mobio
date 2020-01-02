@@ -1,0 +1,201 @@
+format-version: 1.2
+ontology: mobio/imports/go_import
+
+[Term]
+id: GO:0000150
+name: recombinase activity
+def: "Catalysis of the identification and base-pairing of homologous sequences between single-stranded DNA and double-stranded DNA." [GOC:elh]
+synonym: "strand transferase" NARROW []
+is_a: GO:0140097 ! catalytic activity, acting on DNA
+relationship: BFO:0000050 GO:0006310 ! DNA recombination
+
+[Term]
+id: GO:0003674
+name: molecular_function
+def: "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process." [GOC:pdt]
+synonym: "molecular function" EXACT []
+
+[Term]
+id: GO:0003824
+name: catalytic activity
+def: "Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic." [GOC:vw, ISBN:0198506732]
+synonym: "enzyme activity" EXACT [GOC:dph, GOC:tb]
+is_a: GO:0003674 ! molecular_function
+
+[Term]
+id: GO:0004803
+name: transposase activity
+def: "Catalysis of the transposition of transposable elements or transposons. Transposases are involved in recombination required for transposition and are site-specific for the transposon/transposable element." [GOC:bm, ISBN:0198506732]
+synonym: "P-element encoded transposase activity" NARROW []
+is_a: GO:0140097 ! catalytic activity, acting on DNA
+
+[Term]
+id: GO:0006139
+name: nucleobase-containing compound metabolic process
+def: "Any cellular metabolic process involving nucleobases, nucleosides, nucleotides and nucleic acids." [GOC:ai]
+synonym: "cellular nucleobase, nucleoside, nucleotide and nucleic acid metabolic process" EXACT []
+synonym: "cellular nucleobase, nucleoside, nucleotide and nucleic acid metabolism" EXACT []
+synonym: "nucleobase, nucleoside and nucleotide metabolic process" RELATED []
+synonym: "nucleobase, nucleoside, nucleotide and nucleic acid metabolic process" RELATED [GOC:dph, GOC:tb]
+synonym: "nucleobase, nucleoside, nucleotide and nucleic acid metabolism" EXACT []
+is_a: GO:0006725 ! cellular aromatic compound metabolic process
+is_a: GO:0034641 ! cellular nitrogen compound metabolic process
+is_a: GO:0044238 ! primary metabolic process
+is_a: GO:0046483 ! heterocycle metabolic process
+is_a: GO:1901360 ! organic cyclic compound metabolic process
+
+[Term]
+id: GO:0006259
+name: DNA metabolic process
+def: "Any cellular metabolic process involving deoxyribonucleic acid. This is one of the two main types of nucleic acid, consisting of a long, unbranched macromolecule formed from one, or more commonly, two, strands of linked deoxyribonucleotides." [ISBN:0198506732]
+synonym: "cellular DNA metabolism" EXACT []
+synonym: "DNA metabolism" EXACT []
+is_a: GO:0044260 ! cellular macromolecule metabolic process
+is_a: GO:0090304 ! nucleic acid metabolic process
+
+[Term]
+id: GO:0006276
+name: plasmid maintenance
+def: "The maintenance of the integrity of extrachromosomal plasmid DNA; includes processes that ensure plasmids are retained in the daughter cells after cell division." [GOC:ai]
+is_a: GO:0009987 ! cellular process
+
+[Term]
+id: GO:0006310
+name: DNA recombination
+def: "Any process in which a new genotype is formed by reassortment of genes resulting in gene combinations different from those that were present in the parents. In eukaryotes genetic recombination can occur by chromosome assortment, intrachromosomal recombination, or nonreciprocal interchromosomal recombination. Interchromosomal recombination occurs by crossing over. In bacteria it may occur by genetic transformation, conjugation, transduction, or F-duction." [ISBN:0198506732]
+is_a: GO:0006259 ! DNA metabolic process
+
+[Term]
+id: GO:0006725
+name: cellular aromatic compound metabolic process
+def: "The chemical reactions and pathways involving aromatic compounds, any organic compound characterized by one or more planar rings, each of which contains conjugated double bonds and delocalized pi electrons, as carried out by individual cells." [GOC:ai, ISBN:0198506732]
+synonym: "aromatic compound metabolism" EXACT []
+synonym: "aromatic hydrocarbon metabolic process" NARROW []
+synonym: "aromatic hydrocarbon metabolism" NARROW []
+is_a: GO:0044237 ! cellular metabolic process
+
+[Term]
+id: GO:0006807
+name: nitrogen compound metabolic process
+def: "The chemical reactions and pathways involving organic or inorganic compounds that contain nitrogen." [GOC:jl, ISBN:0198506732]
+synonym: "nitrogen compound metabolism" EXACT []
+is_a: GO:0008152 ! metabolic process
+
+[Term]
+id: GO:0008150
+name: biological_process
+def: "A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence." [GOC:pdt]
+synonym: "biological process" EXACT []
+synonym: "physiological process" EXACT []
+synonym: "single organism process" RELATED []
+synonym: "single-organism process" RELATED []
+
+[Term]
+id: GO:0008152
+name: metabolic process
+def: "The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation." [GOC:go_curators, ISBN:0198547684]
+synonym: "metabolic process resulting in cell growth" NARROW []
+synonym: "metabolism" EXACT []
+synonym: "metabolism resulting in cell growth" NARROW []
+synonym: "multicellular organism metabolic process" NARROW []
+synonym: "single-organism metabolic process" RELATED []
+is_a: GO:0008150 ! biological_process
+
+[Term]
+id: GO:0009987
+name: cellular process
+def: "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." [GOC:go_curators, GOC:isa_complete]
+synonym: "cell growth and/or maintenance" NARROW []
+synonym: "cell physiology" EXACT []
+synonym: "cellular physiological process" EXACT []
+synonym: "single-organism cellular process" RELATED []
+is_a: GO:0008150 ! biological_process
+
+[Term]
+id: GO:0034641
+name: cellular nitrogen compound metabolic process
+def: "The chemical reactions and pathways involving various organic and inorganic nitrogenous compounds, as carried out by individual cells." [GOC:mah]
+synonym: "cellular nitrogen compound metabolism" EXACT []
+is_a: GO:0006807 ! nitrogen compound metabolic process
+is_a: GO:0044237 ! cellular metabolic process
+
+[Term]
+id: GO:0043170
+name: macromolecule metabolic process
+def: "The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass." [GOC:mah]
+synonym: "biopolymer metabolic process" EXACT [GOC:mtg_chebi_dec09]
+synonym: "macromolecule metabolism" EXACT []
+synonym: "multicellular organismal macromolecule metabolic process" NARROW []
+synonym: "organismal macromolecule metabolism" EXACT []
+is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
+id: GO:0044237
+name: cellular metabolic process
+def: "The chemical reactions and pathways by which individual cells transform chemical substances." [GOC:go_curators]
+synonym: "cellular metabolism" EXACT []
+synonym: "intermediary metabolism" RELATED [GOC:mah]
+is_a: GO:0008152 ! metabolic process
+is_a: GO:0009987 ! cellular process
+
+[Term]
+id: GO:0044238
+name: primary metabolic process
+def: "The chemical reactions and pathways involving those compounds which are formed as a part of the normal anabolic and catabolic processes. These processes take place in most, if not all, cells of the organism." [GOC:go_curators, http://www.metacyc.org]
+synonym: "primary metabolism" EXACT []
+is_a: GO:0008152 ! metabolic process
+
+[Term]
+id: GO:0044260
+name: cellular macromolecule metabolic process
+def: "The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass, as carried out by individual cells." [GOC:mah]
+synonym: "cellular biopolymer metabolic process" EXACT [GOC:mtg_chebi_dec09]
+synonym: "cellular macromolecule metabolism" EXACT []
+is_a: GO:0043170 ! macromolecule metabolic process
+is_a: GO:0044237 ! cellular metabolic process
+
+[Term]
+id: GO:0046483
+name: heterocycle metabolic process
+def: "The chemical reactions and pathways involving heterocyclic compounds, those with a cyclic molecular structure and at least two different atoms in the ring (or rings)." [ISBN:0198506732]
+synonym: "heterocycle metabolism" EXACT []
+is_a: GO:0044237 ! cellular metabolic process
+
+[Term]
+id: GO:0071704
+name: organic substance metabolic process
+def: "The chemical reactions and pathways involving an organic substance, any molecular entity containing carbon." [CHEBI:50860, GOC:mah]
+synonym: "organic molecular entity metabolic process" EXACT []
+synonym: "organic molecular entity metabolism" EXACT []
+synonym: "organic substance metabolism" EXACT []
+is_a: GO:0008152 ! metabolic process
+
+[Term]
+id: GO:0090304
+name: nucleic acid metabolic process
+def: "Any cellular metabolic process involving nucleic acids." [GOC:dph, GOC:tb]
+is_a: GO:0006139 ! nucleobase-containing compound metabolic process
+is_a: GO:0043170 ! macromolecule metabolic process
+
+[Term]
+id: GO:0140097
+name: catalytic activity, acting on DNA
+def: "Catalytic activity that acts to modify DNA." [GOC:pdt]
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:1901360
+name: organic cyclic compound metabolic process
+def: "The chemical reactions and pathways involving organic cyclic compound." [GOC:TermGenie]
+synonym: "organic cyclic compound metabolism" EXACT [GOC:TermGenie]
+is_a: GO:0071704 ! organic substance metabolic process
+
+[Typedef]
+id: BFO:0000050
+is_transitive: true
+inverse_of: BFO:0000051
+
+[Typedef]
+id: BFO:0000051
+is_transitive: true
+

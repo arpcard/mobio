@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/GO_0006276 ## plasmid maintenance
+http://purl.obolibrary.org/obo/GO_0000150 ## recombinase activity
+http://purl.obolibrary.org/obo/GO_0004803 ## transposase activity
+

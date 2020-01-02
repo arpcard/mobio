@@ -1,8 +1,6 @@
-## REMEMBER TO SET UP YOUR GITHUB REPO FOR TRAVIS
-## Go to: https://travis-ci.org/MY-GITHUB-ORG for details
 language: java
 jdk:
-  - oraclejdk8
+  - openjdk11
 
 before_script:
   - mkdir -p bin
@@ -27,6 +25,3 @@ branches:
   only:
     - master
     - test-travis
-
-notifications:
-  email: true
