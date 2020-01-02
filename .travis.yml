@@ -28,7 +28,5 @@ branches:
     - master
     - test-travis
 
-### UNCOMMENT THIS AND ADD YOUR DETAILS:
-#notifications:
-#  email:
-#    - YOURNAME@YOU.ORG
+notifications:
+  email: true
