@@ -1,2 +1,8 @@
-http://purl.obolibrary.org/obo/SO_0001037 ## mobile_genetic_element
+http://purl.obolibrary.org/obo/SO_0000101 ## transposable_element
+http://purl.obolibrary.org/obo/SO_0000155 ## plasmid
 http://purl.obolibrary.org/obo/SO_0000364 ## transposable_element_flanking_region 
+http://purl.obolibrary.org/obo/SO_0000365 ## integron
+http://purl.obolibrary.org/obo/SO_0000772 ## genomic_island
+http://purl.obolibrary.org/obo/SO_0001037 ## mobile_genetic_element
+http://purl.obolibrary.org/obo/SO_0001042 ## phage_sequence
+
