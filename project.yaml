@@ -1,0 +1,15 @@
+id: mobio
+title: Mobilome Ontology
+github_org: arpcard
+repo: mobio
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+import_group:
+  products:
+    - id: bfo
+    - id: ro
+    - id: so
+    - id: go

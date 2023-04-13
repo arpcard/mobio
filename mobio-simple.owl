@@ -1,0 +1,3408 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/mobio/mobio-simple.owl#"
+     xml:base="http://purl.obolibrary.org/obo/mobio/mobio-simple.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mobio/mobio-simple.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mobio/releases/2023-04-13/mobio-simple.owl"/>
+        <terms:description>None</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
+        <terms:title>Mobilome Ontology</terms:title>
+        <owl:versionInfo>2023-04-13</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0040042 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0040042"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/valid_for_go_annotation_extension -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/valid_for_go_gp2term -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/valid_for_go_gp2term">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/valid_for_go_ontology -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/valid_for_go_ontology">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/valid_for_gocam -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/valid_for_gocam">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000111 xml:lang="en">is part of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my brain is part of my body (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this day is part of this year (occurrent parthood)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
+
+A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <oboInOwl:hasDbXref>BFO:0000050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RO:part_of</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>part_of</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_gp2term"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
+        <oboInOwl:shorthand>part_of</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+        <rdfs:label>part of</rdfs:label>
+        <rdfs:label>part_of</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"/>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:PartOf"/>
+        <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
+        <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>RO:participates_in</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">participates in</rdfs:label>
+        <rdfs:label>participates_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002211 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000115>p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0001-7476-6306"/>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-3837-8864"/>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <obo:IAO_0000119 rdf:resource="http://purl.obolibrary.org/obo/ro/docs/causal-relations"/>
+        <obo:IAO_0000119>GO</obo:IAO_0000119>
+        <obo:IAO_0000232>Regulation precludes parthood; the regulatory process may not be within the regulated process.</obo:IAO_0000232>
+        <obo:IAO_0000589>regulates (processual)</obo:IAO_0000589>
+        <obo:IAO_0000600 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:IAO_0000600>
+        <oboInOwl:hasDbXref>RO:0002211</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>RO:regulates</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>external</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>regulates</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
+        <oboInOwl:shorthand>regulates</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">regulates</rdfs:label>
+        <rdfs:label>regulates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000001">
+        <obo:IAO_0000115>Mobile genetic elements (MGEs) are a type of genetic material, a segment of DNA or RNA, that is capable of movement around a genome or that can be transferred from one species or replicon to another. These include transposons, plasmids, bacteriophages, and genomic islands. The mechanism of movement may be self-encoded or may rely on other enzymes and structures, such as a pilus. In bacteria, MGEs are often associated with the movement of antibiotic resistance genes and virulence factors from one species to another, for example by plasmid-mediated transfer.</obo:IAO_0000115>
+        <rdfs:label>mobile genetic element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000001"/>
+        <obo:IAO_0000115>A plasmid is a small, circular, double-stranded DNA molecule that is distinct from a cell&apos;s chromosomal DNA. Plasmids naturally exist in bacterial cells, and they also occur in some eukaryotes. Often, the genes carried in plasmids provide bacteria with genetic advantages, such as antibiotic resistance. Plasmids have a wide range of lengths, from roughly one thousand DNA base pairs to hundreds of thousands of base pairs.</obo:IAO_0000115>
+        <rdfs:label>plasmid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A transposable element (TE or transposon) is a DNA sequence that can change its position within a genome, sometimes creating or reversing mutations and altering the cell&apos;s genome size. Transposition often results in duplication of the same genetic material. Transposons were originally discovered as &quot;jumping genes&quot; by Barbara McClintock.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>transposon</oboInOwl:hasExactSynonym>
+        <rdfs:label>transposable element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000001"/>
+        <obo:IAO_0000115>Bacteriophage are viral infectious agents with bacterial host organisms. Bacteriophage infect and replicate inside bacterial host cells, causing cell lysis as viral particles replicate. Bacteriophage are involved in DNA transfer between host organisms at low frequency through transduction: when segments of host DNA is accidentally packaged with the viral DNA, then integrated into a new host genome and later inherited.</obo:IAO_0000115>
+        <rdfs:label>bacteriophage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000002"/>
+        <obo:IAO_0000115>These plasmids contain genes that code for bacteriocins, proteins that can kill other bacteria.</obo:IAO_0000115>
+        <rdfs:label>Col Plasmids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000002"/>
+        <obo:IAO_0000115>Fertility F-plasmids contain tra genes and are capable of conjugation resulting in the expression of sex pilli.</obo:IAO_0000115>
+        <rdfs:label>Fertility F-Plasmids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000002"/>
+        <obo:IAO_0000115>These plasmids contain genes that provide resistance against antibiotics or poisons. Historically known as R-factors, before the nature of plasmids was understood.</obo:IAO_0000115>
+        <rdfs:label>Resistance Plasmids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000002"/>
+        <obo:IAO_0000115>These plasmids enable the digestion of unusual substances, e.g. toluene and salicylic acid.</obo:IAO_0000115>
+        <rdfs:label>Degradative Plasmids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000002"/>
+        <obo:IAO_0000115>which turn the bacterium into a pathogen</obo:IAO_0000115>
+        <rdfs:label>Virulence Plasmids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000011">
+        <obo:IAO_0000115>The set of specific processes that needed for plasmid partition, stability, replication, and mobility. These are all processes that allow for the plasmid to move between organisms.</obo:IAO_0000115>
+        <rdfs:label>mechanism of plasmid maintenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000011"/>
+        <obo:IAO_0000115>Any process or set of processes through which plasmid replication is initiated.</obo:IAO_0000115>
+        <rdfs:label>mechanism of replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000012"/>
+        <obo:IAO_0000115>Replication by the Theta Mechanism - opening of the strands followed by RNA priming</obo:IAO_0000115>
+        <rdfs:label>theta type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000012"/>
+        <obo:IAO_0000115>strand displacement replication. Opening of the strands followed by RNA priming</obo:IAO_0000115>
+        <rdfs:label>strand displacement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000012"/>
+        <obo:IAO_0000115>A mechanism of plasmid replication in which the two strands are asynchronously copied, with one strand initially forming a single-stranded circle.</obo:IAO_0000115>
+        <rdfs:label>rolling circle replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000016">
+        <obo:IAO_0000115>Molecular mechanisms involved in the intracellular and intercellular transfer, integration, stabilization and recombination of mobile genetic elements.</obo:IAO_0000115>
+        <rdfs:label>process or mechanism of genetic mobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000196"/>
+        <obo:IAO_0000115>Conjugation is the process by which one bacterium transfers genetic material to another through direct contact. During conjugation, one bacterium serves as the donor of the genetic material, and the other serves as the recipient.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Conjugation</oboInOwl:hasExactSynonym>
+        <rdfs:label>conjugative transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000011"/>
+        <obo:IAO_0000115>Stabilization mechanisms facilitate and promote the survival of plasmids in their host cells. This includes mechanisms that allow for the survival of the host cell itself in harsh conditions.</obo:IAO_0000115>
+        <rdfs:label>mechanism of stabilization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000016"/>
+        <obo:IAO_0000115>Transformation refers to process of free DNA uptake by competent cells and subsequent integration and functional expression of genes. Extracellular DNA continually enters the environment upon release from decomposing cells, disrupted cells, viral particles or excretion from living cells.</obo:IAO_0000115>
+        <rdfs:label>transformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000021">
+        <obo:IAO_0000115>A toxin-antitoxin system is a set of two or more closely linked genes that together encode both a protein &apos;poison&apos; and a corresponding &apos;antidote&apos;. When these systems are contained on plasmids – transferable genetic elements – they ensure that only the daughter cells that inherit the plasmid survive after cell division. If the plasmid is absent in a daughter cell, the unstable anti-toxin is degraded and the stable toxic protein kills the new cell; this is known as &apos;post-segregational killing&apos; (PSK).</obo:IAO_0000115>
+        <rdfs:label>Toxin-antitoxin system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000021"/>
+        <obo:IAO_0000115>Type I toxin-antitoxin systems rely on the base-pairing of complementary antitoxin RNA with the toxin&apos;s mRNA. Translation of the mRNA is then inhibited either by degradation via RNase III or by occluding the Shine-Dalgarno sequence or ribosome binding site.</obo:IAO_0000115>
+        <rdfs:label>Type I TA System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000021"/>
+        <obo:IAO_0000115>In this system a labile protein antitoxin tightly binds and inhibits the activity of a stable toxin. Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression.</obo:IAO_0000115>
+        <rdfs:label>Type II TA System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000021"/>
+        <obo:IAO_0000115>Type III toxin-antitoxin systems rely on direct interaction between a toxic protein and an RNA antitoxin. The toxic effects of the protein are neutralised by the RNA gene.</obo:IAO_0000115>
+        <rdfs:label>Type III TA System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000185"/>
+        <obo:IAO_0000115>The process of conjugation requires several different types of subunits and complexes.</obo:IAO_0000115>
+        <rdfs:label>conjugal transfer subunit or complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>Protein involved in the conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.</obo:IAO_0000115>
+        <rdfs:label>pilX7</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Protein involved in the conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18375554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19717626</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.</obo:IAO_0000115>
+        <rdfs:label>pilX8</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18375554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19717626</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000188"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Colicin immunity proteins are plasmid encoded proteins necessary for protecting the cell against colicins. Colicins are toxins released by bacteria during times of stress</obo:IAO_0000115>
+        <rdfs:label>colicin immunity protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.
+</obo:IAO_0000115>
+        <rdfs:label>pilX9</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000029"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.
+</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18375554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19717626</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to type IV secretory pathway VirB10 protein</obo:IAO_0000115>
+        <rdfs:label>pilX10</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to type IV secretory pathway VirB10 protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18375554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19717626</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to P-type DNA transfer ATPase VirB11.</obo:IAO_0000115>
+        <rdfs:label>pilX11</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to P-type DNA transfer ATPase VirB11.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18375554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19717626</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000181"/>
+        <obo:IAO_0000115>conjugal transfer protein - conjugal transfer protein TraG</obo:IAO_0000115>
+        <rdfs:label>taxB</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000032"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer protein - conjugal transfer protein TraG</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18375554</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity.</obo:IAO_0000115>
+        <rdfs:label>RelE</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:12526800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15576765</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18375554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21324908</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22210768</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9767574</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000187"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Topoisomerases are enzymes that participate in the overwinding or underwinding of DNA. They bind to double-stranded DNA and cut the phosphate backbone of either one or both the DNA strands. </obo:IAO_0000115>
+        <rdfs:label>DNA topoisomerase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000034"/>
+        <obo:IAO_0000115>The traE gene, first identified in plasmid RP4, is a homologue of E. coli DNA topoisomerase III.</obo:IAO_0000115>
+        <rdfs:label>traE</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The traE gene, first identified in plasmid RP4, is a homologue of E. coli DNA topoisomerase III.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18375554</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000187"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Molecular chaperones are proteins that assist the covalent folding or unfolding and the assembly or disassembly of other macromolecular structures. Chaperones are present when the macromolecules perform their normal biological functions and have correctly completed the processes of folding and/or assembly. The chaperones are concerned primarily with protein folding. One major function of chaperones is to prevent both newly synthesized polypeptide chains and assembled subunits from aggregating into nonfunctional structures. Many chaperones are heat shock proteins because the tendency to aggregate increases as proteins are denatured by stress.
+
+Molecular chaperones have been shown to be involved in both the assembly and disassembly of DNA replication complexes.</obo:IAO_0000115>
+        <rdfs:label>Molecular Chaperone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000036"/>
+        <obo:IAO_0000115>Chaperone DnaJ, also known as Hsp40 (heat shock protein 40 kD), is a molecular chaperone protein. The J domain of DnaJ interacts with Hsp70 heat shock proteins. DnaJ heat-shock proteins play a role in regulating the ATPase activity of Hsp70 heat-shock proteins.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Hsp40</oboInOwl:hasExactSynonym>
+        <rdfs:label>DnaJ</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000037"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Chaperone DnaJ, also known as Hsp40 (heat shock protein 40 kD), is a molecular chaperone protein. The J domain of DnaJ interacts with Hsp70 heat shock proteins. DnaJ heat-shock proteins play a role in regulating the ATPase activity of Hsp70 heat-shock proteins.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18375554</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000190"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Class 2 transposons encode transposase, which is an enzyme that binds to the end of a transposon and catalyzes the movement of the transposon to another part of the genome by a cut and paste mechanism or a replicative transposition mechanism.
+</obo:IAO_0000115>
+        <rdfs:label>transposase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000046"/>
+        <obo:IAO_0000115>This protein is a specific topoisomerase involved in initiating replication. This protein is specifically required and may be rate-limiting for replication of the plasmid in vivo.
+</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>repC</oboInOwl:hasExactSynonym>
+        <rdfs:label>replication initiation protein RepC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000188"/>
+        <obo:IAO_0000115>These proteins reduce chromate accumulation and are essential for chromate resistance. They are composed of one or two copies of this region. The short-chain CHR proteins form heterodimer transporters which efflux chromate ions from the cytoplasm, while the long chain CHR proteins appear to have arisen from a gene fusion event of two short chain transporters</obo:IAO_0000115>
+        <rdfs:label>Chromate transport protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000187"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Dihydrofolate reductase converts dihydrofolate into tetrahydrofolate, a methyl group shuttle required for the de novo synthesis of purines, thymidylic acid, and certain amino acids.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DfrA</oboInOwl:hasExactSynonym>
+        <rdfs:label>Dihydrofolate reductase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000104"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Class 1 Integrase is a site-specific recombination enzyme that is part of the class 1 integron system. It recognizes the recombination site, attI1, which is where it will catalyze the insertion of gene casettes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Intl1</oboInOwl:hasExactSynonym>
+        <rdfs:label>Class 1 Integrase</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000042"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Class 1 Integrase is a site-specific recombination enzyme that is part of the class 1 integron system. It recognizes the recombination site, attI1, which is where it will catalyze the insertion of gene casettes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18193080</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:8574395</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Integrons are genetic mechanisms that allow bacteria to adapt and evolve rapidly through the acquisition, stockpiling and differential expression of new genes. Additionally, an integron will usually contain one or more gene cassettes that have been incorporated into it.</obo:IAO_0000115>
+        <rdfs:label>integron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000045"/>
+        <obo:IAO_0000115>DNA-binding transcriptional regulator. Protein that is involved in negative regulation of phenolic acid metabolism.</obo:IAO_0000115>
+        <rdfs:label>PadR family transcriptional regulator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000190"/>
+        <obo:IAO_0000115>transcriptional regulation is the means by which a cell regulates the conversion of DNA to RNA (transcription), thereby orchestrating gene activity.</obo:IAO_0000115>
+        <rdfs:label>transcriptional regulator of operons found in MGEs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000187"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>protein required for initiation of replication</obo:IAO_0000115>
+        <rdfs:label>replication initiation protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000046"/>
+        <obo:IAO_0000115>This protein is essential for plasmid replication; it is involved in copy control functions</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>RepA</oboInOwl:hasExactSynonym>
+        <rdfs:label>replication initiation protein RepA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>papB may act as both positive and negative regulator of the pyelonephritis-associated pili (pap) pilin gene transcription. It is found in the pap operon.</obo:IAO_0000115>
+        <rdfs:label>Major pili subunit operon regulatory protein papB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000191"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>antitoxin</oboInOwl:hasExactSynonym>
+        <rdfs:label>Type II post-segregation antitoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000045"/>
+        <obo:IAO_0000115>transcriptional regulator</obo:IAO_0000115>
+        <rdfs:label>C protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000191"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression. </obo:IAO_0000115>
+        <rdfs:label>Type II toxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Antitoxin component of a toxin-antitoxin (TA) module which inhibits the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system. Labile antitoxin with a half-life of about 1 hour in the presence of CcdB. Binds to and blocks the activity of CcdB; will also remove bound CcdB protein from the CcdB-GyrA complex by forming a CcdA-CcdB complex, a process termed rejuvenation. The N-terminal 36 residues are not required for rejuventation. Functions as a transcriptional corepressor for the ccdAB operon, repression also requires CcdB.</obo:IAO_0000115>
+        <rdfs:label>CcdA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Antitoxin component of a toxin-antitoxin (TA) module which inhibits the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system. Labile antitoxin with a half-life of about 1 hour in the presence of CcdB. Binds to and blocks the activity of CcdB; will also remove bound CcdB protein from the CcdB-GyrA complex by forming a CcdA-CcdB complex, a process termed rejuvenation. The N-terminal 36 residues are not required for rejuventation. Functions as a transcriptional corepressor for the ccdAB operon, repression also requires CcdB.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:27357537</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Toxic component of a toxin-antitoxin (TA) module, functioning in plasmid maintainence. Responsible for the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system. Half-life of over 2 hours. Cell killing by CcdB is accompanied by filamentation, defects in chromosome and plasmid segregation, defects in cell division, formation of anucleate cells, decreased DNA synthesis and plasmid loss. Interferes with the activity of DNA gyrase, inducing it to form a covalent GyrA-DNA complex that cannot be resolved, thus promoting breakage of plasmid and chromosomal DNA. DNA breakage requires hydrolyzable ATP. Toxicity is inhibited by labile antitoxin CcdA, which blocks the activity of CcdB; CcdA also removes bound CcdB protein from the CcdB-GyrA complex by forming a CcdA-CcdB complex, a process termed rejuvenation. Also acts to inhibit partitioning of the chromosomal DNA. Functions as a transcriptional corepressor for the ccdAB operon, repression also requires CcdA.</obo:IAO_0000115>
+        <rdfs:label>CcdB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000046"/>
+        <obo:IAO_0000115>Replication initiator in the monomeric form, and autogenous repressor in the dimeric form.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>RepE</oboInOwl:hasExactSynonym>
+        <rdfs:label>replication initiation protein RepE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000011"/>
+        <obo:IAO_0000115>A plasmid partition system is the mechanism that assures the stable transmission of plasmids during bacterial cell division. Each plasmid has its independent replication system which control the number of copy of a plasmid in a cell.</obo:IAO_0000115>
+        <rdfs:label>plasmid partition system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000055"/>
+        <obo:IAO_0000115>This system is also used by most bacteria for chromosome segregation. Type I partition system are composed of an ATPase which contains Walker motifs and a CBP which is structurally distinct in type Ia and Ib. ATPases and CBP from type Ia are longer than the one from type Ib, but both CBPs contain an arginine finger in their N-terminal part. ParA proteins from different plasmids and bacterial species show 25 to 30% of sequence identity to the protein ParA of the plasmid P1. The partition of type I system uses a &quot;diffusion-ratchet&quot; mechanism. </obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Type 1 Partition System</oboInOwl:hasExactSynonym>
+        <rdfs:label>Type I Partition System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000056"/>
+        <obo:IAO_0000115>def</obo:IAO_0000115>
+        <rdfs:label>Type Ia Partition System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000058">
+        <obo:IAO_0000115>partition system</obo:IAO_0000115>
+        <rdfs:label>Type Ib partition system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000055"/>
+        <obo:IAO_0000115>This system is composed of an actin-like ATPase, ParM, and a CBP called ParR. The centromere-like site, parC contains two sets of five 11 base pair direct repeats separated by the parMR promoter. The amino-acid sequence identity can go down to 15% between ParM and other actin-like ATPase.</obo:IAO_0000115>
+        <rdfs:label>Type II Partition System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000055"/>
+        <obo:IAO_0000115>This mechanism is composed of tubulin-like GTPase termed TubZ, and the CBP is termed TubR. Amino-acid sequence identity can go down to 21% for TubZ proteins</obo:IAO_0000115>
+        <rdfs:label>Type III Partition System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000055"/>
+        <obo:IAO_0000115>The partition system of the plasmid R388 has been found within the stb operon. This operon is composed of three genes, stbA, stbB and stbC</obo:IAO_0000115>
+        <rdfs:label>R388 Partition System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000055"/>
+        <obo:IAO_0000115>pSK1 is plasmid from Staphylococcus aureus. This plasmid has a partition system determined by a single gene, par, previously known as orf245. This gene has effect neither on the plasmid copy number nor on the growth rate (excluding its implication in a post-segregational killing system). A centromere-like binding sequence is present upstream the par gene, and is composed of seven direct repeats and one inverted repeat.</obo:IAO_0000115>
+        <rdfs:label>pSK1 partition system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000186"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Partitioning protein - ATPase</obo:IAO_0000115>
+        <rdfs:label>ParA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000193"/>
+        <obo:IAO_0000115>PifA is encoded on plasmid F and is responsible for the exclusion of phage T7. E. coli cells that carry plasmid F inhibit the growth of bacteriophage T7. </obo:IAO_0000115>
+        <rdfs:label>pifA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000064"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>PifA is encoded on plasmid F and is responsible for the exclusion of phage T7. E. coli cells that carry plasmid F inhibit the growth of bacteriophage T7. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:7883717</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000046"/>
+        <obo:IAO_0000115>Is essential for plasmid replication. Nicks the positive strand at the plus origin of replication.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Pi protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RepB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pir</oboInOwl:hasExactSynonym>
+        <rdfs:label>replication initiation protein RepB</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000065"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Is essential for plasmid replication. Nicks the positive strand at the plus origin of replication.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18375554</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000187"/>
+        <obo:IAO_0000115>regulates replication</obo:IAO_0000115>
+        <rdfs:label>replication regulatory protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000066"/>
+        <obo:IAO_0000115>This protein is involved in the determination of copy number in gene replication. It binds to the repA promoter thus inhibiting the synthesis of the mRNA for the initiator protein RepA.</obo:IAO_0000115>
+        <rdfs:label>repA2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000186"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon. </obo:IAO_0000115>
+        <rdfs:label>SopA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000068"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:2670941</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000186"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>SopB is involved in the control of plasmid partitioning. It is trans-acting and binds specifically with the DNA segment containing the sopC region. The presence of SopB in the SopAB complex enhances SopA binding to the target DNA sequence.</obo:IAO_0000115>
+        <rdfs:label>SopB</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>SopB is involved in the control of plasmid partitioning. It is trans-acting and binds specifically with the DNA segment containing the sopC region. The presence of SopB in the SopAB complex enhances SopA binding to the target DNA sequence.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:2670941</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>Bacterial cells often contain type I DNA and restriction modification (RM) systems that degrade foreign DNA during bacterial conjugation. KlcA could be involved in inhibiting the RM systems and enhancing the success of conjugation.</obo:IAO_0000115>
+        <rdfs:label>antirestriction protein KlcA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000070"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Bacterial cells often contain type I DNA and restriction modification (RM) systems that degrade foreign DNA during bacterial conjugation. KlcA could be involved in inhibiting the RM systems and enhancing the success of conjugation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20007596</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000190"/>
+        <obo:IAO_0000115>Members of this protein family are multifunctional proteins encoded in most examples of bacterial group II introns. Member proteins have an N-terminal reverse transcriptase (RNA-directed DNA polymerase) domain followed by an RNA-binding maturase domain. These proteins play a role in site-specific DNA insertion.</obo:IAO_0000115>
+        <rdfs:label>group II intron reverse transcriptase/maturase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000188"/>
+        <obo:IAO_0000115>An enzyme that catalyzes the hydrolysis of a particular substrate. Many hydrolases participate in the inactivation of antibiotics.</obo:IAO_0000115>
+        <rdfs:label>hydrolase</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An enzyme that catalyzes the hydrolysis of a particular substrate. Many hydrolases participate in the inactivation of antibiotics.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000187"/>
+        <obo:IAO_0000115>Single-strand DNA-binding protein (SSB) binds to single-stranded regions of deoxyribonucleic acid (DNA). Single-stranded DNA is produced during all aspects of DNA metabolism: replication, recombination, and repair.</obo:IAO_0000115>
+        <rdfs:label>single stranded DNA binding protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000073"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Single-strand DNA-binding protein (SSB) binds to single-stranded regions of deoxyribonucleic acid (DNA). Single-stranded DNA is produced during all aspects of DNA metabolism: replication, recombination, and repair.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000195"/>
+        <obo:IAO_0000115>The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response. </obo:IAO_0000115>
+        <rdfs:label>PsiB</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000074"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:19818715</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000195"/>
+        <obo:IAO_0000115>PsiA is a protein encoded in the Psi region, which also encodes the PsiB protein. PsiA and PsiB are most likely transcribed in a polycistronic manner. The role of PsiA has not been identified, however it does not seem to influence SOS inhibition mediated by PsiB.</obo:IAO_0000115>
+        <rdfs:label>PsiA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000075"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>PsiA is a protein encoded in the Psi region, which also encodes the PsiB protein. PsiA and PsiB are most likely transcribed in a polycistronic manner. The role of PsiA has not been identified, however it does not seem to influence SOS inhibition mediated by PsiB.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:2201950</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The process of bacterial conjugation involves the transfer of a conjugative plasmid as a single strand. The potentially deleterious SOS response, which is normally triggered by the appearance of single-stranded DNA, is suppressed in the recipient cell by a complex involving the PsiB protein. This complex inhibits the activity of RecA, preventing RecA from catalyzing the auto-cleavage of LexA, which activates the SOS response. SOS inhibition allows for the successful transfer of plasmid genetic information between bacterial cells through conjugation.</obo:IAO_0000115>
+        <rdfs:label>Plasmid SOS inhibition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000191"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>toxin</obo:IAO_0000115>
+        <rdfs:label>Type I Toxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000191"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Type I antitoxins are RNA molecules that are complementary to the toxin mRNA, thus binding to the toxin and inhibiting its translation.</obo:IAO_0000115>
+        <rdfs:label>Type I Antitoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
+        <obo:IAO_0000115>The CcdA/CCdB Type II Toxin-antitoxin system is one example of the bacterial toxin-antitoxin (TA) systems that encode two proteins, one a potent inhibitor of cell proliferation (toxin) and the other its specific antidote (antitoxin). These systems preferentially guarantee growth of plasmid-carrying daughter cells in a bacterial population by killing newborn bacteria that have not inherited a plasmid copy at cell division (post-segregational killing).</obo:IAO_0000115>
+        <rdfs:label>CcdA/CcdB Type II Toxin-antitoxin system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000022"/>
+        <obo:IAO_0000115>The hok/sok system is a postsegregational killing mechanism employed by the R1 plasmid in Escherichia coli to maintain a low copy number.</obo:IAO_0000115>
+        <rdfs:label>Hok/sok system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>host killing - a long lived (half-life 20 minutes) toxin</obo:IAO_0000115>
+        <rdfs:label>Hok</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000081"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>host killing - a long lived (half-life 20 minutes) toxin</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000191"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The mok reading frame in the hok/sok locus overlaps with the hok reading frame and is needed for the transcription of the hok gene.</obo:IAO_0000115>
+        <rdfs:label>Mok</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000082"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The mok reading frame in the hok/sok locus overlaps with the hok reading frame and is needed for the transcription of the hok gene.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000182"/>
+        <obo:IAO_0000115>Conjugative DNA transfer (CDT) is the unidirectional transfer of ssDNA plasmid from a donor to a recipient cell. It is the central mechanism by which antibiotic resistance and virulence factors are propagated in bacterial populations. Part of the relaxosome, which facilitates a site- and strand-specific cut in the origin of transfer by TraI, at the nic site. Cooperatively binds 3 regions in the F plasmid oriT locus; 2 are required for autoregulation while the other is required for plasmid transfer. Bends oriT DNA less than 50 degrees. Plasmid specificity is conferred by the TraD-TraM pair.</obo:IAO_0000115>
+        <rdfs:label>TraM</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000083"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Conjugative DNA transfer (CDT) is the unidirectional transfer of ssDNA plasmid from a donor to a recipient cell. It is the central mechanism by which antibiotic resistance and virulence factors are propagated in bacterial populations. Part of the relaxosome, which facilitates a site- and strand-specific cut in the origin of transfer by TraI, at the nic site. Cooperatively binds 3 regions in the F plasmid oriT locus; 2 are required for autoregulation while the other is required for plasmid transfer. Bends oriT DNA less than 50 degrees. Plasmid specificity is conferred by the TraD-TraM pair.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000182"/>
+        <obo:IAO_0000115>TraJ is a conjugal transfer transcriptional regulator.It recruits the relaxasome complex to the oriT site</obo:IAO_0000115>
+        <rdfs:label>TraJ</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000084"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>TraJ is a conjugal transfer transcriptional regulator.It recruits the relaxasome complex to the oriT site</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000182"/>
+        <obo:IAO_0000115>TraY is a subunit of the relaxosome. It facilitates the binding of the relaxase to the oriT, and enhances cleaving activity.</obo:IAO_0000115>
+        <rdfs:label>TraY</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000085"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>TraY is a subunit of the relaxosome. It facilitates the binding of the relaxase to the oriT, and enhances cleaving activity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000120"/>
+        <obo:IAO_0000115>The traA gene codes for relaxase, which is an enzyme that initiates plasmid DNA transfer during bacterial conjugation. Relaxase forms a relaxosome complex with auxiliary proteins to initiate conjugation. Relaxosome binds to the origin of transfer (oriT) sequence and cleaves the DNA strand that will be transferred (the T strand).</obo:IAO_0000115>
+        <rdfs:label>TraA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000086"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The traA gene codes for relaxase, which is an enzyme that initiates plasmid DNA transfer during bacterial conjugation. Relaxase forms a relaxosome complex with auxiliary proteins to initiate conjugation. Relaxosome binds to the origin of transfer (oriT) sequence and cleaves the DNA strand that will be transferred (the T strand).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000183"/>
+        <obo:IAO_0000115>Membrane protein involved in F pilin formation</obo:IAO_0000115>
+        <rdfs:label>TraL</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000087"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Membrane protein involved in F pilin formation</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>conjugal transfer protein</obo:IAO_0000115>
+        <rdfs:label>traK</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>conjugal transfer protein</obo:IAO_0000115>
+        <rdfs:label>TraB</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000089"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000190"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A family of nucleases involved in resolution during DNA recombination. Resolvase enzymes resolve DNA intermediates known as junctions. Some resolvases have also been identified as repressors of transposase enzymes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>recombinase</oboInOwl:hasExactSynonym>
+        <rdfs:label>resolvase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000090"/>
+        <obo:IAO_0000115>resolvase</obo:IAO_0000115>
+        <rdfs:label>ResD</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000091"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>resolvase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000187"/>
+        <obo:IAO_0000115>A helicase is an enzyme that participates in separating the strands of a nucleic acid duplex, which is required for processes such as DNA replication, transcription, recombination, and repair.</obo:IAO_0000115>
+        <rdfs:label>helicase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000092"/>
+        <obo:IAO_0000115>UvrD is a helicase that participates in nucleotide excision repair and other DNA repair and replication processes.</obo:IAO_0000115>
+        <rdfs:label>UvrD</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000093"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>UvrD is a helicase that participates in nucleotide excision repair and other DNA repair and replication processes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:17190599</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115>tranposase - Family IS1</obo:IAO_0000115>
+        <rdfs:label>IS1 InsA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000094"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>tranposase - Family IS1</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115>tranposase - family IS1
+</obo:IAO_0000115>
+        <rdfs:label>IS1 InsB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000090"/>
+        <obo:IAO_0000115>DNA resolvase</obo:IAO_0000115>
+        <rdfs:label>DNA resolvase</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000096"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>DNA resolvase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000124"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Antitoxin component of a type II toxin-antitoxin (TA) module. Labile antitoxin that binds to its cognate PemK endoribonuclease toxin and neutralizes its activity. Responsible for the stable maintenance of the plasmid during cell division. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis.</obo:IAO_0000115>
+        <rdfs:label>PemI</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000097"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Antitoxin component of a type II toxin-antitoxin (TA) module. Labile antitoxin that binds to its cognate PemK endoribonuclease toxin and neutralizes its activity. Responsible for the stable maintenance of the plasmid during cell division. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:17416361</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000124"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Toxic component of a type II toxin-antitoxin (TA) module. Probably functions as an endoribonuclease. Responsible for the stable maintenance of the plasmid during cell division by postsegregational killing of plasmid-less daughter cells. Neutralized by coexpression with cognate antitoxin PemI. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis.</obo:IAO_0000115>
+        <rdfs:label>PemK</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000098"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Toxic component of a type II toxin-antitoxin (TA) module. Probably functions as an endoribonuclease. Responsible for the stable maintenance of the plasmid during cell division by postsegregational killing of plasmid-less daughter cells. Neutralized by coexpression with cognate antitoxin PemI. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:17416361</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000046"/>
+        <obo:IAO_0000115>Associated with replication initiation.</obo:IAO_0000115>
+        <rdfs:label>RepA4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000045"/>
+        <obo:IAO_0000115>Arginine repressor</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ArgR</oboInOwl:hasExactSynonym>
+        <rdfs:label>ArgR family transcriptional regulator</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000100"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Arginine repressor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000120"/>
+        <obo:IAO_0000115>TraI codes for a relaxase of F plasmids, which cleaves the DNA in the initiationof plasmid conjugation. It has also been identified as DNA helicase I. DNA helicase I is a potent, highly processive DNA-dependent ATPase, able to unwind about 1.1 kb dsDNA per second in a 5&apos; to 3&apos; manner.  TraI forms a covalent 5&apos;-phosphotyrosine intermediate linkage to the ssDNA. The transesterified T-strand moves from the donor cell to the recipient cell in a 5&apos;to 3&apos; direction, with the DNA helicase activity of TraI unwinding the DNA</obo:IAO_0000115>
+        <rdfs:label>TraI</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000101"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>TraI codes for a relaxase of F plasmids, which cleaves the DNA in the initiationof plasmid conjugation. It has also been identified as DNA helicase I. DNA helicase I is a potent, highly processive DNA-dependent ATPase, able to unwind about 1.1 kb dsDNA per second in a 5&apos; to 3&apos; manner.  TraI forms a covalent 5&apos;-phosphotyrosine intermediate linkage to the ssDNA. The transesterified T-strand moves from the donor cell to the recipient cell in a 5&apos;to 3&apos; direction, with the DNA helicase activity of TraI unwinding the DNA</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:26899414</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>conjugal transfer protein - pilus acetylase</obo:IAO_0000115>
+        <rdfs:label>TraX</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000102"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer protein - pilus acetylase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000045"/>
+        <obo:IAO_0000115>Members of the Multiple Antibiotic Resistance Regulator (MarR) family. MarR regulates an operon that encodes a drug efflux pump, and mutations in proteins that partcipate in this system lead to a multiple antibiotic resistance phenotype. MarR proteins are members of the winged helix-turn-helix family of transcription factors. Some MarR homologs activate transcription, while most repress gene activity.</obo:IAO_0000115>
+        <rdfs:label>MarR famiy transcriptional regulator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000190"/>
+        <obo:IAO_0000115>Recombinases are genetic recombination enzymes. DNA recombinases are widely used in multicellular organisms to manipulate the structure of genomes, and to control gene expression.</obo:IAO_0000115>
+        <rdfs:label>recombinase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000104"/>
+        <obo:IAO_0000115>Serine recombinases can rearrange DNA sequences with topological selectivity.</obo:IAO_0000115>
+        <rdfs:label>Sin</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000105"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Serine recombinases can rearrange DNA sequences with topological selectivity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11994145</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000090"/>
+        <obo:IAO_0000115>resolvase/integrase  
+a nuclease which is involved in DNA recombination.</obo:IAO_0000115>
+        <rdfs:label>bin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000193"/>
+        <obo:IAO_0000115>A reverse transcriptase (RT) is an enzyme used to generate complementary DNA (cDNA) from an RNA template, a process termed reverse transcription.</obo:IAO_0000115>
+        <rdfs:label>AbiK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000045"/>
+        <obo:IAO_0000115>functions as a transcriptional repressor of an arsenic resistance operon</obo:IAO_0000115>
+        <rdfs:label>ArsR family transcriptional regulator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000090"/>
+        <obo:IAO_0000115>Enzyme that repress transposases</obo:IAO_0000115>
+        <rdfs:label>transposon DNA invertase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115>The transposase produces nicks at the donor and the recipient sites. The 3&apos; end of the transposon is ligated to the 5&apos; end of the target sequence. The transposon is duplicated after DNA replication.</obo:IAO_0000115>
+        <rdfs:label>IS6 family transposase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000090"/>
+        <obo:IAO_0000115>Resolvase catalyzes the resolution (a site-specific recombination) of the cointegrated replicon to yield the final transposition products</obo:IAO_0000115>
+        <rdfs:label>transposon Tn552 resolvase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000034"/>
+        <obo:IAO_0000115>Topoisomerase III can introduce single-strand breaks that are required for DNA to be exchanged by adjacent chromosomes.</obo:IAO_0000115>
+        <rdfs:label>Topoisomerase III</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115>Catalysis of the transposition of transposable elements or transposons. Transposases are involved in recombination required for transposition and are site-specific for the transposon/transposable element.</obo:IAO_0000115>
+        <rdfs:label>transposase IS66 family protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115>Catalysis of the transposition of transposable elements or transposons. Transposases are involved in recombination required for transposition and are site-specific for the transposon/transposable element.</obo:IAO_0000115>
+        <rdfs:label>Tn3 family transposase</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Catalysis of the transposition of transposable elements or transposons. Transposases are involved in recombination required for transposition and are site-specific for the transposon/transposable element.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:26899414</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000046"/>
+        <obo:IAO_0000115>Initiates plasmid replication.</obo:IAO_0000115>
+        <rdfs:label>IncFII family plasmid replication intiator RepA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000116"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Initiates plasmid replication.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:26899414</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes. The transfer genes are responsible for the process, called conjugal transfer, in which DNA is transmitted from one bacterial host to another. RNA-binding that interacts with the traJ mRNA and its antisense RNA, finP, stabilizing finP against endonucleolytic degradation and facilitating sense-antisense RNA recognition.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FinO</oboInOwl:hasExactSynonym>
+        <rdfs:label>Fertility inhibition protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000117"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes. The transfer genes are responsible for the process, called conjugal transfer, in which DNA is transmitted from one bacterial host to another. RNA-binding that interacts with the traJ mRNA and its antisense RNA, finP, stabilizing finP against endonucleolytic degradation and facilitating sense-antisense RNA recognition.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25753630</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26899414</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9819055</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000187"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000127"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Enzymes that catalyze the cleavage of phosphodiester bonds in DNA in a site- and strand- specific manner, creating nicks that initiate either the processes of plasmid conjugation or rolling circle replication.</obo:IAO_0000115>
+        <rdfs:label>relaxase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000118"/>
+        <obo:IAO_0000115>The nicks produced by Rep relaxases initiate plasmid or virus RCR</obo:IAO_0000115>
+        <rdfs:label>replicative relaxase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000118"/>
+        <obo:IAO_0000115>Mob relaxases nick at origin of transfer (oriT) to initiate the process of DNA mobilization and transfer known as bacterial conjugation. Mob relaxases are part of the relaxosome.</obo:IAO_0000115>
+        <rdfs:label>mobility relaxase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000181"/>
+        <obo:IAO_0000115>Conjugative DNA transfer (CDT) is the unidirectional transfer of ssDNA plasmid from a donor to a recipient cell. It is the central mechanism by which antibiotic resistance and virulence factors are propagated in bacterial populations. Couples the transferosome to a type IV secretion system. Probably forms a pore through which single-stranded plasmid DNA is transferred to the secretion system. The last 37 residues are important for determining plasmid specificity and transfer efficiency, with additional specificity conferred by the TraD-TraM pair.</obo:IAO_0000115>
+        <rdfs:label>Coupling protein TraD</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000121"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Conjugative DNA transfer (CDT) is the unidirectional transfer of ssDNA plasmid from a donor to a recipient cell. It is the central mechanism by which antibiotic resistance and virulence factors are propagated in bacterial populations. Couples the transferosome to a type IV secretion system. Probably forms a pore through which single-stranded plasmid DNA is transferred to the secretion system. The last 37 residues are important for determining plasmid specificity and transfer efficiency, with additional specificity conferred by the TraD-TraM pair.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:26899414</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Antitoxin component of a type II toxin-antitoxin (TA) module. Counteracts the effect of cognate toxin RelE via direct protein-protein interaction, preventing RelE from entering the ribosome A site and thus inhibiting its endoribonuclease activity. An autorepressor of relBE operon transcription. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity. Increased transcription rate of relBE and activation of relE is consistent with a lower level of RelB in starved cells due to degradation of RelB by protease Lon.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DinJ</oboInOwl:hasExactSynonym>
+        <rdfs:label>RelB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
+        <obo:IAO_0000115>RelB is the antitoxin component of a type II toxin-antitoxin (TA) module. Counteracts the effect of cognate toxin RelE via direct protein-protein interaction, preventing RelE from entering the ribosome A site and thus inhibiting its endoribonuclease activity. An autorepressor of relBE operon transcription. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity. Increased transcription rate of relBE and activation of relE is consistent with a lower level of RelB in starved cells due to degradation of RelB by protease Lon.RelE is the toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity.</obo:IAO_0000115>
+        <rdfs:label>RelB/RelE Type II toxin-antitoxin system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
+        <obo:IAO_0000115>Toxin Antitoxin system Type II</obo:IAO_0000115>
+        <rdfs:label>PemI/PemK type II Toxin-antitoxin system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <obo:IAO_0000115>HicA is a toxin part of the HicA/HicB toxin-antitoxin system overexpression of the HicA toxin, which exhibits mRNA interferase activity, causes cleavage of mRNAs and an arrest of cell growth</obo:IAO_0000115>
+        <rdfs:label>HicA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000125"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>HicA is a toxin part of the HicA/HicB toxin-antitoxin system overexpression of the HicA toxin, which exhibits mRNA interferase activity, causes cleavage of mRNAs and an arrest of cell growth</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25917909</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000182"/>
+        <obo:IAO_0000115>The relaxosome protein MobC promotes conjugal plasmid mobilization by extending DNA strand separation to the nick site at the origin of transfer</obo:IAO_0000115>
+        <rdfs:label>mobC</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000126"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The relaxosome protein MobC promotes conjugal plasmid mobilization by extending DNA strand separation to the nick site at the origin of transfer</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:24905728</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Relaxosome is the complex of proteins that initiates bacterial conjugation. The subunits that make up the relaxosome are encoded by the tra gene in the origin of transfer, oriT, region on the plasmid, and in the host cell genome.</obo:IAO_0000115>
+        <rdfs:label>relaxosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000120"/>
+        <obo:IAO_0000115>DNA strand transferase,conjugal transfer relaxase TraA,Ti-type conjugative transfer relaxase TraA,MobA/MobL family</obo:IAO_0000115>
+        <rdfs:label>mobA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>MobB promotes the specific transfer of the plasmid in the presence of conjugative plasmids.</obo:IAO_0000115>
+        <rdfs:label>MobB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
+        <obo:IAO_0000115>The parDE type II toxin-antitoxin system is one example of the bacterial toxin-antitoxin (TA) systems that encode two proteins, one a potent inhibitor of cell proliferation (toxin) and the other its specific antidote (antitoxin).</obo:IAO_0000115>
+        <rdfs:label>ParDE type II toxin-antitoxin system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Toxin component of a toxin-antitoxin (TA) module involved in plasmid partition. Acts by inhibiting DNA gyrase, converting supercoiled plasmid DNA into a singly cleaved linear form in an ATP-dependent fashion. To do so it probably interacts with one of the gyrase subunits. Gyrase inhibition is prevented by antitoxin ParD, and is reversed in vitro by incubation with ParD. In cells that have lost the plasmid filamentation and growth inhibition occur; this is suppressed when ParD is supplied in trans. The parDE operon alone is capable of stabilizing an RK2-derived minireplicon under defined growth conditions in several different Gram-negative bacteria. It does so by the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system.</obo:IAO_0000115>
+        <rdfs:label>ParE</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000131"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Toxin component of a toxin-antitoxin (TA) module involved in plasmid partition. Acts by inhibiting DNA gyrase, converting supercoiled plasmid DNA into a singly cleaved linear form in an ATP-dependent fashion. To do so it probably interacts with one of the gyrase subunits. Gyrase inhibition is prevented by antitoxin ParD, and is reversed in vitro by incubation with ParD. In cells that have lost the plasmid filamentation and growth inhibition occur; this is suppressed when ParD is supplied in trans. The parDE operon alone is capable of stabilizing an RK2-derived minireplicon under defined growth conditions in several different Gram-negative bacteria. It does so by the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25232178</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26823590</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Antitoxin of the VagCD toxin-antitoxin system</obo:IAO_0000115>
+        <rdfs:label>VagC</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000132"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Antitoxin of the VagCD toxin-antitoxin system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:23733457</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Toxin of the VagCD toxin antitoxin system</obo:IAO_0000115>
+        <rdfs:label>VagD</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000133"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Toxin of the VagCD toxin antitoxin system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:23733457</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
+        <obo:IAO_0000115>A toxin-antitoxin system is a set of two or more closely linked genes that together encode both a protein &apos;poison&apos; and a corresponding &apos;antidote&apos;. When these systems are contained on plasmids – transferable genetic elements – they ensure that only the daughter cells that inherit the plasmid survive after cell division.</obo:IAO_0000115>
+        <rdfs:label>VagCD Type II Toxin-antitoxin system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <obo:IAO_0000115>an antibody that counteracts a toxin</obo:IAO_0000115>
+        <rdfs:label>Acinetobacter baumannii ACICU plasmid pACICU1 addiction module antitoxin</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000135"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>an antibody that counteracts a toxin</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18411315</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000192"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The product of the prevent host death (phd) gene is a type II antitoxin that is part of the doc/phd TA system.</obo:IAO_0000115>
+        <rdfs:label>phd</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000136"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The product of the prevent host death (phd) gene is a type II antitoxin that is part of the doc/phd TA system.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:10358024</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000192"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The product of the death on curing (doc) gene is a type II toxin.</obo:IAO_0000115>
+        <rdfs:label>doc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000186"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Involved in plasmid partition. Localize to both poles of the predivisional cell following completion of DNA replication. Binds to the DNA origin of replication.</obo:IAO_0000115>
+        <rdfs:label>ParB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000090"/>
+        <obo:IAO_0000115>a nuclease which is involved in DNA recombination.</obo:IAO_0000115>
+        <rdfs:label>ResA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000139"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>a nuclease which is involved in DNA recombination.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:23733457</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <obo:IAO_0000115>Mediator of plasmid stability</obo:IAO_0000115>
+        <rdfs:label>StbB</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000140"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Mediator of plasmid stability</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25232178</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <obo:IAO_0000115>plasmid stability protein</obo:IAO_0000115>
+        <rdfs:label>StbA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000141"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>plasmid stability protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25232178</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <obo:IAO_0000115>Type II toxin</obo:IAO_0000115>
+        <rdfs:label>Zeta</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000142"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Type II toxin</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25845845</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <obo:IAO_0000115>Part of the PhdYeFM antitoxin toxin system</obo:IAO_0000115>
+        <rdfs:label>StbD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000078"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Suppression of killing - a short lived (half-life 30 seconds) RNA antitoxin</obo:IAO_0000115>
+        <rdfs:label>Sok</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000077"/>
+        <obo:IAO_0000115>Toxin of the Flm toxin/antitoxin system - F-plasmid homologues of hok/mok TA system</obo:IAO_0000115>
+        <rdfs:label>FlmA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000145"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Toxin of the Flm toxin/antitoxin system - F-plasmid homologues of hok/mok TA system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:7612932</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>ParD is a plasmid anti-toxin that forms a ribbon-helix-helix DNA binding structure. It stabilises plasmids by inhibiting ParE toxicity in cells that express ParD and ParE. ParD forms a dimer and also regulates its own promoter (parDE).</obo:IAO_0000115>
+        <rdfs:label>ParD</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000146"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>ParD is a plasmid anti-toxin that forms a ribbon-helix-helix DNA binding structure. It stabilises plasmids by inhibiting ParE toxicity in cells that express ParD and ParE. ParD forms a dimer and also regulates its own promoter (parDE).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:17320955</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <obo:IAO_0000115>Epsilon antitoxin, produced by various prokaryotes, forms part of a post-segregational killing system, which is involved in the initiation of programmed cell death of plasmid-free cells.</obo:IAO_0000115>
+        <rdfs:label>Epsilon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000147"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Epsilon antitoxin, produced by various prokaryotes, forms part of a post-segregational killing system, which is involved in the initiation of programmed cell death of plasmid-free cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:20660665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000077"/>
+        <obo:IAO_0000115>PndA encodes toxin proteins containing single transmembrane domains. It is part of the PndA-PndB (promotion of nucleic acid acid degradation) TA.</obo:IAO_0000115>
+        <rdfs:label>PndA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000148"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>PndA encodes toxin proteins containing single transmembrane domains. It is part of the PndA-PndB (promotion of nucleic acid acid degradation) TA.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:19052321</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <obo:IAO_0000115>toxin type II</obo:IAO_0000115>
+        <rdfs:label>YafO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <obo:IAO_0000115>type II toxin</obo:IAO_0000115>
+        <rdfs:label>HipA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000150"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>type II toxin</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:22720069</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <obo:IAO_0000115>antitoxin type II</obo:IAO_0000115>
+        <rdfs:label>HicB</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000151"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>antitoxin type II</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25917909</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000172"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Type II antitoxin</obo:IAO_0000115>
+        <rdfs:label>MazE</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000152"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Type II antitoxin</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:41136</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000172"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Type II toxin</obo:IAO_0000115>
+        <rdfs:label>MazF</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000153"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Type II toxin</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:24275114</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000155"/>
+        <obo:IAO_0000115>Type II TA mediator</obo:IAO_0000115>
+        <rdfs:label>Omega</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000154"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Type II TA mediator</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18511120</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000191"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Mediator of TA systems</obo:IAO_0000115>
+        <rdfs:label>Type II TA mediator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000049"/>
+        <obo:IAO_0000115>antitoxin of YafO-YafN TA system</obo:IAO_0000115>
+        <rdfs:label>YafN</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000156"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>antitoxin of YafO-YafN TA system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:16397293</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16738553</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19617347</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9278503</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000181"/>
+        <obo:IAO_0000115>conjugal transfer mating pair stabilization protein</obo:IAO_0000115>
+        <rdfs:label>TraG</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000157"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer mating pair stabilization protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>TraS is an entry exclusion protein, involved in blocking the transfer of redundant DNA between donor cells.</obo:IAO_0000115>
+        <rdfs:label>TraS</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000158"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>TraS is an entry exclusion protein, involved in blocking the transfer of redundant DNA between donor cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:337311</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000182"/>
+        <obo:IAO_0000115>conjugal transfer pilus assembly protein</obo:IAO_0000115>
+        <rdfs:label>TraH</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000159"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer pilus assembly protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000183"/>
+        <obo:IAO_0000115>conjugal transfer pilin assembly thiol-disulfide isomerase</obo:IAO_0000115>
+        <rdfs:label>TrbB</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000160"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer pilin assembly thiol-disulfide isomerase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>conjugal transfer pilin chaperone</obo:IAO_0000115>
+        <rdfs:label>TraQ</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000161"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer pilin chaperone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000183"/>
+        <obo:IAO_0000115>conjugal transfer pilus assembly protein</obo:IAO_0000115>
+        <rdfs:label>TraF</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000162"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer pilus assembly protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>conjugal transfer mating-pair stabilization protein</obo:IAO_0000115>
+        <rdfs:label>TraN</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000163"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer mating-pair stabilization protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000183"/>
+        <obo:IAO_0000115>conjugal transfer pilus assembly protein</obo:IAO_0000115>
+        <rdfs:label>TrbC</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000164"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer pilus assembly protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>conjugal transfer pilus assembly protein</obo:IAO_0000115>
+        <rdfs:label>TraU</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000165"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer pilus assembly protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000183"/>
+        <obo:IAO_0000115>conjugal transfer protein</obo:IAO_0000115>
+        <rdfs:label>TrbI</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000166"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>TraC is an ATPase</obo:IAO_0000115>
+        <rdfs:label>TraC</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000167"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>TraC is an ATPase</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>conjugal transfer pilus assembly protein</obo:IAO_0000115>
+        <rdfs:label>TraW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>conjugal transfer protein</obo:IAO_0000115>
+        <rdfs:label>TraP</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000169"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000182"/>
+        <obo:IAO_0000115>conjugal transfer protein</obo:IAO_0000115>
+        <rdfs:label>TraV</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000170"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer protein</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11150665</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000155"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000172"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>MazG is transcribed in the same polycistronic mRNA as MazE and MazF. It is a nucleotide pyrophosphohydrolase and breaks down  guanosine 3&apos;,5&apos;-bispyrophosphate (ppGpp). The activity of MazG is inhibited by the MazEF complex. However, it is hypothesized that MazG reduces the deleterious effect of the MazF toxin.</obo:IAO_0000115>
+        <rdfs:label>MazG</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000171"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>MazG is transcribed in the same polycistronic mRNA as MazE and MazF. It is a nucleotide pyrophosphohydrolase and breaks down  guanosine 3&apos;,5&apos;-bispyrophosphate (ppGpp). The activity of MazG is inhibited by the MazEF complex. However, it is hypothesized that MazG reduces the deleterious effect of the MazF toxin.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:16390452</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24459253</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
+        <obo:IAO_0000115>Type II toxin-antitoxin system</obo:IAO_0000115>
+        <rdfs:label>MazEF Type II toxin-antitoxin system</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000172"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Type II toxin-antitoxin system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:27259116</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000194"/>
+        <obo:IAO_0000115>RecA is a protein that binds single-stranded DNA, forming a nucleoprotein filament. When bound, RecA may either target a homologous double-stranded DNA sequence and catalyze recombination, or it catalyzes the autocleavage of LexA. This allows for the expression of SOS genes.</obo:IAO_0000115>
+        <rdfs:label>RecA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000173"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>RecA is a protein that binds single-stranded DNA, forming a nucleoprotein filament. When bound, RecA may either target a homologous double-stranded DNA sequence and catalyze recombination, or it catalyzes the autocleavage of LexA. This allows for the expression of SOS genes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:16000023</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24459253</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:6244554</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000187"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>DNA polymerases are enzymes that synthesize DNA molecules from deoxyribonucleotides, the building blocks of DNA. These enzymes are essential to DNA replication and usually work in pairs to create two identical DNA strands from a single original DNA molecule. During this process, DNA polymerase &quot;reads&quot; the existing DNA strands to create two new strands that match the existing ones.</obo:IAO_0000115>
+        <rdfs:label>DNA polymerase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>conjugal transfer protein the forms the bulk of type IV secretion complex that spans outer membrane and periplasm</obo:IAO_0000115>
+        <rdfs:label>TraO</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000175"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>conjugal transfer protein the forms the bulk of type IV secretion complex that spans outer membrane and periplasm</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:23357767</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115>ISNCY family-transposase</obo:IAO_0000115>
+        <rdfs:label>tnpA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000013"/>
+        <obo:IAO_0000115>A transcription termination factor</obo:IAO_0000115>
+        <rdfs:label>transcription termination factor NusG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000090"/>
+        <obo:IAO_0000115>Hin belongs to the serine recombinase family of DNA invertases in which it relies on the active site serine to initiate DNA cleavage and recombination.</obo:IAO_0000115>
+        <rdfs:label>DNA-invertase hin</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Hin belongs to the serine recombinase family of DNA invertases in which it relies on the active site serine to initiate DNA cleavage and recombination.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:24905728</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000194"/>
+        <obo:IAO_0000115>LexA is a transcriptional repressor that represses SOS response genes coding primarily for error-prone DNA polymerases, DNA repair enzymes and cell division inhibitors. LexA forms de facto a two-component regulatory system with RecA, which senses DNA damage at stalled replication forks, forming monofilaments and acquiring an active conformation capable of binding to LexA and causing LexA to cleave itself, in a process called autoproteolysis</obo:IAO_0000115>
+        <rdfs:label>LexA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000045"/>
+        <obo:IAO_0000115>adiY is a DNA-binding transcriptional activator of the adi system. Implicated in arginine-dependent acid resistance in Escherichia coli.</obo:IAO_0000115>
+        <rdfs:label>adiY</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000180"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>adiY is a DNA-binding transcriptional activator of the adi system. Implicated in arginine-dependent acid resistance in Escherichia coli.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:12867448</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:8704970</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>During the process of conjugation, the coupling protein link the relaxosome and the mating pair formation complex to facilitate the movement of the DNA transfer intermediate through the channel between the cells.</obo:IAO_0000115>
+        <rdfs:label>conjugation coupling protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000181"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>During the process of conjugation, the coupling protein link the relaxosome and the mating pair formation complex to facilitate the movement of the DNA transfer intermediate through the channel between the cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:26104193</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000127"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Subunits of relaxosomes, which are needed for conjugation of plasmids.</obo:IAO_0000115>
+        <rdfs:label>subunit of relaxosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115>Subunits of mating pair formation complexes, which are needed for conjugation of plasmids.</obo:IAO_0000115>
+        <rdfs:label>subunit of mating pair formation complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000184">
+        <obo:IAO_0000115>Genes, proteins, other biological or chemical compounds, their shared components, and their associated mechanisms as they relate to mobile genetic element molecular biology and evolution.</obo:IAO_0000115>
+        <rdfs:label>process or component of mobile genetic element biology or chemistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000190"/>
+        <obo:IAO_0000115>Proteins that participate in the partition, movement, stabilization, and replication of plasmids.</obo:IAO_0000115>
+        <rdfs:label>complex or subunit involved in plasmid maitenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000185"/>
+        <obo:IAO_0000115>Proteins that are involved in the partitioning of plasmids.</obo:IAO_0000115>
+        <rdfs:label>partitioning protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000185"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Proteins that are needed for the replication of plasmids.</obo:IAO_0000115>
+        <rdfs:label>subunit or complex involved in plasmid DNA replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000185"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Proteins that are encoded on plasmids and that are promote the stability of the plasmid in the host cell, or confer advantages to the host cell in certain conditions.</obo:IAO_0000115>
+        <rdfs:label>subunit or complex involved in stabilization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000190">
+        <obo:IAO_0000115>Proteins that are involved in the movement of genetic information between different regions on a chromosome, different chromosomes, or different organisms through processes such as genetic recombination.</obo:IAO_0000115>
+        <rdfs:label>subunit or complex involved in genetic mobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000188"/>
+        <obo:IAO_0000115>Proteins, and genes, and RNAs that are part of toxin-antitoxin systems encoded on plasmids.</obo:IAO_0000115>
+        <rdfs:label>component of a TA system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000023"/>
+        <obo:IAO_0000115>This system is comprised of the toxin - Doc, and the antitoxin - Phd.</obo:IAO_0000115>
+        <rdfs:label>Doc/Phd Type II TA System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000188"/>
+        <obo:IAO_0000115>Genes that allow bacteria to resist infection by bacteriophages have been discovered to be encoded on plasmids.</obo:IAO_0000115>
+        <rdfs:label>protein conferring phage resistance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000188"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Proteins that are involved in the SOS response, which is a global response to DNA damage.</obo:IAO_0000115>
+        <rdfs:label>SOS response protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000188"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Proteins that repress the SOS response in bacterial cells to allow for successful bacterial conjugation.</obo:IAO_0000115>
+        <rdfs:label>SOS response inhibitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000011"/>
+        <obo:IAO_0000115>The mechanisms that mediate the intercellular movement of plasmids.</obo:IAO_0000115>
+        <rdfs:label>mechanism of plasmid mobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000197">
+        <obo:IAO_0000115>Activity and mechanisms related to recombination in mobile genetic elements, including bacteriophage, plasmids and transposons</obo:IAO_0000115>
+        <rdfs:label>recombinase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000197"/>
+        <obo:IAO_0000115>DDE-based recombinase activity refers to DNA transposases with RNase H-like catalytic domains. The active site of such transposases contains an amino acid motif, DDE or sometimes DDD, which coordinates nucleophilic cleavage of a phosphodiester bond and joining by transesterification.</obo:IAO_0000115>
+        <rdfs:label>DDE-based recombinase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000197"/>
+        <obo:IAO_0000115>DNA cleavage by serine recombinases involves an active site serine nucleophile that attacks a phosphate group, without requiring a cofactor.</obo:IAO_0000115>
+        <rdfs:label>serine-based recombinase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000197"/>
+        <obo:IAO_0000115>A mechanism of transposition and recombination whereby DNA is cleaved by an active site tyrosine residue.</obo:IAO_0000115>
+        <rdfs:label>tyrosine-based recombinase activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000001"/>
+        <obo:IAO_0000115>Group II introns are mobile genetic elements and mobile ribozymes that self-splice from precursor RNA to produce intron lariat RNA. A reverse transcriptase encoded by the intron stabilize the RNA structure for forward and reverse splicing, then the integrated intron RNA is converted back to DNA.</obo:IAO_0000115>
+        <rdfs:label>group II intron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000001"/>
+        <obo:IAO_0000115>Group I introns on mobile genetic elements and self-splicing ribozymes. In group I introns, self-splicing is assisted and catalyzed by guanosine-initiated processes, unlike group II introns.</obo:IAO_0000115>
+        <rdfs:label>group I intron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000001"/>
+        <obo:IAO_0000115>A genomic island is a type of mobile genetic element with evidence of horizontal gene transfer. Genomic islands are often large segments of DNA which carry accessory genes. These accessory genes may be integrase enzymes related to plasmid conjugation or bacteriophages, insertion elements or transposons for mobilization, and/or selective advantages. Genomic islands are well-known to carry genes associated with pathogenicity, symbiosis, metabolic fitness and/or antibiotic resistance.</obo:IAO_0000115>
+        <rdfs:label>genomic island</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000003"/>
+        <obo:IAO_0000115>A class I transposable element, or Retrotransposon, uses an RNA intermediate to facilitate movement and copying. The transposable element is first transcribed from DNA to RNA, and the RNA copy is inserted into the genome via reverse transcription catalyzed by reverse transcriptase. The reverse transcriptase enzyme is generally encoded by the transposon</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>retrotransposon</oboInOwl:hasExactSynonym>
+        <rdfs:label>class I transposable element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000003"/>
+        <obo:IAO_0000115>Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called &quot;sticky ends&quot; with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by &quot;sticky ends&quot; are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DNA transposon</oboInOwl:hasExactSynonym>
+        <rdfs:label>class II transposable element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000016"/>
+        <obo:IAO_0000115>Transduction is a type of gene transfer mediate by a bacteriophage. When bacteriophage proteins assemble following replication, segments of host DNA may be accidentally included; this DNA is then injected into the next host, where it can recombine and be inherited.</obo:IAO_0000115>
+        <rdfs:label>transduction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000002"/>
+        <obo:IAO_0000115>Methods of classifying and separating plasmids based on given criteria.</obo:IAO_0000115>
+        <rdfs:label>plasmid typing scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000207"/>
+        <obo:IAO_0000115>Replicon typing schemes use genetic elements of the replicon region to type plasmids. This can be done through Southern blot hybridization, or through PCR-based replicon typing.</obo:IAO_0000115>
+        <rdfs:label>replicon typing method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000208"/>
+        <obo:IAO_0000115>A plasmid typing method using plasmid incompatibility groups. Plasmids with similar replication mechanisms are often unable to co-exist in a cell.</obo:IAO_0000115>
+        <rdfs:label>Inc grouping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000207"/>
+        <obo:IAO_0000115>MOB typing relies on the conserved N-terminal sequence of the relaxase proteins encoded by transmissible plasmids. MOB typing can make use of both in silico and PCR-based methods.</obo:IAO_0000115>
+        <rdfs:label>MOB typing method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000208"/>
+        <obo:IAO_0000115>A method wherein plasmids are classified according to Southern blot hybridizations using replicons as probes. This method lacks specificity when similar replicons are present; it is usually applied following PCR-based replicon typing (PBRT).</obo:IAO_0000115>
+        <rdfs:label>replicon probe hybridization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000208"/>
+        <obo:IAO_0000115>A plasmid typing method wherein allelic profiles are assessed at six loci. Plasmids are assigned a pMLST subtype nesting within the broader replicon type. This can be performed with PCR-based or in silico methods.</obo:IAO_0000115>
+        <rdfs:label>replicon subtyping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000210"/>
+        <obo:IAO_0000115>PCR-based degenerate primer MOB typing is used to type Proteobacterial and Enterococcal plasmids.</obo:IAO_0000115>
+        <rdfs:label>PCR-based MOB typing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000210"/>
+        <obo:IAO_0000115>in silico MOB typing using six N-terminal relaxase sequences are used as PSI-BLAST probes to detect relaxases from transmissible plasmids. Plasmids are then partitioned into six possible MOB types.</obo:IAO_0000115>
+        <rdfs:label>in silico MOB typing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000205"/>
+        <obo:IAO_0000115>A family of complex class II replicative transposons, often carrying genes for ampicillin or other beta-lactam resistance.</obo:IAO_0000115>
+        <rdfs:label>Tn3-like family transposon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000215"/>
+        <obo:IAO_0000115>Tn4401 is a Tn3-like transposon of which there are 5 subtypes (Tn4401a-e). Tn4401 has been shown to carry KPC family carbapenemases and are involved in KPC gene mobilization.</obo:IAO_0000115>
+        <rdfs:label>Tn4401</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000216"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Tn4401 is a Tn3-like transposon of which there are 5 subtypes (Tn4401a-e). Tn4401 has been shown to carry KPC family carbapenemases and are involved in KPC gene mobilization.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21844325</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000215"/>
+        <obo:IAO_0000115>A Tn3-like mosaic transposon carrying CTX-M and OXA beta-lactamase based resistance genes.</obo:IAO_0000115>
+        <rdfs:label>Tn1999</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000217"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Tn3-like mosaic transposon carrying CTX-M and OXA beta-lactamase based resistance genes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:23027715</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115>A plasmid incompatibility group, IncA/C plasmids are large, low copy number, theta-replicating plasmids.</obo:IAO_0000115>
+        <rdfs:label>IncA/C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115>IncF plasmids are commonly carried by antibiotic-resistant Escherichia coli or other Enterobacteriaceae. These plasmids frequently harbour beta-lactam resistance genes from the CTX-M, TEM and OXA families.</obo:IAO_0000115>
+        <rdfs:label>IncF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115>IncI1 is a plasmid typing incompatibility group or replicon, associated with antibiotic resistance. IncI1 plasmids carry resistance genes from the CTX-M, CMY, TEM, SHV, and VIM beta-lactamase families, as well as other resistance genes.</obo:IAO_0000115>
+        <rdfs:label>IncI1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115>IncL/M plasmid incompatibility group. IncL/M plasmids have been associated with aminoglycoside resistance, beta-lactam resistance (CTX-M, TEM, SHV, IMP) and fluoroquinolone resistance genes.</obo:IAO_0000115>
+        <rdfs:label>IncL/M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000008"/>
+        <obo:IAO_0000115>Resistance plasmids carrying KPC Carbapenemases found in Klebsiella pneumoniae</obo:IAO_0000115>
+        <rdfs:label>pKPC-484</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+
