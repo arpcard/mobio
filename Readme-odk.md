@@ -1,6 +1,8 @@
 MANAGING MOBIO
 
-Instruction resources: 
+Mobio is best managed with a Docker-managed toolkit called the Ontology Development Kit. Once loaded, ODK is pretty low profile - it only comes into action when one is at the command prompt in the mobio repository's /src/ontology folder, by running the "> sh run.sh" command.  That accesses (on demand) the robot program and other software that is tucked inside the docker container, operating in the context of the current directory. Once complete, one is dropped back into the same directory.
+
+Instruction resources that may be helpful for more details: 
 
 	https://oboacademy.github.io/obook/howto/odk-create-repo/
 	https://oboacademy.github.io/obook/tutorial/setting-up-project-odk/
@@ -8,13 +10,28 @@ Instruction resources:
 
 Final folder structure on contributor's computer typically at:
 
-../Documents/GitHub/mobio/ [github repo, and place where initial ODK/docker config files exists]
+../Documents/GitHub/mobio/ 				Github repo on your computer, also where initial ODK/docker config files can be added.
 
 ../mobio/mobio.owl 						Main ontology file
    ...
 ../mobio/src/ontology/					Where mobio editable files are located
 ../mobio/src/ontology/mobio-edit.owl   	Main editable mobio file
 ../mobio/src/ontology/imports/			Import files from other ontologies
+
+GET DOCKER AND ODK
+
+For all users, to load Docker and the ODK:
+
+Install Docker into your computer (https://www.docker.com/get-docker). 
+It doesn't matter what folder you are currently in. 
+To test, type in command line:
+
+	> docker ps
+
+1) Get docker to load latest ODK version image for reuse. 
+   DO THIS OCCASIONALLY TO UPDATE odkfull VERSION!!!
+
+	> docker pull obolibrary/odkfull
 
 
 ______________________________________________________________________________
@@ -138,24 +155,13 @@ Edit container line to point to odkfull version.
 
 	container: obolibrary/odkfull:v1.3.0
 
-	
+
 ______________________________________________________________________________
 INITIAL CONVERSION TO LATEST ODK
 
 Here we create a new Repository with the Ontology Development Kit, then weave in existing mobio ontology files.
 
-GET DOCKER
-
-Install Docker into your computer (https://www.docker.com/get-docker). 
-It doesn't matter what folder you are currently in. 
-To test, type in command line:
-
-	> docker ps
-
-1) Get docker to load latest ODK version image for reuse. 
-   DO THIS OCCASIONALLY TO UPDATE odkfull VERSION!!!
-
-	> docker pull obolibrary/odkfull
+1) Do the GET DOCKER step above.
 
 2) Create github "working" folder for mobio project, and navigate to it
 
