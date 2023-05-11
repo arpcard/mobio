@@ -1,3 +1,8 @@
 GO:0000150 ## recombinase activity
 GO:0004803 ## transposase activity
 GO:006276 ## plasmid maintenance
+GO:0070582 ## theta DNA replication
+GO:0000732 ## strand displacement
+GO:0070581 ## rolling circle DNA replication
+GO:0009294 ## DNA-mediated transformation
+GO:0101031 ## chaperone complex
