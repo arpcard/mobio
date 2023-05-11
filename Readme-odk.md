@@ -91,7 +91,7 @@ A detail with import files is that they import terms from a local mirror of an o
 
 NEW IMPORT FILE SOURCE
 
-1) Add new xxx_terms.txt file to src/ontology/imports/ foldermobio-odk.yaml.  
+1) Add new xxx_terms.txt file to src/ontology/imports/ folder mobio-odk.yaml.  
 2) Then refresh the install file src/ontology/mobio-odk.yaml with new term source.  
 3) Then refresh configuration:
 
@@ -101,7 +101,7 @@ ROBOT FILES
 
 TO DO - EDIT AND TEST THIS:
 
-Imports are by default assumed to be driven by "SLME" - Syntactic Locality Module Extractor (see http://robot.obolibrary.org/extract).  One can change this configuration to use other kinds of import, using "module_type: custom", OR using the https://robot.obolibrary.org/template command that extracts terms from spreadsheet / tsv tables, which is done via following pattern in rc/ontology/mobio-odk.yaml: 
+Imports are by default assumed to be driven by "SLME" - Syntactic Locality Module Extractor (see http://robot.obolibrary.org/extract).  One can change this configuration to use other kinds of import, using "module_type: custom", OR using the https://robot.obolibrary.org/template command that extracts terms from spreadsheet / tsv tables, which is done via following pattern in src/ontology/mobio-odk.yaml: 
 
   products:
     - filename: mycomp.owl
