@@ -1,193 +1,167 @@
 format-version: 1.2
-date: 23:10:2019 11:30
-saved-by: CARD
-auto-generated-by: cv2obo
-default-namespace: mobile_elements_ontology
-ontology: mobile_elements_ontology
+data-version: mobio/releases/2023-04-13/mobio-simple.owl
+subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
+subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
+subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
+subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
+ontology: mobio/mobio-simple
+property_value: http://purl.org/dc/terms/description "None" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/title "Mobilome Ontology" xsd:string
+property_value: owl:versionInfo "2023-04-13" xsd:string
 
 [Term]
 id: MOBIO:0000001
 name: mobile genetic element
-namespace: mobile_elements_ontology
 def: "Mobile genetic elements (MGEs) are a type of genetic material, a segment of DNA or RNA, that is capable of movement around a genome or that can be transferred from one species or replicon to another. These include transposons, plasmids, bacteriophages, and genomic islands. The mechanism of movement may be self-encoded or may rely on other enzymes and structures, such as a pilus. In bacteria, MGEs are often associated with the movement of antibiotic resistance genes and virulence factors from one species to another, for example by plasmid-mediated transfer." []
-is_a: MOBIO:0000184 ! process or component of mobile genetic element biology or chemistry
 
 [Term]
 id: MOBIO:0000002
 name: plasmid
-namespace: mobile_elements_ontology
 def: "A plasmid is a small, circular, double-stranded DNA molecule that is distinct from a cell's chromosomal DNA. Plasmids naturally exist in bacterial cells, and they also occur in some eukaryotes. Often, the genes carried in plasmids provide bacteria with genetic advantages, such as antibiotic resistance. Plasmids have a wide range of lengths, from roughly one thousand DNA base pairs to hundreds of thousands of base pairs." []
 is_a: MOBIO:0000001 ! mobile genetic element
 
 [Term]
 id: MOBIO:0000003
 name: transposable element
-namespace: mobile_elements_ontology
-def: "A transposable element (TE or transposon) is a DNA sequence that can change its position within a genome, sometimes creating or reversing mutations and altering the cell's genome size. Transposition often results in duplication of the same genetic material. Transposons were originally discovered as jumping genes by Barbara McClintock." []
+def: "A transposable element (TE or transposon) is a DNA sequence that can change its position within a genome, sometimes creating or reversing mutations and altering the cell's genome size. Transposition often results in duplication of the same genetic material. Transposons were originally discovered as \"jumping genes\" by Barbara McClintock." []
+synonym: "transposon" EXACT []
 is_a: MOBIO:0000001 ! mobile genetic element
 relationship: part_of MOBIO:0000002 ! plasmid
-synonym: "transposon" EXACT []
 
 [Term]
 id: MOBIO:0000004
 name: bacteriophage
-namespace: mobile_elements_ontology
 def: "Bacteriophage are viral infectious agents with bacterial host organisms. Bacteriophage infect and replicate inside bacterial host cells, causing cell lysis as viral particles replicate. Bacteriophage are involved in DNA transfer between host organisms at low frequency through transduction: when segments of host DNA is accidentally packaged with the viral DNA, then integrated into a new host genome and later inherited." []
 is_a: MOBIO:0000001 ! mobile genetic element
 
 [Term]
 id: MOBIO:0000006
 name: Col Plasmids
-namespace: mobile_elements_ontology
 def: "These plasmids contain genes that code for bacteriocins, proteins that can kill other bacteria." []
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
 id: MOBIO:0000007
 name: Fertility F-Plasmids
-namespace: mobile_elements_ontology
 def: "Fertility F-plasmids contain tra genes and are capable of conjugation resulting in the expression of sex pilli." []
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
 id: MOBIO:0000008
 name: Resistance Plasmids
-namespace: mobile_elements_ontology
 def: "These plasmids contain genes that provide resistance against antibiotics or poisons. Historically known as R-factors, before the nature of plasmids was understood." []
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
 id: MOBIO:0000009
 name: Degradative Plasmids
-namespace: mobile_elements_ontology
 def: "These plasmids enable the digestion of unusual substances, e.g. toluene and salicylic acid." []
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
 id: MOBIO:0000010
 name: Virulence Plasmids
-namespace: mobile_elements_ontology
 def: "which turn the bacterium into a pathogen" []
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
 id: MOBIO:0000011
 name: mechanism of plasmid maintenance
-namespace: mobile_elements_ontology
 def: "The set of specific processes that needed for plasmid partition, stability, replication, and mobility. These are all processes that allow for the plasmid to move between organisms." []
-is_a: MOBIO:0000016 ! process or mechanism of genetic mobility
 
 [Term]
 id: MOBIO:0000012
 name: mechanism of replication
-namespace: mobile_elements_ontology
 def: "Any process or set of processes through which plasmid replication is initiated." []
 is_a: MOBIO:0000011 ! mechanism of plasmid maintenance
 
 [Term]
 id: MOBIO:0000013
 name: theta type
-namespace: mobile_elements_ontology
 def: "Replication by the Theta Mechanism - opening of the strands followed by RNA priming" []
 is_a: MOBIO:0000012 ! mechanism of replication
 
 [Term]
 id: MOBIO:0000014
 name: strand displacement
-namespace: mobile_elements_ontology
 def: "strand displacement replication. Opening of the strands followed by RNA priming" []
 is_a: MOBIO:0000012 ! mechanism of replication
 
 [Term]
 id: MOBIO:0000015
 name: rolling circle replication
-namespace: mobile_elements_ontology
 def: "A mechanism of plasmid replication in which the two strands are asynchronously copied, with one strand initially forming a single-stranded circle." []
 is_a: MOBIO:0000012 ! mechanism of replication
 
 [Term]
 id: MOBIO:0000016
 name: process or mechanism of genetic mobility
-namespace: mobile_elements_ontology
 def: "Molecular mechanisms involved in the intracellular and intercellular transfer, integration, stabilization and recombination of mobile genetic elements." []
-is_a: MOBIO:0000184 ! process or component of mobile genetic element biology or chemistry
 
 [Term]
 id: MOBIO:0000017
 name: conjugative transfer
-namespace: mobile_elements_ontology
 def: "Conjugation is the process by which one bacterium transfers genetic material to another through direct contact. During conjugation, one bacterium serves as the donor of the genetic material, and the other serves as the recipient." []
-is_a: MOBIO:0000196 ! mechanism of plasmid mobility
-relationship: part_of MOBIO:0000007 ! Fertility F-Plasmids
 synonym: "Conjugation" EXACT []
+is_a: MOBIO:0000196 ! mechanism of plasmid mobility
 
 [Term]
 id: MOBIO:0000019
 name: mechanism of stabilization
-namespace: mobile_elements_ontology
 def: "Stabilization mechanisms facilitate and promote the survival of plasmids in their host cells. This includes mechanisms that allow for the survival of the host cell itself in harsh conditions." []
 is_a: MOBIO:0000011 ! mechanism of plasmid maintenance
 
 [Term]
 id: MOBIO:0000020
 name: transformation
-namespace: mobile_elements_ontology
 def: "Transformation refers to process of free DNA uptake by competent cells and subsequent integration and functional expression of genes. Extracellular DNA continually enters the environment upon release from decomposing cells, disrupted cells, viral particles or excretion from living cells." []
 is_a: MOBIO:0000016 ! process or mechanism of genetic mobility
 
 [Term]
 id: MOBIO:0000021
 name: Toxin-antitoxin system
-namespace: mobile_elements_ontology
 def: "A toxin-antitoxin system is a set of two or more closely linked genes that together encode both a protein 'poison' and a corresponding 'antidote'. When these systems are contained on plasmids – transferable genetic elements – they ensure that only the daughter cells that inherit the plasmid survive after cell division. If the plasmid is absent in a daughter cell, the unstable anti-toxin is degraded and the stable toxic protein kills the new cell; this is known as 'post-segregational killing' (PSK)." []
-is_a: MOBIO:0000019 ! mechanism of stabilization
 
 [Term]
 id: MOBIO:0000022
 name: Type I TA System
-namespace: mobile_elements_ontology
 def: "Type I toxin-antitoxin systems rely on the base-pairing of complementary antitoxin RNA with the toxin's mRNA. Translation of the mRNA is then inhibited either by degradation via RNase III or by occluding the Shine-Dalgarno sequence or ribosome binding site." []
 is_a: MOBIO:0000021 ! Toxin-antitoxin system
 
 [Term]
 id: MOBIO:0000023
 name: Type II TA System
-namespace: mobile_elements_ontology
 def: "In this system a labile protein antitoxin tightly binds and inhibits the activity of a stable toxin. Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression." []
 is_a: MOBIO:0000021 ! Toxin-antitoxin system
 
 [Term]
 id: MOBIO:0000024
 name: Type III TA System
-namespace: mobile_elements_ontology
 def: "Type III toxin-antitoxin systems rely on direct interaction between a toxic protein and an RNA antitoxin. The toxic effects of the protein are neutralised by the RNA gene." []
 is_a: MOBIO:0000021 ! Toxin-antitoxin system
 
 [Term]
 id: MOBIO:0000025
 name: conjugal transfer subunit or complex
-namespace: mobile_elements_ontology
 def: "The process of conjugation requires several different types of subunits and complexes." []
 is_a: MOBIO:0000185 ! complex or subunit involved in plasmid maitenance
 
 [Term]
 id: MOBIO:0000026
 name: pilX7
-namespace: mobile_elements_ontology
 def: "Protein involved in the conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli." [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000027
 name: pilX8
-namespace: mobile_elements_ontology
 def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli." [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000028
 name: colicin immunity protein
-namespace: mobile_elements_ontology
 def: "Colicin immunity proteins are plasmid encoded proteins necessary for protecting the cell against colicins. Colicins are toxins released by bacteria during times of stress" []
 is_a: MOBIO:0000188 ! subunit or complex involved in stabilization
 relationship: part_of MOBIO:0000006 ! Col Plasmids
@@ -195,76 +169,66 @@ relationship: part_of MOBIO:0000006 ! Col Plasmids
 [Term]
 id: MOBIO:0000029
 name: pilX9
-namespace: mobile_elements_ontology
-def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.\n" [PMID:19717626, PMID:18375554]
+def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.\n" [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000030
 name: pilX10
-namespace: mobile_elements_ontology
-def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to type IV secretory pathway VirB10 protein" [PMID:19717626, PMID:18375554]
+def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to type IV secretory pathway VirB10 protein" [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000031
 name: pilX11
-namespace: mobile_elements_ontology
 def: "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to P-type DNA transfer ATPase VirB11." [PMID:18375554, PMID:19717626]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000032
 name: taxB
-namespace: mobile_elements_ontology
 def: "conjugal transfer protein - conjugal transfer protein TraG" [PMID:18375554]
 is_a: MOBIO:0000181 ! conjugation coupling protein
 
 [Term]
 id: MOBIO:0000033
 name: RelE
-namespace: mobile_elements_ontology
-def: "Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." [PMID:21324908, PMID:9767574, PMID:22210768, PMID:18375554, PMID:12526800, PMID:15576765]
+def: "Toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." [PMID:12526800, PMID:15576765, PMID:18375554, PMID:21324908, PMID:22210768, PMID:9767574]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000123 ! RelB/RelE Type II toxin-antitoxin system
 
 [Term]
 id: MOBIO:0000034
 name: DNA topoisomerase
-namespace: mobile_elements_ontology
-def: "Topoisomerases are enzymes that participate in the overwinding or underwinding of DNA. They bind to double-stranded DNA and cut the phosphate backbone of either one or both the DNA strands." []
+def: "Topoisomerases are enzymes that participate in the overwinding or underwinding of DNA. They bind to double-stranded DNA and cut the phosphate backbone of either one or both the DNA strands. " []
 is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
-relationship: participates_in MOBIO:0000013 ! theta type
-relationship: participates_in MOBIO:0000014 ! strand displacement
-relationship: participates_in MOBIO:0000015 ! rolling circle replication
+relationship: RO:0000056 MOBIO:0000013 ! participates in theta type
+relationship: RO:0000056 MOBIO:0000014 ! participates in strand displacement
+relationship: RO:0000056 MOBIO:0000015 ! participates in rolling circle replication
 
 [Term]
 id: MOBIO:0000035
 name: traE
-namespace: mobile_elements_ontology
 def: "The traE gene, first identified in plasmid RP4, is a homologue of E. coli DNA topoisomerase III." [PMID:18375554]
 is_a: MOBIO:0000034 ! DNA topoisomerase
 
 [Term]
 id: MOBIO:0000036
 name: Molecular Chaperone
-namespace: mobile_elements_ontology
 def: "Molecular chaperones are proteins that assist the covalent folding or unfolding and the assembly or disassembly of other macromolecular structures. Chaperones are present when the macromolecules perform their normal biological functions and have correctly completed the processes of folding and/or assembly. The chaperones are concerned primarily with protein folding. One major function of chaperones is to prevent both newly synthesized polypeptide chains and assembled subunits from aggregating into nonfunctional structures. Many chaperones are heat shock proteins because the tendency to aggregate increases as proteins are denatured by stress.\n\nMolecular chaperones have been shown to be involved in both the assembly and disassembly of DNA replication complexes." []
 is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
-relationship: participates_in MOBIO:0000015 ! rolling circle replication
+relationship: RO:0000056 MOBIO:0000015 ! participates in rolling circle replication
 
 [Term]
 id: MOBIO:0000037
 name: DnaJ
-namespace: mobile_elements_ontology
 def: "Chaperone DnaJ, also known as Hsp40 (heat shock protein 40 kD), is a molecular chaperone protein. The J domain of DnaJ interacts with Hsp70 heat shock proteins. DnaJ heat-shock proteins play a role in regulating the ATPase activity of Hsp70 heat-shock proteins." [PMID:18375554]
-is_a: MOBIO:0000036 ! Molecular Chaperone
 synonym: "Hsp40" EXACT []
+is_a: MOBIO:0000036 ! Molecular Chaperone
 
 [Term]
 id: MOBIO:0000038
 name: transposase
-namespace: mobile_elements_ontology
 def: "Class 2 transposons encode transposase, which is an enzyme that binds to the end of a transposon and catalyzes the movement of the transposon to another part of the genome by a cut and paste mechanism or a replicative transposition mechanism.\n" []
 is_a: MOBIO:0000190 ! subunit or complex involved in genetic mobility
 relationship: part_of MOBIO:0000003 ! transposable element
@@ -272,116 +236,100 @@ relationship: part_of MOBIO:0000003 ! transposable element
 [Term]
 id: MOBIO:0000039
 name: replication initiation protein RepC
-namespace: mobile_elements_ontology
 def: "This protein is a specific topoisomerase involved in initiating replication. This protein is specifically required and may be rate-limiting for replication of the plasmid in vivo.\n" []
-is_a: MOBIO:0000046 ! replication initiation protein
 synonym: "repC" EXACT []
+is_a: MOBIO:0000046 ! replication initiation protein
 
 [Term]
 id: MOBIO:0000040
 name: Chromate transport protein
-namespace: mobile_elements_ontology
 def: "These proteins reduce chromate accumulation and are essential for chromate resistance. They are composed of one or two copies of this region. The short-chain CHR proteins form heterodimer transporters which efflux chromate ions from the cytoplasm, while the long chain CHR proteins appear to have arisen from a gene fusion event of two short chain transporters" []
-is_a: MOBIO:0000019 ! mechanism of stabilization
 is_a: MOBIO:0000188 ! subunit or complex involved in stabilization
 
 [Term]
 id: MOBIO:0000041
 name: Dihydrofolate reductase
-namespace: mobile_elements_ontology
 def: "Dihydrofolate reductase converts dihydrofolate into tetrahydrofolate, a methyl group shuttle required for the de novo synthesis of purines, thymidylic acid, and certain amino acids." []
-is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
-relationship: participates_in MOBIO:0000013 ! theta type
-relationship: participates_in MOBIO:0000014 ! strand displacement
-relationship: participates_in MOBIO:0000015 ! rolling circle replication
 synonym: "DfrA" EXACT []
+is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
+relationship: RO:0000056 MOBIO:0000013 ! participates in theta type
+relationship: RO:0000056 MOBIO:0000014 ! participates in strand displacement
+relationship: RO:0000056 MOBIO:0000015 ! participates in rolling circle replication
 
 [Term]
 id: MOBIO:0000042
 name: Class 1 Integrase
-namespace: mobile_elements_ontology
-def: "Class 1 Integrase is a site-specific recombination enzyme that is part of the class 1 integron system. It recognizes the recombination site, attI1, which is where it will catalyze the insertion of gene casettes." [PMID:8574395, PMID:18193080]
+def: "Class 1 Integrase is a site-specific recombination enzyme that is part of the class 1 integron system. It recognizes the recombination site, attI1, which is where it will catalyze the insertion of gene casettes." [PMID:18193080, PMID:8574395]
+synonym: "Intl1" EXACT []
 is_a: MOBIO:0000104 ! recombinase
 relationship: part_of MOBIO:0000043 ! integron
-synonym: "Intl1" EXACT []
 
 [Term]
 id: MOBIO:0000043
 name: integron
-namespace: mobile_elements_ontology
 def: "Integrons are genetic mechanisms that allow bacteria to adapt and evolve rapidly through the acquisition, stockpiling and differential expression of new genes. Additionally, an integron will usually contain one or more gene cassettes that have been incorporated into it." []
-is_a: MOBIO:0000016 ! process or mechanism of genetic mobility
-relationship: part_of MOBIO:0000002 ! plasmid
+is_a: MOBIO:0000001 ! mobile genetic element
 relationship: part_of MOBIO:0000003 ! transposable element
 
 [Term]
 id: MOBIO:0000044
 name: PadR family transcriptional regulator
-namespace: mobile_elements_ontology
 def: "DNA-binding transcriptional regulator. Protein that is involved in negative regulation of phenolic acid metabolism." []
 is_a: MOBIO:0000045 ! transcriptional regulator of operons found in MGEs
 
 [Term]
 id: MOBIO:0000045
 name: transcriptional regulator of operons found in MGEs
-namespace: mobile_elements_ontology
 def: "transcriptional regulation is the means by which a cell regulates the conversion of DNA to RNA (transcription), thereby orchestrating gene activity." []
 is_a: MOBIO:0000190 ! subunit or complex involved in genetic mobility
 
 [Term]
 id: MOBIO:0000046
 name: replication initiation protein
-namespace: mobile_elements_ontology
 def: "protein required for initiation of replication" []
 is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
-relationship: participates_in MOBIO:0000013 ! theta type
-relationship: participates_in MOBIO:0000014 ! strand displacement
-relationship: participates_in MOBIO:0000015 ! rolling circle replication
+relationship: RO:0000056 MOBIO:0000013 ! participates in theta type
+relationship: RO:0000056 MOBIO:0000014 ! participates in strand displacement
+relationship: RO:0000056 MOBIO:0000015 ! participates in rolling circle replication
 
 [Term]
 id: MOBIO:0000047
 name: replication initiation protein RepA
-namespace: mobile_elements_ontology
 def: "This protein is essential for plasmid replication; it is involved in copy control functions" []
-is_a: MOBIO:0000046 ! replication initiation protein
 synonym: "RepA" EXACT []
+is_a: MOBIO:0000046 ! replication initiation protein
 
 [Term]
 id: MOBIO:0000048
 name: Major pili subunit operon regulatory protein papB
-namespace: mobile_elements_ontology
 def: "papB may act as both positive and negative regulator of the pyelonephritis-associated pili (pap) pilin gene transcription. It is found in the pap operon." []
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
-relationship: participates_in MOBIO:0000017 ! conjugative transfer
+relationship: RO:0000056 MOBIO:0000017 ! participates in conjugative transfer
 
 [Term]
 id: MOBIO:0000049
 name: Type II post-segregation antitoxin
-namespace: mobile_elements_ontology
-def: "Type II systems are organized in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression." []
+def: "Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression. " []
+synonym: "antitoxin" EXACT []
 is_a: MOBIO:0000191 ! component of a TA system
 relationship: part_of MOBIO:0000023 ! Type II TA System
-synonym: "antitoxin" EXACT []
 
 [Term]
 id: MOBIO:0000050
 name: C protein
-namespace: mobile_elements_ontology
 def: "transcriptional regulator" []
 is_a: MOBIO:0000045 ! transcriptional regulator of operons found in MGEs
 
 [Term]
 id: MOBIO:0000051
 name: Type II toxin
-namespace: mobile_elements_ontology
-def: "Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression." []
+def: "Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression. " []
 is_a: MOBIO:0000191 ! component of a TA system
 relationship: part_of MOBIO:0000023 ! Type II TA System
 
 [Term]
 id: MOBIO:0000052
 name: CcdA
-namespace: mobile_elements_ontology
 def: "Antitoxin component of a toxin-antitoxin (TA) module which inhibits the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system. Labile antitoxin with a half-life of about 1 hour in the presence of CcdB. Binds to and blocks the activity of CcdB; will also remove bound CcdB protein from the CcdB-GyrA complex by forming a CcdA-CcdB complex, a process termed rejuvenation. The N-terminal 36 residues are not required for rejuventation. Functions as a transcriptional corepressor for the ccdAB operon, repression also requires CcdB." [PMID:27357537]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 relationship: part_of MOBIO:0000079 ! CcdA/CcdB Type II Toxin-antitoxin system
@@ -389,7 +337,6 @@ relationship: part_of MOBIO:0000079 ! CcdA/CcdB Type II Toxin-antitoxin system
 [Term]
 id: MOBIO:0000053
 name: CcdB
-namespace: mobile_elements_ontology
 def: "Toxic component of a toxin-antitoxin (TA) module, functioning in plasmid maintainence. Responsible for the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system. Half-life of over 2 hours. Cell killing by CcdB is accompanied by filamentation, defects in chromosome and plasmid segregation, defects in cell division, formation of anucleate cells, decreased DNA synthesis and plasmid loss. Interferes with the activity of DNA gyrase, inducing it to form a covalent GyrA-DNA complex that cannot be resolved, thus promoting breakage of plasmid and chromosomal DNA. DNA breakage requires hydrolyzable ATP. Toxicity is inhibited by labile antitoxin CcdA, which blocks the activity of CcdB; CcdA also removes bound CcdB protein from the CcdB-GyrA complex by forming a CcdA-CcdB complex, a process termed rejuvenation. Also acts to inhibit partitioning of the chromosomal DNA. Functions as a transcriptional corepressor for the ccdAB operon, repression also requires CcdA." []
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000079 ! CcdA/CcdB Type II Toxin-antitoxin system
@@ -397,73 +344,61 @@ relationship: part_of MOBIO:0000079 ! CcdA/CcdB Type II Toxin-antitoxin system
 [Term]
 id: MOBIO:0000054
 name: replication initiation protein RepE
-namespace: mobile_elements_ontology
 def: "Replication initiator in the monomeric form, and autogenous repressor in the dimeric form." []
-is_a: MOBIO:0000046 ! replication initiation protein
 synonym: "RepE" EXACT []
+is_a: MOBIO:0000046 ! replication initiation protein
 
 [Term]
 id: MOBIO:0000055
 name: plasmid partition system
-namespace: mobile_elements_ontology
 def: "A plasmid partition system is the mechanism that assures the stable transmission of plasmids during bacterial cell division. Each plasmid has its independent replication system which control the number of copy of a plasmid in a cell." []
 is_a: MOBIO:0000011 ! mechanism of plasmid maintenance
 
 [Term]
 id: MOBIO:0000056
 name: Type I Partition System
-namespace: mobile_elements_ontology
-def: "This system is also used by most bacteria for chromosome segregation. Type I partition system are composed of an ATPase which contains Walker motifs and a CBP which is structurally distinct in type Ia and Ib. ATPases and CBP from type Ia are longer than the one from type Ib, but both CBPs contain an arginine finger in their N-terminal part. ParA proteins from different plasmids and bacterial species show 25 to 30% of sequence identity to the protein ParA of the plasmid P1. The partition of type I system uses a diffusion-ratchet mechanism." []
-is_a: MOBIO:0000055 ! plasmid partition system
-relationship: part_of MOBIO:0000007 ! Fertility F-Plasmids
+def: "This system is also used by most bacteria for chromosome segregation. Type I partition system are composed of an ATPase which contains Walker motifs and a CBP which is structurally distinct in type Ia and Ib. ATPases and CBP from type Ia are longer than the one from type Ib, but both CBPs contain an arginine finger in their N-terminal part. ParA proteins from different plasmids and bacterial species show 25 to 30% of sequence identity to the protein ParA of the plasmid P1. The partition of type I system uses a \"diffusion-ratchet\" mechanism. " []
 synonym: "Type 1 Partition System" EXACT []
+is_a: MOBIO:0000055 ! plasmid partition system
 
 [Term]
 id: MOBIO:0000057
 name: Type Ia Partition System
-namespace: mobile_elements_ontology
 def: "def" []
 is_a: MOBIO:0000056 ! Type I Partition System
 
 [Term]
 id: MOBIO:0000058
 name: Type Ib partition system
-namespace: mobile_elements_ontology
 def: "partition system" []
-is_a: MOBIO:0000056 ! Type I Partition System
 
 [Term]
 id: MOBIO:0000059
 name: Type II Partition System
-namespace: mobile_elements_ontology
 def: "This system is composed of an actin-like ATPase, ParM, and a CBP called ParR. The centromere-like site, parC contains two sets of five 11 base pair direct repeats separated by the parMR promoter. The amino-acid sequence identity can go down to 15% between ParM and other actin-like ATPase." []
 is_a: MOBIO:0000055 ! plasmid partition system
 
 [Term]
 id: MOBIO:0000060
 name: Type III Partition System
-namespace: mobile_elements_ontology
 def: "This mechanism is composed of tubulin-like GTPase termed TubZ, and the CBP is termed TubR. Amino-acid sequence identity can go down to 21% for TubZ proteins" []
 is_a: MOBIO:0000055 ! plasmid partition system
 
 [Term]
 id: MOBIO:0000061
 name: R388 Partition System
-namespace: mobile_elements_ontology
 def: "The partition system of the plasmid R388 has been found within the stb operon. This operon is composed of three genes, stbA, stbB and stbC" []
 is_a: MOBIO:0000055 ! plasmid partition system
 
 [Term]
 id: MOBIO:0000062
 name: pSK1 partition system
-namespace: mobile_elements_ontology
 def: "pSK1 is plasmid from Staphylococcus aureus. This plasmid has a partition system determined by a single gene, par, previously known as orf245. This gene has effect neither on the plasmid copy number nor on the growth rate (excluding its implication in a post-segregational killing system). A centromere-like binding sequence is present upstream the par gene, and is composed of seven direct repeats and one inverted repeat." []
 is_a: MOBIO:0000055 ! plasmid partition system
 
 [Term]
 id: MOBIO:0000063
 name: ParA
-namespace: mobile_elements_ontology
 def: "Partitioning protein - ATPase" []
 is_a: MOBIO:0000186 ! partitioning protein
 relationship: part_of MOBIO:0000058 ! Type Ib partition system
@@ -471,47 +406,40 @@ relationship: part_of MOBIO:0000058 ! Type Ib partition system
 [Term]
 id: MOBIO:0000064
 name: pifA
-namespace: mobile_elements_ontology
-def: "PifA is encoded on plasmid F and is responsible for the exclusion of phage T7. E. coli cells that carry plasmid F inhibit the growth of bacteriophage T7." [PMID:7883717]
+def: "PifA is encoded on plasmid F and is responsible for the exclusion of phage T7. E. coli cells that carry plasmid F inhibit the growth of bacteriophage T7. " [PMID:7883717]
 is_a: MOBIO:0000193 ! protein conferring phage resistance
 
 [Term]
 id: MOBIO:0000065
 name: replication initiation protein RepB
-namespace: mobile_elements_ontology
 def: "Is essential for plasmid replication. Nicks the positive strand at the plus origin of replication." [PMID:18375554]
-is_a: MOBIO:0000046 ! replication initiation protein
 synonym: "Pi protein" EXACT []
-synonym: "RepB" EXACT []
 synonym: "pir" EXACT []
+synonym: "RepB" EXACT []
+is_a: MOBIO:0000046 ! replication initiation protein
 
 [Term]
 id: MOBIO:0000066
 name: replication regulatory protein
-namespace: mobile_elements_ontology
 def: "regulates replication" []
 is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
 
 [Term]
 id: MOBIO:0000067
 name: repA2
-namespace: mobile_elements_ontology
 def: "This protein is involved in the determination of copy number in gene replication. It binds to the repA promoter thus inhibiting the synthesis of the mRNA for the initiator protein RepA." []
 is_a: MOBIO:0000066 ! replication regulatory protein
-relationship: regulates MOBIO:0000047 ! replication initiation protein RepA
 
 [Term]
 id: MOBIO:0000068
 name: SopA
-namespace: mobile_elements_ontology
-def: "This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon." [PMID:2670941, PMID:25753630]
+def: "This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon. " [PMID:25753630, PMID:2670941]
 is_a: MOBIO:0000186 ! partitioning protein
 relationship: part_of MOBIO:0000058 ! Type Ib partition system
 
 [Term]
 id: MOBIO:0000069
 name: SopB
-namespace: mobile_elements_ontology
 def: "SopB is involved in the control of plasmid partitioning. It is trans-acting and binds specifically with the DNA segment containing the sopC region. The presence of SopB in the SopAB complex enhances SopA binding to the target DNA sequence." [PMID:25753630, PMID:2670941]
 is_a: MOBIO:0000186 ! partitioning protein
 relationship: part_of MOBIO:0000058 ! Type Ib partition system
@@ -519,49 +447,42 @@ relationship: part_of MOBIO:0000058 ! Type Ib partition system
 [Term]
 id: MOBIO:0000070
 name: antirestriction protein KlcA
-namespace: mobile_elements_ontology
 def: "Bacterial cells often contain type I DNA and restriction modification (RM) systems that degrade foreign DNA during bacterial conjugation. KlcA could be involved in inhibiting the RM systems and enhancing the success of conjugation." [PMID:20007596]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000071
 name: group II intron reverse transcriptase/maturase
-namespace: mobile_elements_ontology
 def: "Members of this protein family are multifunctional proteins encoded in most examples of bacterial group II introns. Member proteins have an N-terminal reverse transcriptase (RNA-directed DNA polymerase) domain followed by an RNA-binding maturase domain. These proteins play a role in site-specific DNA insertion." []
 is_a: MOBIO:0000190 ! subunit or complex involved in genetic mobility
 
 [Term]
 id: MOBIO:0000072
 name: hydrolase
-namespace: mobile_elements_ontology
 def: "An enzyme that catalyzes the hydrolysis of a particular substrate. Many hydrolases participate in the inactivation of antibiotics." [PMID:25753630]
 is_a: MOBIO:0000188 ! subunit or complex involved in stabilization
 
 [Term]
 id: MOBIO:0000073
 name: single stranded DNA binding protein
-namespace: mobile_elements_ontology
 def: "Single-strand DNA-binding protein (SSB) binds to single-stranded regions of deoxyribonucleic acid (DNA). Single-stranded DNA is produced during all aspects of DNA metabolism: replication, recombination, and repair." [PMID:25753630]
 is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
 
 [Term]
 id: MOBIO:0000074
 name: PsiB
-namespace: mobile_elements_ontology
-def: "The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response." [PMID:19818715, PMID:25753630]
+def: "The PsiB protein inhibits the functional activity of RecA by binding to it. By doing so, this prevents RecA by catalyzing the autocleavage of LexA, which triggers the SOS response. " [PMID:19818715, PMID:25753630]
 is_a: MOBIO:0000195 ! SOS response inhibitor
 
 [Term]
 id: MOBIO:0000075
 name: PsiA
-namespace: mobile_elements_ontology
-def: "PsiA is a protein encoded in the Psi region, which also encodes the PsiB protein. PsiA and PsiB are most likely transcribed in a polycistronic manner. The role of PsiA has not been identified, however it does not seem to influence SOS inhibition mediated by PsiB." [PMID:25753630, PMID:2201950]
+def: "PsiA is a protein encoded in the Psi region, which also encodes the PsiB protein. PsiA and PsiB are most likely transcribed in a polycistronic manner. The role of PsiA has not been identified, however it does not seem to influence SOS inhibition mediated by PsiB." [PMID:2201950, PMID:25753630]
 is_a: MOBIO:0000195 ! SOS response inhibitor
 
 [Term]
 id: MOBIO:0000076
 name: Plasmid SOS inhibition
-namespace: mobile_elements_ontology
 def: "The process of bacterial conjugation involves the transfer of a conjugative plasmid as a single strand. The potentially deleterious SOS response, which is normally triggered by the appearance of single-stranded DNA, is suppressed in the recipient cell by a complex involving the PsiB protein. This complex inhibits the activity of RecA, preventing RecA from catalyzing the auto-cleavage of LexA, which activates the SOS response. SOS inhibition allows for the successful transfer of plasmid genetic information between bacterial cells through conjugation." []
 is_a: MOBIO:0000019 ! mechanism of stabilization
 relationship: part_of MOBIO:0000017 ! conjugative transfer
@@ -569,7 +490,6 @@ relationship: part_of MOBIO:0000017 ! conjugative transfer
 [Term]
 id: MOBIO:0000077
 name: Type I Toxin
-namespace: mobile_elements_ontology
 def: "toxin" []
 is_a: MOBIO:0000191 ! component of a TA system
 relationship: part_of MOBIO:0000022 ! Type I TA System
@@ -577,7 +497,6 @@ relationship: part_of MOBIO:0000022 ! Type I TA System
 [Term]
 id: MOBIO:0000078
 name: Type I Antitoxin
-namespace: mobile_elements_ontology
 def: "Type I antitoxins are RNA molecules that are complementary to the toxin mRNA, thus binding to the toxin and inhibiting its translation." []
 is_a: MOBIO:0000191 ! component of a TA system
 relationship: part_of MOBIO:0000022 ! Type I TA System
@@ -585,21 +504,18 @@ relationship: part_of MOBIO:0000022 ! Type I TA System
 [Term]
 id: MOBIO:0000079
 name: CcdA/CcdB Type II Toxin-antitoxin system
-namespace: mobile_elements_ontology
 def: "The CcdA/CCdB Type II Toxin-antitoxin system is one example of the bacterial toxin-antitoxin (TA) systems that encode two proteins, one a potent inhibitor of cell proliferation (toxin) and the other its specific antidote (antitoxin). These systems preferentially guarantee growth of plasmid-carrying daughter cells in a bacterial population by killing newborn bacteria that have not inherited a plasmid copy at cell division (post-segregational killing)." []
 is_a: MOBIO:0000023 ! Type II TA System
 
 [Term]
 id: MOBIO:0000080
 name: Hok/sok system
-namespace: mobile_elements_ontology
 def: "The hok/sok system is a postsegregational killing mechanism employed by the R1 plasmid in Escherichia coli to maintain a low copy number." []
 is_a: MOBIO:0000022 ! Type I TA System
 
 [Term]
 id: MOBIO:0000081
 name: Hok
-namespace: mobile_elements_ontology
 def: "host killing - a long lived (half-life 20 minutes) toxin" [PMID:25753630]
 is_a: MOBIO:0000077 ! Type I Toxin
 relationship: part_of MOBIO:0000080 ! Hok/sok system
@@ -607,7 +523,6 @@ relationship: part_of MOBIO:0000080 ! Hok/sok system
 [Term]
 id: MOBIO:0000082
 name: Mok
-namespace: mobile_elements_ontology
 def: "The mok reading frame in the hok/sok locus overlaps with the hok reading frame and is needed for the transcription of the hok gene." [PMID:25753630]
 is_a: MOBIO:0000191 ! component of a TA system
 relationship: part_of MOBIO:0000080 ! Hok/sok system
@@ -615,108 +530,92 @@ relationship: part_of MOBIO:0000080 ! Hok/sok system
 [Term]
 id: MOBIO:0000083
 name: TraM
-namespace: mobile_elements_ontology
 def: "Conjugative DNA transfer (CDT) is the unidirectional transfer of ssDNA plasmid from a donor to a recipient cell. It is the central mechanism by which antibiotic resistance and virulence factors are propagated in bacterial populations. Part of the relaxosome, which facilitates a site- and strand-specific cut in the origin of transfer by TraI, at the nic site. Cooperatively binds 3 regions in the F plasmid oriT locus; 2 are required for autoregulation while the other is required for plasmid transfer. Bends oriT DNA less than 50 degrees. Plasmid specificity is conferred by the TraD-TraM pair." [PMID:25753630]
 is_a: MOBIO:0000182 ! subunit of relaxosome
 
 [Term]
 id: MOBIO:0000084
 name: TraJ
-namespace: mobile_elements_ontology
 def: "TraJ is a conjugal transfer transcriptional regulator.It recruits the relaxasome complex to the oriT site" [PMID:25753630]
 is_a: MOBIO:0000182 ! subunit of relaxosome
 
 [Term]
 id: MOBIO:0000085
 name: TraY
-namespace: mobile_elements_ontology
 def: "TraY is a subunit of the relaxosome. It facilitates the binding of the relaxase to the oriT, and enhances cleaving activity." [PMID:25753630]
 is_a: MOBIO:0000182 ! subunit of relaxosome
 
 [Term]
 id: MOBIO:0000086
 name: TraA
-namespace: mobile_elements_ontology
 def: "The traA gene codes for relaxase, which is an enzyme that initiates plasmid DNA transfer during bacterial conjugation. Relaxase forms a relaxosome complex with auxiliary proteins to initiate conjugation. Relaxosome binds to the origin of transfer (oriT) sequence and cleaves the DNA strand that will be transferred (the T strand)." [PMID:25753630]
 is_a: MOBIO:0000120 ! mobility relaxase
 
 [Term]
 id: MOBIO:0000087
 name: TraL
-namespace: mobile_elements_ontology
 def: "Membrane protein involved in F pilin formation" [PMID:25753630]
 is_a: MOBIO:0000183 ! subunit of mating pair formation complex
 
 [Term]
 id: MOBIO:0000088
 name: traK
-namespace: mobile_elements_ontology
 def: "conjugal transfer protein" [PMID:25753630]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000089
 name: TraB
-namespace: mobile_elements_ontology
 def: "conjugal transfer protein" [PMID:25753630]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000090
 name: resolvase
-namespace: mobile_elements_ontology
 def: "A family of nucleases involved in resolution during DNA recombination. Resolvase enzymes resolve DNA intermediates known as junctions. Some resolvases have also been identified as repressors of transposase enzymes." []
+synonym: "recombinase" EXACT []
 is_a: MOBIO:0000190 ! subunit or complex involved in genetic mobility
 relationship: part_of MOBIO:0000003 ! transposable element
-relationship: regulates MOBIO:0000038 ! transposase
-synonym: "recombinase" EXACT []
 
 [Term]
 id: MOBIO:0000091
 name: ResD
-namespace: mobile_elements_ontology
 def: "resolvase" [PMID:25753630]
 is_a: MOBIO:0000090 ! resolvase
 
 [Term]
 id: MOBIO:0000092
 name: helicase
-namespace: mobile_elements_ontology
 def: "A helicase is an enzyme that participates in separating the strands of a nucleic acid duplex, which is required for processes such as DNA replication, transcription, recombination, and repair." []
 is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
 
 [Term]
 id: MOBIO:0000093
 name: UvrD
-namespace: mobile_elements_ontology
 def: "UvrD is a helicase that participates in nucleotide excision repair and other DNA repair and replication processes." [PMID:17190599]
 is_a: MOBIO:0000092 ! helicase
 
 [Term]
 id: MOBIO:0000094
 name: IS1 InsA
-namespace: mobile_elements_ontology
 def: "tranposase - Family IS1" [PMID:25753630]
 is_a: MOBIO:0000038 ! transposase
 
 [Term]
 id: MOBIO:0000095
 name: IS1 InsB
-namespace: mobile_elements_ontology
 def: "tranposase - family IS1\n" []
 is_a: MOBIO:0000038 ! transposase
 
 [Term]
 id: MOBIO:0000096
 name: DNA resolvase
-namespace: mobile_elements_ontology
 def: "DNA resolvase" [PMID:25753630]
 is_a: MOBIO:0000090 ! resolvase
 
 [Term]
 id: MOBIO:0000097
 name: PemI
-namespace: mobile_elements_ontology
 def: "Antitoxin component of a type II toxin-antitoxin (TA) module. Labile antitoxin that binds to its cognate PemK endoribonuclease toxin and neutralizes its activity. Responsible for the stable maintenance of the plasmid during cell division. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis." [PMID:17416361, PMID:25753630]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 relationship: part_of MOBIO:0000124 ! PemI/PemK type II Toxin-antitoxin system
@@ -724,243 +623,209 @@ relationship: part_of MOBIO:0000124 ! PemI/PemK type II Toxin-antitoxin system
 [Term]
 id: MOBIO:0000098
 name: PemK
-namespace: mobile_elements_ontology
-def: "Toxic component of a type II toxin-antitoxin (TA) module. Probably functions as an endoribonuclease. Responsible for the stable maintenance of the plasmid during cell division by postsegregational killing of plasmid-less daughter cells. Neutralized by coexpression with cognate antitoxin PemI. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis." [PMID:25753630, PMID:17416361]
+def: "Toxic component of a type II toxin-antitoxin (TA) module. Probably functions as an endoribonuclease. Responsible for the stable maintenance of the plasmid during cell division by postsegregational killing of plasmid-less daughter cells. Neutralized by coexpression with cognate antitoxin PemI. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis." [PMID:17416361, PMID:25753630]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000124 ! PemI/PemK type II Toxin-antitoxin system
 
 [Term]
 id: MOBIO:0000099
 name: RepA4
-namespace: mobile_elements_ontology
 def: "Associated with replication initiation." []
 is_a: MOBIO:0000046 ! replication initiation protein
 
 [Term]
 id: MOBIO:0000100
 name: ArgR family transcriptional regulator
-namespace: mobile_elements_ontology
 def: "Arginine repressor" [PMID:25753630]
-is_a: MOBIO:0000045 ! transcriptional regulator of operons found in MGEs
 synonym: "ArgR" EXACT []
+is_a: MOBIO:0000045 ! transcriptional regulator of operons found in MGEs
 
 [Term]
 id: MOBIO:0000101
 name: TraI
-namespace: mobile_elements_ontology
 def: "TraI codes for a relaxase of F plasmids, which cleaves the DNA in the initiationof plasmid conjugation. It has also been identified as DNA helicase I. DNA helicase I is a potent, highly processive DNA-dependent ATPase, able to unwind about 1.1 kb dsDNA per second in a 5' to 3' manner.  TraI forms a covalent 5'-phosphotyrosine intermediate linkage to the ssDNA. The transesterified T-strand moves from the donor cell to the recipient cell in a 5'to 3' direction, with the DNA helicase activity of TraI unwinding the DNA" [PMID:26899414]
 is_a: MOBIO:0000120 ! mobility relaxase
 
 [Term]
 id: MOBIO:0000102
 name: TraX
-namespace: mobile_elements_ontology
 def: "conjugal transfer protein - pilus acetylase" [PMID:25753630]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000103
 name: MarR famiy transcriptional regulator
-namespace: mobile_elements_ontology
 def: "Members of the Multiple Antibiotic Resistance Regulator (MarR) family. MarR regulates an operon that encodes a drug efflux pump, and mutations in proteins that partcipate in this system lead to a multiple antibiotic resistance phenotype. MarR proteins are members of the winged helix-turn-helix family of transcription factors. Some MarR homologs activate transcription, while most repress gene activity." []
 is_a: MOBIO:0000045 ! transcriptional regulator of operons found in MGEs
 
 [Term]
 id: MOBIO:0000104
 name: recombinase
-namespace: mobile_elements_ontology
 def: "Recombinases are genetic recombination enzymes. DNA recombinases are widely used in multicellular organisms to manipulate the structure of genomes, and to control gene expression." []
 is_a: MOBIO:0000190 ! subunit or complex involved in genetic mobility
 
 [Term]
 id: MOBIO:0000105
 name: Sin
-namespace: mobile_elements_ontology
 def: "Serine recombinases can rearrange DNA sequences with topological selectivity." [PMID:11994145]
 is_a: MOBIO:0000104 ! recombinase
 
 [Term]
 id: MOBIO:0000106
 name: bin
-namespace: mobile_elements_ontology
-def: "resolvase/integrase  \ta nuclease which is involved in DNA recombination." []
+def: "resolvase/integrase  \na nuclease which is involved in DNA recombination." []
 is_a: MOBIO:0000090 ! resolvase
 
 [Term]
 id: MOBIO:0000108
 name: AbiK
-namespace: mobile_elements_ontology
 def: "A reverse transcriptase (RT) is an enzyme used to generate complementary DNA (cDNA) from an RNA template, a process termed reverse transcription." []
 is_a: MOBIO:0000193 ! protein conferring phage resistance
 
 [Term]
 id: MOBIO:0000109
 name: ArsR family transcriptional regulator
-namespace: mobile_elements_ontology
 def: "functions as a transcriptional repressor of an arsenic resistance operon" []
 is_a: MOBIO:0000045 ! transcriptional regulator of operons found in MGEs
 
 [Term]
 id: MOBIO:0000110
 name: transposon DNA invertase
-namespace: mobile_elements_ontology
 def: "Enzyme that repress transposases" []
 is_a: MOBIO:0000090 ! resolvase
 
 [Term]
 id: MOBIO:0000111
 name: IS6 family transposase
-namespace: mobile_elements_ontology
 def: "The transposase produces nicks at the donor and the recipient sites. The 3' end of the transposon is ligated to the 5' end of the target sequence. The transposon is duplicated after DNA replication." []
 is_a: MOBIO:0000038 ! transposase
 
 [Term]
 id: MOBIO:0000112
 name: transposon Tn552 resolvase
-namespace: mobile_elements_ontology
 def: "Resolvase catalyzes the resolution (a site-specific recombination) of the cointegrated replicon to yield the final transposition products" []
 is_a: MOBIO:0000090 ! resolvase
 
 [Term]
 id: MOBIO:0000113
 name: Topoisomerase III
-namespace: mobile_elements_ontology
 def: "Topoisomerase III can introduce single-strand breaks that are required for DNA to be exchanged by adjacent chromosomes." []
 is_a: MOBIO:0000034 ! DNA topoisomerase
 
 [Term]
 id: MOBIO:0000114
 name: transposase IS66 family protein
-namespace: mobile_elements_ontology
 def: "Catalysis of the transposition of transposable elements or transposons. Transposases are involved in recombination required for transposition and are site-specific for the transposon/transposable element." []
 is_a: MOBIO:0000038 ! transposase
 
 [Term]
 id: MOBIO:0000115
 name: Tn3 family transposase
-namespace: mobile_elements_ontology
 def: "Catalysis of the transposition of transposable elements or transposons. Transposases are involved in recombination required for transposition and are site-specific for the transposon/transposable element." [PMID:26899414]
 is_a: MOBIO:0000038 ! transposase
 
 [Term]
 id: MOBIO:0000116
 name: IncFII family plasmid replication intiator RepA
-namespace: mobile_elements_ontology
 def: "Initiates plasmid replication." [PMID:26899414]
 is_a: MOBIO:0000046 ! replication initiation protein
 
 [Term]
 id: MOBIO:0000117
 name: Fertility inhibition protein
-namespace: mobile_elements_ontology
 def: "One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes. The transfer genes are responsible for the process, called conjugal transfer, in which DNA is transmitted from one bacterial host to another. RNA-binding that interacts with the traJ mRNA and its antisense RNA, finP, stabilizing finP against endonucleolytic degradation and facilitating sense-antisense RNA recognition." [PMID:25753630, PMID:26899414, PMID:9819055]
+synonym: "FinO" EXACT []
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 relationship: part_of MOBIO:0000007 ! Fertility F-Plasmids
-synonym: "FinO" EXACT []
 
 [Term]
 id: MOBIO:0000118
 name: relaxase
-namespace: mobile_elements_ontology
 def: "Enzymes that catalyze the cleavage of phosphodiester bonds in DNA in a site- and strand- specific manner, creating nicks that initiate either the processes of plasmid conjugation or rolling circle replication." []
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
 relationship: part_of MOBIO:0000127 ! relaxosome
-relationship: participates_in MOBIO:0000015 ! rolling circle replication
+relationship: RO:0000056 MOBIO:0000015 ! participates in rolling circle replication
 
 [Term]
 id: MOBIO:0000119
 name: replicative relaxase
-namespace: mobile_elements_ontology
 def: "The nicks produced by Rep relaxases initiate plasmid or virus RCR" []
 is_a: MOBIO:0000118 ! relaxase
 
 [Term]
 id: MOBIO:0000120
 name: mobility relaxase
-namespace: mobile_elements_ontology
 def: "Mob relaxases nick at origin of transfer (oriT) to initiate the process of DNA mobilization and transfer known as bacterial conjugation. Mob relaxases are part of the relaxosome." []
 is_a: MOBIO:0000118 ! relaxase
 
 [Term]
 id: MOBIO:0000121
 name: Coupling protein TraD
-namespace: mobile_elements_ontology
 def: "Conjugative DNA transfer (CDT) is the unidirectional transfer of ssDNA plasmid from a donor to a recipient cell. It is the central mechanism by which antibiotic resistance and virulence factors are propagated in bacterial populations. Couples the transferosome to a type IV secretion system. Probably forms a pore through which single-stranded plasmid DNA is transferred to the secretion system. The last 37 residues are important for determining plasmid specificity and transfer efficiency, with additional specificity conferred by the TraD-TraM pair." [PMID:26899414]
 is_a: MOBIO:0000181 ! conjugation coupling protein
 
 [Term]
 id: MOBIO:0000122
 name: RelB
-namespace: mobile_elements_ontology
 def: "Antitoxin component of a type II toxin-antitoxin (TA) module. Counteracts the effect of cognate toxin RelE via direct protein-protein interaction, preventing RelE from entering the ribosome A site and thus inhibiting its endoribonuclease activity. An autorepressor of relBE operon transcription. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity. Increased transcription rate of relBE and activation of relE is consistent with a lower level of RelB in starved cells due to degradation of RelB by protease Lon." []
+synonym: "DinJ" EXACT []
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 relationship: part_of MOBIO:0000123 ! RelB/RelE Type II toxin-antitoxin system
-synonym: "DinJ" EXACT []
 
 [Term]
 id: MOBIO:0000123
 name: RelB/RelE Type II toxin-antitoxin system
-namespace: mobile_elements_ontology
 def: "RelB is the antitoxin component of a type II toxin-antitoxin (TA) module. Counteracts the effect of cognate toxin RelE via direct protein-protein interaction, preventing RelE from entering the ribosome A site and thus inhibiting its endoribonuclease activity. An autorepressor of relBE operon transcription. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity. Increased transcription rate of relBE and activation of relE is consistent with a lower level of RelB in starved cells due to degradation of RelB by protease Lon.RelE is the toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity." []
 is_a: MOBIO:0000023 ! Type II TA System
 
 [Term]
 id: MOBIO:0000124
 name: PemI/PemK type II Toxin-antitoxin system
-namespace: mobile_elements_ontology
 def: "Toxin Antitoxin system Type II" []
 is_a: MOBIO:0000023 ! Type II TA System
 
 [Term]
 id: MOBIO:0000125
 name: HicA
-namespace: mobile_elements_ontology
 def: "HicA is a toxin part of the HicA/HicB toxin-antitoxin system overexpression of the HicA toxin, which exhibits mRNA interferase activity, causes cleavage of mRNAs and an arrest of cell growth" [PMID:25917909]
 is_a: MOBIO:0000051 ! Type II toxin
 
 [Term]
 id: MOBIO:0000126
 name: mobC
-namespace: mobile_elements_ontology
 def: "The relaxosome protein MobC promotes conjugal plasmid mobilization by extending DNA strand separation to the nick site at the origin of transfer" [PMID:24905728]
 is_a: MOBIO:0000182 ! subunit of relaxosome
 
 [Term]
 id: MOBIO:0000127
 name: relaxosome
-namespace: mobile_elements_ontology
 def: "Relaxosome is the complex of proteins that initiates bacterial conjugation. The subunits that make up the relaxosome are encoded by the tra gene in the origin of transfer, oriT, region on the plasmid, and in the host cell genome." []
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
-is_a: MOBIO:0000190 ! subunit or complex involved in genetic mobility
 relationship: part_of MOBIO:0000007 ! Fertility F-Plasmids
-relationship: participates_in MOBIO:0000017 ! conjugative transfer
+relationship: RO:0000056 MOBIO:0000017 ! participates in conjugative transfer
 
 [Term]
 id: MOBIO:0000128
 name: mobA
-namespace: mobile_elements_ontology
 def: "DNA strand transferase,conjugal transfer relaxase TraA,Ti-type conjugative transfer relaxase TraA,MobA/MobL family" []
 is_a: MOBIO:0000120 ! mobility relaxase
 
 [Term]
 id: MOBIO:0000129
 name: MobB
-namespace: mobile_elements_ontology
 def: "MobB promotes the specific transfer of the plasmid in the presence of conjugative plasmids." []
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000130
 name: ParDE type II toxin-antitoxin system
-namespace: mobile_elements_ontology
 def: "The parDE type II toxin-antitoxin system is one example of the bacterial toxin-antitoxin (TA) systems that encode two proteins, one a potent inhibitor of cell proliferation (toxin) and the other its specific antidote (antitoxin)." []
 is_a: MOBIO:0000023 ! Type II TA System
 
 [Term]
 id: MOBIO:0000131
 name: ParE
-namespace: mobile_elements_ontology
 def: "Toxin component of a toxin-antitoxin (TA) module involved in plasmid partition. Acts by inhibiting DNA gyrase, converting supercoiled plasmid DNA into a singly cleaved linear form in an ATP-dependent fashion. To do so it probably interacts with one of the gyrase subunits. Gyrase inhibition is prevented by antitoxin ParD, and is reversed in vitro by incubation with ParD. In cells that have lost the plasmid filamentation and growth inhibition occur; this is suppressed when ParD is supplied in trans. The parDE operon alone is capable of stabilizing an RK2-derived minireplicon under defined growth conditions in several different Gram-negative bacteria. It does so by the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system." [PMID:25232178, PMID:26823590]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000130 ! ParDE type II toxin-antitoxin system
@@ -968,7 +833,6 @@ relationship: part_of MOBIO:0000130 ! ParDE type II toxin-antitoxin system
 [Term]
 id: MOBIO:0000132
 name: VagC
-namespace: mobile_elements_ontology
 def: "Antitoxin of the VagCD toxin-antitoxin system" [PMID:23733457]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 relationship: part_of MOBIO:0000134 ! VagCD Type II Toxin-antitoxin system
@@ -976,7 +840,6 @@ relationship: part_of MOBIO:0000134 ! VagCD Type II Toxin-antitoxin system
 [Term]
 id: MOBIO:0000133
 name: VagD
-namespace: mobile_elements_ontology
 def: "Toxin of the VagCD toxin antitoxin system" [PMID:23733457]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000134 ! VagCD Type II Toxin-antitoxin system
@@ -984,21 +847,18 @@ relationship: part_of MOBIO:0000134 ! VagCD Type II Toxin-antitoxin system
 [Term]
 id: MOBIO:0000134
 name: VagCD Type II Toxin-antitoxin system
-namespace: mobile_elements_ontology
 def: "A toxin-antitoxin system is a set of two or more closely linked genes that together encode both a protein 'poison' and a corresponding 'antidote'. When these systems are contained on plasmids – transferable genetic elements – they ensure that only the daughter cells that inherit the plasmid survive after cell division." []
 is_a: MOBIO:0000023 ! Type II TA System
 
 [Term]
 id: MOBIO:0000135
 name: Acinetobacter baumannii ACICU plasmid pACICU1 addiction module antitoxin
-namespace: mobile_elements_ontology
 def: "an antibody that counteracts a toxin" [PMID:18411315]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 
 [Term]
 id: MOBIO:0000136
 name: phd
-namespace: mobile_elements_ontology
 def: "The product of the prevent host death (phd) gene is a type II antitoxin that is part of the doc/phd TA system." [PMID:10358024]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 relationship: part_of MOBIO:0000192 ! Doc/Phd Type II TA System
@@ -1006,7 +866,6 @@ relationship: part_of MOBIO:0000192 ! Doc/Phd Type II TA System
 [Term]
 id: MOBIO:0000137
 name: doc
-namespace: mobile_elements_ontology
 def: "The product of the death on curing (doc) gene is a type II toxin." []
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000192 ! Doc/Phd Type II TA System
@@ -1014,7 +873,6 @@ relationship: part_of MOBIO:0000192 ! Doc/Phd Type II TA System
 [Term]
 id: MOBIO:0000138
 name: ParB
-namespace: mobile_elements_ontology
 def: "Involved in plasmid partition. Localize to both poles of the predivisional cell following completion of DNA replication. Binds to the DNA origin of replication." []
 is_a: MOBIO:0000186 ! partitioning protein
 relationship: part_of MOBIO:0000058 ! Type Ib partition system
@@ -1022,42 +880,36 @@ relationship: part_of MOBIO:0000058 ! Type Ib partition system
 [Term]
 id: MOBIO:0000139
 name: ResA
-namespace: mobile_elements_ontology
 def: "a nuclease which is involved in DNA recombination." [PMID:23733457]
 is_a: MOBIO:0000090 ! resolvase
 
 [Term]
 id: MOBIO:0000140
 name: StbB
-namespace: mobile_elements_ontology
 def: "Mediator of plasmid stability" [PMID:25232178]
 is_a: MOBIO:0000051 ! Type II toxin
 
 [Term]
 id: MOBIO:0000141
 name: StbA
-namespace: mobile_elements_ontology
 def: "plasmid stability protein" [PMID:25232178]
 is_a: MOBIO:0000051 ! Type II toxin
 
 [Term]
 id: MOBIO:0000142
 name: Zeta
-namespace: mobile_elements_ontology
 def: "Type II toxin" [PMID:25845845]
 is_a: MOBIO:0000051 ! Type II toxin
 
 [Term]
 id: MOBIO:0000143
 name: StbD
-namespace: mobile_elements_ontology
 def: "Part of the PhdYeFM antitoxin toxin system" []
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 
 [Term]
 id: MOBIO:0000144
 name: Sok
-namespace: mobile_elements_ontology
 def: "Suppression of killing - a short lived (half-life 30 seconds) RNA antitoxin" []
 is_a: MOBIO:0000078 ! Type I Antitoxin
 relationship: part_of MOBIO:0000080 ! Hok/sok system
@@ -1065,14 +917,12 @@ relationship: part_of MOBIO:0000080 ! Hok/sok system
 [Term]
 id: MOBIO:0000145
 name: FlmA
-namespace: mobile_elements_ontology
 def: "Toxin of the Flm toxin/antitoxin system - F-plasmid homologues of hok/mok TA system" [PMID:7612932]
 is_a: MOBIO:0000077 ! Type I Toxin
 
 [Term]
 id: MOBIO:0000146
 name: ParD
-namespace: mobile_elements_ontology
 def: "ParD is a plasmid anti-toxin that forms a ribbon-helix-helix DNA binding structure. It stabilises plasmids by inhibiting ParE toxicity in cells that express ParD and ParE. ParD forms a dimer and also regulates its own promoter (parDE)." [PMID:17320955]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 relationship: part_of MOBIO:0000130 ! ParDE type II toxin-antitoxin system
@@ -1080,42 +930,36 @@ relationship: part_of MOBIO:0000130 ! ParDE type II toxin-antitoxin system
 [Term]
 id: MOBIO:0000147
 name: Epsilon
-namespace: mobile_elements_ontology
 def: "Epsilon antitoxin, produced by various prokaryotes, forms part of a post-segregational killing system, which is involved in the initiation of programmed cell death of plasmid-free cells." [PMID:20660665]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 
 [Term]
 id: MOBIO:0000148
 name: PndA
-namespace: mobile_elements_ontology
 def: "PndA encodes toxin proteins containing single transmembrane domains. It is part of the PndA-PndB (promotion of nucleic acid acid degradation) TA." [PMID:19052321]
 is_a: MOBIO:0000077 ! Type I Toxin
 
 [Term]
 id: MOBIO:0000149
 name: YafO
-namespace: mobile_elements_ontology
 def: "toxin type II" []
 is_a: MOBIO:0000051 ! Type II toxin
 
 [Term]
 id: MOBIO:0000150
 name: HipA
-namespace: mobile_elements_ontology
 def: "type II toxin" [PMID:22720069]
 is_a: MOBIO:0000051 ! Type II toxin
 
 [Term]
 id: MOBIO:0000151
 name: HicB
-namespace: mobile_elements_ontology
 def: "antitoxin type II" [PMID:25917909]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 
 [Term]
 id: MOBIO:0000152
 name: MazE
-namespace: mobile_elements_ontology
 def: "Type II antitoxin" [PMID:41136]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 relationship: part_of MOBIO:0000172 ! MazEF Type II toxin-antitoxin system
@@ -1123,7 +967,6 @@ relationship: part_of MOBIO:0000172 ! MazEF Type II toxin-antitoxin system
 [Term]
 id: MOBIO:0000153
 name: MazF
-namespace: mobile_elements_ontology
 def: "Type II toxin" [PMID:24275114]
 is_a: MOBIO:0000051 ! Type II toxin
 relationship: part_of MOBIO:0000172 ! MazEF Type II toxin-antitoxin system
@@ -1131,14 +974,12 @@ relationship: part_of MOBIO:0000172 ! MazEF Type II toxin-antitoxin system
 [Term]
 id: MOBIO:0000154
 name: Omega
-namespace: mobile_elements_ontology
 def: "Type II TA mediator" [PMID:18511120]
 is_a: MOBIO:0000155 ! Type II TA mediator
 
 [Term]
 id: MOBIO:0000155
 name: Type II TA mediator
-namespace: mobile_elements_ontology
 def: "Mediator of TA systems" []
 is_a: MOBIO:0000191 ! component of a TA system
 relationship: part_of MOBIO:0000023 ! Type II TA System
@@ -1146,112 +987,96 @@ relationship: part_of MOBIO:0000023 ! Type II TA System
 [Term]
 id: MOBIO:0000156
 name: YafN
-namespace: mobile_elements_ontology
-def: "antitoxin of YafO-YafN TA system" [PMID:16738553, PMID:19617347, PMID:9278503, PMID:16397293]
+def: "antitoxin of YafO-YafN TA system" [PMID:16397293, PMID:16738553, PMID:19617347, PMID:9278503]
 is_a: MOBIO:0000049 ! Type II post-segregation antitoxin
 
 [Term]
 id: MOBIO:0000157
 name: TraG
-namespace: mobile_elements_ontology
 def: "conjugal transfer mating pair stabilization protein" [PMID:11150665]
 is_a: MOBIO:0000181 ! conjugation coupling protein
 
 [Term]
 id: MOBIO:0000158
 name: TraS
-namespace: mobile_elements_ontology
 def: "TraS is an entry exclusion protein, involved in blocking the transfer of redundant DNA between donor cells." [PMID:11150665, PMID:337311]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000159
 name: TraH
-namespace: mobile_elements_ontology
 def: "conjugal transfer pilus assembly protein" [PMID:11150665]
 is_a: MOBIO:0000182 ! subunit of relaxosome
 
 [Term]
 id: MOBIO:0000160
 name: TrbB
-namespace: mobile_elements_ontology
 def: "conjugal transfer pilin assembly thiol-disulfide isomerase" [PMID:11150665]
 is_a: MOBIO:0000183 ! subunit of mating pair formation complex
 
 [Term]
 id: MOBIO:0000161
 name: TraQ
-namespace: mobile_elements_ontology
 def: "conjugal transfer pilin chaperone" [PMID:11150665]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000162
 name: TraF
-namespace: mobile_elements_ontology
 def: "conjugal transfer pilus assembly protein" [PMID:11150665]
 is_a: MOBIO:0000183 ! subunit of mating pair formation complex
 
 [Term]
 id: MOBIO:0000163
 name: TraN
-namespace: mobile_elements_ontology
 def: "conjugal transfer mating-pair stabilization protein" [PMID:11150665]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000164
 name: TrbC
-namespace: mobile_elements_ontology
 def: "conjugal transfer pilus assembly protein" [PMID:11150665]
 is_a: MOBIO:0000183 ! subunit of mating pair formation complex
 
 [Term]
 id: MOBIO:0000165
 name: TraU
-namespace: mobile_elements_ontology
 def: "conjugal transfer pilus assembly protein" [PMID:11150665]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000166
 name: TrbI
-namespace: mobile_elements_ontology
 def: "conjugal transfer protein" [PMID:11150665]
 is_a: MOBIO:0000183 ! subunit of mating pair formation complex
 
 [Term]
 id: MOBIO:0000167
 name: TraC
-namespace: mobile_elements_ontology
 def: "TraC is an ATPase" [PMID:11150665]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000168
 name: TraW
-namespace: mobile_elements_ontology
 def: "conjugal transfer pilus assembly protein" []
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000169
 name: TraP
-namespace: mobile_elements_ontology
 def: "conjugal transfer protein" [PMID:11150665]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000170
 name: TraV
-namespace: mobile_elements_ontology
 def: "conjugal transfer protein" [PMID:11150665]
 is_a: MOBIO:0000182 ! subunit of relaxosome
 
 [Term]
 id: MOBIO:0000171
 name: MazG
-namespace: mobile_elements_ontology
 def: "MazG is transcribed in the same polycistronic mRNA as MazE and MazF. It is a nucleotide pyrophosphohydrolase and breaks down  guanosine 3',5'-bispyrophosphate (ppGpp). The activity of MazG is inhibited by the MazEF complex. However, it is hypothesized that MazG reduces the deleterious effect of the MazF toxin." [PMID:16390452, PMID:24459253]
 is_a: MOBIO:0000155 ! Type II TA mediator
 relationship: part_of MOBIO:0000172 ! MazEF Type II toxin-antitoxin system
@@ -1259,79 +1084,68 @@ relationship: part_of MOBIO:0000172 ! MazEF Type II toxin-antitoxin system
 [Term]
 id: MOBIO:0000172
 name: MazEF Type II toxin-antitoxin system
-namespace: mobile_elements_ontology
 def: "Type II toxin-antitoxin system" [PMID:27259116]
 is_a: MOBIO:0000023 ! Type II TA System
 
 [Term]
 id: MOBIO:0000173
 name: RecA
-namespace: mobile_elements_ontology
-def: "RecA is a protein that binds single-stranded DNA, forming a nucleoprotein filament. When bound, RecA may either target a homologous double-stranded DNA sequence and catalyze recombination, or it catalyzes the autocleavage of LexA. This allows for the expression of SOS genes." [PMID:6244554, PMID:24459253, PMID:16000023]
+def: "RecA is a protein that binds single-stranded DNA, forming a nucleoprotein filament. When bound, RecA may either target a homologous double-stranded DNA sequence and catalyze recombination, or it catalyzes the autocleavage of LexA. This allows for the expression of SOS genes." [PMID:16000023, PMID:24459253, PMID:6244554]
 is_a: MOBIO:0000104 ! recombinase
 is_a: MOBIO:0000194 ! SOS response protein
 
 [Term]
 id: MOBIO:0000174
 name: DNA polymerase
-namespace: mobile_elements_ontology
-def: "DNA polymerases are enzymes that synthesize DNA molecules from deoxyribonucleotides, the building blocks of DNA. These enzymes are essential to DNA replication and usually work in pairs to create two identical DNA strands from a single original DNA molecule. During this process, DNA polymerase reads the existing DNA strands to create two new strands that match the existing ones." []
+def: "DNA polymerases are enzymes that synthesize DNA molecules from deoxyribonucleotides, the building blocks of DNA. These enzymes are essential to DNA replication and usually work in pairs to create two identical DNA strands from a single original DNA molecule. During this process, DNA polymerase \"reads\" the existing DNA strands to create two new strands that match the existing ones." []
 is_a: MOBIO:0000187 ! subunit or complex involved in plasmid DNA replication
-relationship: participates_in MOBIO:0000013 ! theta type
+relationship: RO:0000056 MOBIO:0000013 ! participates in theta type
 
 [Term]
 id: MOBIO:0000175
 name: TraO
-namespace: mobile_elements_ontology
 def: "conjugal transfer protein the forms the bulk of type IV secretion complex that spans outer membrane and periplasm" [PMID:23357767]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000176
 name: tnpA
-namespace: mobile_elements_ontology
 def: "ISNCY family-transposase" []
 is_a: MOBIO:0000038 ! transposase
 
 [Term]
 id: MOBIO:0000177
 name: transcription termination factor NusG
-namespace: mobile_elements_ontology
 def: "A transcription termination factor" []
 is_a: MOBIO:0000013 ! theta type
 
 [Term]
 id: MOBIO:0000178
 name: DNA-invertase hin
-namespace: mobile_elements_ontology
 def: "Hin belongs to the serine recombinase family of DNA invertases in which it relies on the active site serine to initiate DNA cleavage and recombination." [PMID:24905728]
 is_a: MOBIO:0000090 ! resolvase
 
 [Term]
 id: MOBIO:0000179
 name: LexA
-namespace: mobile_elements_ontology
 def: "LexA is a transcriptional repressor that represses SOS response genes coding primarily for error-prone DNA polymerases, DNA repair enzymes and cell division inhibitors. LexA forms de facto a two-component regulatory system with RecA, which senses DNA damage at stalled replication forks, forming monofilaments and acquiring an active conformation capable of binding to LexA and causing LexA to cleave itself, in a process called autoproteolysis" []
 is_a: MOBIO:0000194 ! SOS response protein
 
 [Term]
 id: MOBIO:0000180
 name: adiY
-namespace: mobile_elements_ontology
-def: "adiY is a DNA-binding transcriptional activator of the adi system. Implicated in arginine-dependent acid resistance in Escherichia coli." [PMID:8704970, PMID:12867448]
+def: "adiY is a DNA-binding transcriptional activator of the adi system. Implicated in arginine-dependent acid resistance in Escherichia coli." [PMID:12867448, PMID:8704970]
 is_a: MOBIO:0000045 ! transcriptional regulator of operons found in MGEs
 
 [Term]
 id: MOBIO:0000181
 name: conjugation coupling protein
-namespace: mobile_elements_ontology
 def: "During the process of conjugation, the coupling protein link the relaxosome and the mating pair formation complex to facilitate the movement of the DNA transfer intermediate through the channel between the cells." [PMID:26104193]
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000182
 name: subunit of relaxosome
-namespace: mobile_elements_ontology
 def: "Subunits of relaxosomes, which are needed for conjugation of plasmids." []
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 relationship: part_of MOBIO:0000127 ! relaxosome
@@ -1339,755 +1153,302 @@ relationship: part_of MOBIO:0000127 ! relaxosome
 [Term]
 id: MOBIO:0000183
 name: subunit of mating pair formation complex
-namespace: mobile_elements_ontology
 def: "Subunits of mating pair formation complexes, which are needed for conjugation of plasmids." []
 is_a: MOBIO:0000025 ! conjugal transfer subunit or complex
 
 [Term]
 id: MOBIO:0000184
 name: process or component of mobile genetic element biology or chemistry
-namespace: mobile_elements_ontology
 def: "Genes, proteins, other biological or chemical compounds, their shared components, and their associated mechanisms as they relate to mobile genetic element molecular biology and evolution." []
 
 [Term]
 id: MOBIO:0000185
 name: complex or subunit involved in plasmid maitenance
-namespace: mobile_elements_ontology
 def: "Proteins that participate in the partition, movement, stabilization, and replication of plasmids." []
 is_a: MOBIO:0000190 ! subunit or complex involved in genetic mobility
-relationship: participates_in MOBIO:0000011 ! mechanism of plasmid maintenance
 
 [Term]
 id: MOBIO:0000186
 name: partitioning protein
-namespace: mobile_elements_ontology
 def: "Proteins that are involved in the partitioning of plasmids." []
 is_a: MOBIO:0000185 ! complex or subunit involved in plasmid maitenance
-relationship: participates_in MOBIO:0000055 ! plasmid partition system
 
 [Term]
 id: MOBIO:0000187
 name: subunit or complex involved in plasmid DNA replication
-namespace: mobile_elements_ontology
 def: "Proteins that are needed for the replication of plasmids." []
 is_a: MOBIO:0000185 ! complex or subunit involved in plasmid maitenance
-relationship: participates_in MOBIO:0000012 ! mechanism of replication
+relationship: RO:0000056 MOBIO:0000012 ! participates in mechanism of replication
 
 [Term]
 id: MOBIO:0000188
 name: subunit or complex involved in stabilization
-namespace: mobile_elements_ontology
 def: "Proteins that are encoded on plasmids and that are promote the stability of the plasmid in the host cell, or confer advantages to the host cell in certain conditions." []
 is_a: MOBIO:0000185 ! complex or subunit involved in plasmid maitenance
-relationship: participates_in MOBIO:0000019 ! mechanism of stabilization
+relationship: RO:0000056 MOBIO:0000019 ! participates in mechanism of stabilization
 
 [Term]
 id: MOBIO:0000190
 name: subunit or complex involved in genetic mobility
-namespace: mobile_elements_ontology
 def: "Proteins that are involved in the movement of genetic information between different regions on a chromosome, different chromosomes, or different organisms through processes such as genetic recombination." []
-is_a: MOBIO:0000184 ! process or component of mobile genetic element biology or chemistry
 
 [Term]
 id: MOBIO:0000191
 name: component of a TA system
-namespace: mobile_elements_ontology
 def: "Proteins, and genes, and RNAs that are part of toxin-antitoxin systems encoded on plasmids." []
 is_a: MOBIO:0000188 ! subunit or complex involved in stabilization
 
 [Term]
 id: MOBIO:0000192
 name: Doc/Phd Type II TA System
-namespace: mobile_elements_ontology
 def: "This system is comprised of the toxin - Doc, and the antitoxin - Phd." []
 is_a: MOBIO:0000023 ! Type II TA System
 
 [Term]
 id: MOBIO:0000193
 name: protein conferring phage resistance
-namespace: mobile_elements_ontology
 def: "Genes that allow bacteria to resist infection by bacteriophages have been discovered to be encoded on plasmids." []
 is_a: MOBIO:0000188 ! subunit or complex involved in stabilization
 
 [Term]
 id: MOBIO:0000194
 name: SOS response protein
-namespace: mobile_elements_ontology
 def: "Proteins that are involved in the SOS response, which is a global response to DNA damage." []
 is_a: MOBIO:0000188 ! subunit or complex involved in stabilization
-relationship: participates_in MOBIO:0000076 ! Plasmid SOS inhibition
+relationship: RO:0000056 MOBIO:0000076 ! participates in Plasmid SOS inhibition
 
 [Term]
 id: MOBIO:0000195
 name: SOS response inhibitor
-namespace: mobile_elements_ontology
 def: "Proteins that repress the SOS response in bacterial cells to allow for successful bacterial conjugation." []
 is_a: MOBIO:0000188 ! subunit or complex involved in stabilization
-relationship: participates_in MOBIO:0000076 ! Plasmid SOS inhibition
+relationship: RO:0000056 MOBIO:0000076 ! participates in Plasmid SOS inhibition
 
 [Term]
 id: MOBIO:0000196
 name: mechanism of plasmid mobility
-namespace: mobile_elements_ontology
 def: "The mechanisms that mediate the intercellular movement of plasmids." []
 is_a: MOBIO:0000011 ! mechanism of plasmid maintenance
 
 [Term]
 id: MOBIO:0000197
 name: recombinase activity
-namespace: mobile_elements_ontology
 def: "Activity and mechanisms related to recombination in mobile genetic elements, including bacteriophage, plasmids and transposons" []
-is_a: MOBIO:0000016 ! process or mechanism of genetic mobility
 
 [Term]
 id: MOBIO:0000198
 name: DDE-based recombinase activity
-namespace: mobile_elements_ontology
 def: "DDE-based recombinase activity refers to DNA transposases with RNase H-like catalytic domains. The active site of such transposases contains an amino acid motif, DDE or sometimes DDD, which coordinates nucleophilic cleavage of a phosphodiester bond and joining by transesterification." []
 is_a: MOBIO:0000197 ! recombinase activity
 
 [Term]
 id: MOBIO:0000199
 name: serine-based recombinase activity
-namespace: mobile_elements_ontology
 def: "DNA cleavage by serine recombinases involves an active site serine nucleophile that attacks a phosphate group, without requiring a cofactor." []
 is_a: MOBIO:0000197 ! recombinase activity
 
 [Term]
 id: MOBIO:0000200
 name: tyrosine-based recombinase activity
-namespace: mobile_elements_ontology
 def: "A mechanism of transposition and recombination whereby DNA is cleaved by an active site tyrosine residue." []
 is_a: MOBIO:0000197 ! recombinase activity
 
 [Term]
 id: MOBIO:0000201
 name: group II intron
-namespace: mobile_elements_ontology
 def: "Group II introns are mobile genetic elements and mobile ribozymes that self-splice from precursor RNA to produce intron lariat RNA. A reverse transcriptase encoded by the intron stabilize the RNA structure for forward and reverse splicing, then the integrated intron RNA is converted back to DNA." []
 is_a: MOBIO:0000001 ! mobile genetic element
 
 [Term]
 id: MOBIO:0000202
 name: group I intron
-namespace: mobile_elements_ontology
 def: "Group I introns on mobile genetic elements and self-splicing ribozymes. In group I introns, self-splicing is assisted and catalyzed by guanosine-initiated processes, unlike group II introns." []
 is_a: MOBIO:0000001 ! mobile genetic element
 
 [Term]
 id: MOBIO:0000203
 name: genomic island
-namespace: mobile_elements_ontology
 def: "A genomic island is a type of mobile genetic element with evidence of horizontal gene transfer. Genomic islands are often large segments of DNA which carry accessory genes. These accessory genes may be integrase enzymes related to plasmid conjugation or bacteriophages, insertion elements or transposons for mobilization, and/or selective advantages. Genomic islands are well-known to carry genes associated with pathogenicity, symbiosis, metabolic fitness and/or antibiotic resistance." []
 is_a: MOBIO:0000001 ! mobile genetic element
 
 [Term]
 id: MOBIO:0000204
 name: class I transposable element
-namespace: mobile_elements_ontology
 def: "A class I transposable element, or Retrotransposon, uses an RNA intermediate to facilitate movement and copying. The transposable element is first transcribed from DNA to RNA, and the RNA copy is inserted into the genome via reverse transcription catalyzed by reverse transcriptase. The reverse transcriptase enzyme is generally encoded by the transposon" []
-is_a: MOBIO:0000003 ! transposable element
 synonym: "retrotransposon" EXACT []
+is_a: MOBIO:0000003 ! transposable element
 
 [Term]
 id: MOBIO:0000205
 name: class II transposable element
-namespace: mobile_elements_ontology
-def: "Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called sticky ends with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by sticky ends are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats." []
-is_a: MOBIO:0000003 ! transposable element
+def: "Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called \"sticky ends\" with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by \"sticky ends\" are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats." []
 synonym: "DNA transposon" EXACT []
+is_a: MOBIO:0000003 ! transposable element
 
 [Term]
 id: MOBIO:0000206
 name: transduction
-namespace: mobile_elements_ontology
 def: "Transduction is a type of gene transfer mediate by a bacteriophage. When bacteriophage proteins assemble following replication, segments of host DNA may be accidentally included; this DNA is then injected into the next host, where it can recombine and be inherited." []
 is_a: MOBIO:0000016 ! process or mechanism of genetic mobility
 
 [Term]
 id: MOBIO:0000207
 name: plasmid typing scheme
-namespace: mobile_elements_ontology
 def: "Methods of classifying and separating plasmids based on given criteria." []
 is_a: MOBIO:0000002 ! plasmid
 
 [Term]
 id: MOBIO:0000208
 name: replicon typing method
-namespace: mobile_elements_ontology
 def: "Replicon typing schemes use genetic elements of the replicon region to type plasmids. This can be done through Southern blot hybridization, or through PCR-based replicon typing." []
 is_a: MOBIO:0000207 ! plasmid typing scheme
 
 [Term]
 id: MOBIO:0000209
 name: Inc grouping
-namespace: mobile_elements_ontology
 def: "A plasmid typing method using plasmid incompatibility groups. Plasmids with similar replication mechanisms are often unable to co-exist in a cell." []
 is_a: MOBIO:0000208 ! replicon typing method
 
 [Term]
 id: MOBIO:0000210
 name: MOB typing method
-namespace: mobile_elements_ontology
 def: "MOB typing relies on the conserved N-terminal sequence of the relaxase proteins encoded by transmissible plasmids. MOB typing can make use of both in silico and PCR-based methods." []
 is_a: MOBIO:0000207 ! plasmid typing scheme
 
 [Term]
 id: MOBIO:0000211
 name: replicon probe hybridization
-namespace: mobile_elements_ontology
 def: "A method wherein plasmids are classified according to Southern blot hybridizations using replicons as probes. This method lacks specificity when similar replicons are present; it is usually applied following PCR-based replicon typing (PBRT)." []
 is_a: MOBIO:0000208 ! replicon typing method
 
 [Term]
 id: MOBIO:0000212
 name: replicon subtyping
-namespace: mobile_elements_ontology
 def: "A plasmid typing method wherein allelic profiles are assessed at six loci. Plasmids are assigned a pMLST subtype nesting within the broader replicon type. This can be performed with PCR-based or in silico methods." []
 is_a: MOBIO:0000208 ! replicon typing method
 
 [Term]
 id: MOBIO:0000213
 name: PCR-based MOB typing
-namespace: mobile_elements_ontology
 def: "PCR-based degenerate primer MOB typing is used to type Proteobacterial and Enterococcal plasmids." []
 is_a: MOBIO:0000210 ! MOB typing method
 
 [Term]
 id: MOBIO:0000214
 name: in silico MOB typing
-namespace: mobile_elements_ontology
 def: "in silico MOB typing using six N-terminal relaxase sequences are used as PSI-BLAST probes to detect relaxases from transmissible plasmids. Plasmids are then partitioned into six possible MOB types." []
 is_a: MOBIO:0000210 ! MOB typing method
 
 [Term]
 id: MOBIO:0000215
 name: Tn3-like family transposon
-namespace: mobile_elements_ontology
 def: "A family of complex class II replicative transposons, often carrying genes for ampicillin or other beta-lactam resistance." []
 is_a: MOBIO:0000205 ! class II transposable element
 
 [Term]
 id: MOBIO:0000216
 name: Tn4401
-namespace: mobile_elements_ontology
 def: "Tn4401 is a Tn3-like transposon of which there are 5 subtypes (Tn4401a-e). Tn4401 has been shown to carry KPC family carbapenemases and are involved in KPC gene mobilization." [PMID:21844325]
 is_a: MOBIO:0000215 ! Tn3-like family transposon
 
 [Term]
 id: MOBIO:0000217
 name: Tn1999
-namespace: mobile_elements_ontology
 def: "A Tn3-like mosaic transposon carrying CTX-M and OXA beta-lactamase based resistance genes." [PMID:23027715]
 is_a: MOBIO:0000215 ! Tn3-like family transposon
 
 [Term]
 id: MOBIO:0000218
 name: IncA/C
-namespace: mobile_elements_ontology
 def: "A plasmid incompatibility group, IncA/C plasmids are large, low copy number, theta-replicating plasmids." []
 is_a: MOBIO:0000209 ! Inc grouping
 
 [Term]
 id: MOBIO:0000219
 name: IncF
-namespace: mobile_elements_ontology
 def: "IncF plasmids are commonly carried by antibiotic-resistant Escherichia coli or other Enterobacteriaceae. These plasmids frequently harbour beta-lactam resistance genes from the CTX-M, TEM and OXA families." []
 is_a: MOBIO:0000209 ! Inc grouping
 
 [Term]
 id: MOBIO:0000220
 name: IncI1
-namespace: mobile_elements_ontology
 def: "IncI1 is a plasmid typing incompatibility group or replicon, associated with antibiotic resistance. IncI1 plasmids carry resistance genes from the CTX-M, CMY, TEM, SHV, and VIM beta-lactamase families, as well as other resistance genes." []
 is_a: MOBIO:0000209 ! Inc grouping
 
 [Term]
 id: MOBIO:0000221
 name: IncL/M
-namespace: mobile_elements_ontology
 def: "IncL/M plasmid incompatibility group. IncL/M plasmids have been associated with aminoglycoside resistance, beta-lactam resistance (CTX-M, TEM, SHV, IMP) and fluoroquinolone resistance genes." []
 is_a: MOBIO:0000209 ! Inc grouping
 
 [Term]
 id: MOBIO:0000222
 name: pKPC-484
-namespace: mobile_elements_ontology
 def: "Resistance plasmids carrying KPC Carbapenemases found in Klebsiella pneumoniae" []
 is_a: MOBIO:0000008 ! Resistance Plasmids
 
-[Term]
-id: MOBIO:0000223
-name: pONE429
-namespace: mobile_elements_ontology
-def: "pONE429 plasmid was first isolated from selenomonas ruminatium S20. It has a similar replicase protein to POM1, pSN2 and pIM13 plasmids. It uses the rolling circle replication mechanism." [PMID:9871109]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000225
-name: KP1 plasmid
-namespace: mobile_elements_ontology
-def: "KP1 is a cryptic plasmid found at high copy number isolated from Flavobacterium species. The plasmid contains two open reading frames of significant length" [PMID:9871109]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000226
-name: R27
-namespace: mobile_elements_ontology
-def: "A Temperature-sensitive conjugative plasmid R27, the prototype for the IncHI1 family of plasmids. A number of insertion elements were found, including the full Tn 10 transposon, which carries tetracycline resistance genes and two transfer regions, Tra1 and Tra2." [PMID:10773089]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000227
-name: pSS
-namespace: mobile_elements_ontology
-def: "A large virulence plasmid, pSS, that contains a novel toxin-antitoxin system (stbDE homologs) downstream of the replication region." [PMID:16122562]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000228
-name: pKLC102
-namespace: mobile_elements_ontology
-def: "Plasmid pKLC102 coexists as a plasmid and genome island in clone C strains. Mobility suggested to be conjugative." [PMID:14702321]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000229
-name: pRK100
-namespace: mobile_elements_ontology
-def: "Conjugative F-like plasmid. Two functional replication regions, a F plasmid related RepFIB and a R1 plasmid related RepFIIA replication region." [PMID:12932736]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000230
-name: pJ3356
-namespace: mobile_elements_ontology
-def: "Plasmid containing genes that confer resistance to mupirocin on a strain of  Staphylococcus aureus isolated from a hospital." [PMID:8825372]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000231
-name: pRGO1
-namespace: mobile_elements_ontology
-def: "pRGO1 is a cryptic plasmid from Propionibacterium acidipropionici E214. It has six open reading frames, which are designated Orf1 to Orf6" [PMID:11055911]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000232
-name: pO157
-namespace: mobile_elements_ontology
-def: "pO157 is a 93-kb plasmid found in clinical Entetrohemorrhagic Escherichia coli (EHEC) isolates world-wide. It shares strikingly similar genes and DNA sequences with F-factor and the transmissible drug-resistant plasmid R100" [PMID:9628576]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000233
-name: pOSAK1
-namespace: mobile_elements_ontology
-def: "pOSAK1 is a 3.3kb plasmid prevalent in Entetrohemorrhagic Esherichia coli (EHEC) strains isolated in Japan. It possesses a ColE1-like replication system, and the DNA sequence is extremely similar to that of a drug resistant plasmid, NTP16" [PMID:9628576]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000234
-name: pTi-SAKURA
-namespace: mobile_elements_ontology
-def: "pTi-SAKURA plasmid was first isolated from a bacterium Agrobacterium tumefaciens, which had been found in a crown gall tumor on Japanese cherry tree SAKURA" [PMID:10721727, PMID:9524202, PMID:9586048]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000235
-name: pSSU1
-namespace: mobile_elements_ontology
-def: "pSSU1 was first isolated from Streptococcus suis serotype 2 strain DAT1. It has six major open reading frames (ORFs)" [PMID:10568806]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000236
-name: pLTK2
-namespace: mobile_elements_ontology
-def: "pLTK2 is a 2295 bp length and has a major open reading frame of 951bp. It has a putative replication that shows high homology to those of other gram-positive bacterial plasmids that replicate by the rolling circle mechanism" [PMID:16232699]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000237
-name: EAF plasmid
-namespace: mobile_elements_ontology
-def: "EAF (adherence factor) plasmid encodes two known virulence-related operons, the bfp operon and bfpTVW(perABC) operons" [PMID:10496929]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000238
-name: pKDSC50
-namespace: mobile_elements_ontology
-def: "pKDSC50 is a large virulence plasmid from Salmonella enterica serovar cholrerasuis strain RF-1. It encodes a known virulence-associated operon, the spv operon, which is composed of genes essential for systematic infection by nontyphoidal salmonella" [PMID:11254626]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000239
-name: pUO1
-namespace: mobile_elements_ontology
-def: "pUO1 is a self-transmissible plasmid that carries tow holoacetate-catabolic transposons, TnHad1 and TnHad2" [PMID:11976102, PMID:14594853, PMID:16391056]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000240
-name: pWig1
-namespace: mobile_elements_ontology
-def: "pWig1 is a small plasmid of 5200bp found in the annotated genome of tsetse flies, Wigglesworthia glossinidia blevipalpis" [PMID:12219091]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000241
-name: pDB1
-namespace: mobile_elements_ontology
-def: "pDB1 is a construct plasmid formed by ligation of partial replicon of pDR1-1B, with an erythromycin resistance gene into pBluescript II KS(+)" [PMID:17986766]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000242
-name: pLA103
-namespace: mobile_elements_ontology
-def: "pLA103 is a 14-kb plasmid and it encodes 46 amino acid precursor including a 20 amino acid N-terminal extension" [PMID:8554765, PMID:8566697]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000243
-name: pMG160
-namespace: mobile_elements_ontology
-def: "pMG160 plasmid is a 3.4kb cryptic plasmid obtained from a new isolate of Rhodobacter blasticus. The complete nucleotide sequence of this plasmid contains three open reading frames (ORFs)" [PMID:12570988]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000244
-name: pAG5
-namespace: mobile_elements_ontology
-def: "pAG5 is a cryptic plasmid of 5648 bp in G.oxydans strains and has one open reading frame (ORF) for a possible replication protein" [PMID:12619700]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000245
-name: pSLA2-L
-namespace: mobile_elements_ontology
-def: "pSLA2-L is a 200kb linear plasmid involved in the production of two macrolide antibiotics, lankamycin(Lm) and lankacidin(Lc), in streptomyces rochei. It also contains two PKS gene clusters for Lm and unknown type-II polyketide" [PMID:12791134, PMID:9836424, PMID:10767533, PMID:10954087]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000246
-name: pCAR1
-namespace: mobile_elements_ontology
-def: "pCAR1 is a 199-kb plasmid that carries genes involved in the degradation of carbazole and dioxin" [PMID:19134166, PMID:16672459, PMID:19270415, PMID:15466034, PMID:17675379, PMID:19376894, PMID:12547188, PMID:19930443, PMID:20639326]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000247
-name: pMS260
-namespace: mobile_elements_ontology
-def: "pMS260 is an 8.1-kb plasmid isolated from Actinobacillus pleuropneumoniae and encodes steptomycin (SM) and sulfonamide (SA) resistance" [PMID:14711528]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000248
-name: Collb-P9
-namespace: mobile_elements_ontology
-def: "The Collb-P9 is a 93kb-pair IncI alpha group plasmid. Genetic analyses reveal that it contains at least two structural genes, repZ and inc." [PMID:11254626]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000249
-name: pMGT
-namespace: mobile_elements_ontology
-def: "pMGT is a 3.7-kb cryptic plasmid found in Magnetospirillum magneticum MGT-1" [PMID:12839813]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000250
-name: pTT8
-namespace: mobile_elements_ontology
-def: "pTT8 is a cryptic plasmid from Thermus thermophilus HB8 with eight putative open reading frames" [PMID:15109829]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000251
-name: pPI-1
-namespace: mobile_elements_ontology
-def: "pPI-1 is a 30.3kb plasmid of Staphylococcus warneri ISK-1 encoding the biosynthesis of and immunity to the lactici-481 type lantibiotic nukacin ISK-1" [PMID:11193411, PMID:15322349, PMID:15737403]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000252
-name: pPI-2
-namespace: mobile_elements_ontology
-def: "pPI-2 is a 2.8kb plasmid of staphylococcus warneri ISK-1" [PMID:15737403]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000253
-name: pRE8424
-namespace: mobile_elements_ontology
-def: "The pRE8424 is a 5987-bp circular plasmid from Rhodococcus erythropolis DSM8424, and it has six open reading frames (ORFs)" [PMID:15345444]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000254
-name: pMBO-1
-namespace: mobile_elements_ontology
-def: "pMBO-1 is a plasmid from Moraxella bovis strain Epp63" [PMID:16879933]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000255
-name: pHTbeta
-namespace: mobile_elements_ontology
-def: "The pHTbeta is a pheromone-independent pMG1-like plasmid that carries Tn1546-like transposons encoding vancomycin resistance" [PMID:16267297]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000256
-name: pTB6
-namespace: mobile_elements_ontology
-def: "pTB6 is a 3624 bp plasmid from Bifidobacterium longum similar to rolling circle replication plasmids pKJ36 and pB44" [PMID:15725673]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000257
-name: pBCNF5603
-namespace: mobile_elements_ontology
-def: "pBCNF5603 is a bacteriocin-encoding plasmid" [PMID:26055257]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000258
-name: pMU1
-namespace: mobile_elements_ontology
-def: "pMU1 is an 8.7kb plasmid isolated from Eikenella corrodens 1073 known to affect pilus formation and colony morphology" [PMID:15869847]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000259
-name: pMG1
-namespace: mobile_elements_ontology
-def: "pMG1 is a 65.1kb pheromone-independent Enterococcus faecium plasmid that carries a Tn4001-like transposon encoding gentamicin resistance" [PMID:18795955]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000260
-name: pA1
-namespace: mobile_elements_ontology
-def: "pA1 is a 46.6kb plasmid from Sphigomonas sp. A1 strain and its sequence corresponds to the typical IncP-1beta plasmid backbone without any accessory genes" [PMID:16445980]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000261
-name: pCPF4969
-namespace: mobile_elements_ontology
-def: "pCPF4969 is a 70.5kb plasmid with a conserved region that potentially encodes virulence factors and carries ORFs found on the conjugative transposon Tn916" []
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000262
-name: pCPF5603
-namespace: mobile_elements_ontology
-def: "pCPF5603 is a 75.3kb plasmid with a conserved region that potentially encodes virulence factors and carries ORFs on conjugative transposons Tn916" []
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000263
-name: plasmid NAH7
-namespace: mobile_elements_ontology
-def: "NAH7 is a Pseudomonas plasmid found to be transposable only in the presence of a transposase encoded by Tn1721" [PMID:2175388]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000264
-name: plasmid pBP136
-namespace: mobile_elements_ontology
-def: "pBP136 is IncP-1 beta plasmid from the human pathogen Bordtella pertussis, the primary aetiological agent of whooping cough" [PMID:17159199]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000265
-name: pWW53
-namespace: mobile_elements_ontology
-def: "pWW53 is a TOL plasmid in Pseudomonas putida MT53 and it encodes toluene-xylene catabolism" [PMID:1331988, PMID:11591664, PMID:3076178, PMID:22925377, PMID:8473862, PMID:3309179, PMID:2997136, PMID:9260942, PMID:10877777, PMID:17408691, PMID:3027047]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000266
-name: pLS30
-namespace: mobile_elements_ontology
-def: "pLS30 is a stable plasmid that shuttles between subtilitis species by conjugational transfer" []
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000267
-name: pLB1
-namespace: mobile_elements_ontology
-def: "pLB1 plasmid is found in alpha-proteobacterial strain Sphingobium japonicum UT26 and it is involved in gamma-hexachlorocyclohexane degradation" []
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000268
-name: pYAN-1
-namespace: mobile_elements_ontology
-def: "pYAN-1 is a small cryptic indigenous plasmid isolated from Sphigobium yanoikuyae" []
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000269
-name: pYAN-2
-namespace: mobile_elements_ontology
-def: "pYAN-2 is a small cryptic indigenous plasmid isolated from Sphigobium yanoikuyae and it contain mobAm, mobs and repA genes" [PMID:18391447]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000270
-name: pNC500
-namespace: mobile_elements_ontology
-def: "pNC500 is a 7.6kb cryptic plasmid detected in degrading Rhodococcus rhodochrous (formerly Nocardia corallina) B-2767" [PMID:17043815]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000271
-name: pCAR3
-namespace: mobile_elements_ontology
-def: "pCAR3 is a 245-kb circular plasmid isolated from Sphingomonas sp. strain KAI, and it contains carbazole degradative car-I gene cluster involved in the conversion of carbazole to anthranilate" [PMID:15796992, PMID:17172338, PMID:16672458, PMID:12052549]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000272
-name: pP99-018
-namespace: mobile_elements_ontology
-def: "pP99-018 is a multi-drug resistance plasmid isolated from Photobacterium damselae subsp. piscicida, which is a bacterium fish pathogen that causes a disease known as pasteurellosis" [PMID:18070959]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000273
-name: pP91278
-namespace: mobile_elements_ontology
-def: "pP91278 is a multi-drug resistance plasmid isolated from Photobacterium damselae subsp. piscicida, which is a bacterium fish pathogen that causes a disease known as pasteurellosis" [PMID:18070959]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000274
-name: pTZ2162
-namespace: mobile_elements_ontology
-def: "pTZ2162 is a 35.4 plasmid encoding multi-drug efflux gene qacB and it is widely distributed in methicillin-resistant Staphylococcus aureus (MRSA)" [PMID:18539327]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000275
-name: pHDC
-namespace: mobile_elements_ontology
-def: "pHDC is a 30kbp plasmid and it encodes a single copy of the pyruvol dependent histidine decarboxylase gene (hdc) in Tetragenococcus halophilus isolated from fish sauce" [PMID:18573560]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000276
-name: pCBM588
-namespace: mobile_elements_ontology
-def: "pCBM588 is a small cryptic bacteriocinogenic plasmid of Clostridium butyricum" [PMID:19840859]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000277
-name: pLB925A02
-namespace: mobile_elements_ontology
-def: "pLB925A02 is a 3524bp plasmid isolated from lactobacillus brevis strain, and it encodes a novel bacteriocin, brevicin 925A which is effective against certain Lactic acid bacteria (LAB)" [PMID:19372160]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000278
-name: pLB925A03
-namespace: mobile_elements_ontology
-def: "pLB925A03 is a 8881bp plasmid isolated from lactobacillus brevis strain" [PMID:19372160]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000279
-name: pLB925A04
-namespace: mobile_elements_ontology
-def: "pLB925A04 is a 65037bp plasmid isolated from lactobacillus brevis strain" [PMID:19372160]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000280
-name: pMG2200
-namespace: mobile_elements_ontology
-def: "pMG2200 is a pheromone-responsive plasmid and it encodes VanB-type vancomycin resistance and a Bac41-type bacteriocin" [PMID:19029325]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000281
-name: pDK1
-namespace: mobile_elements_ontology
-def: "pDK1 is a 128kbp toluene-catabolic (TOL) plasmids in Pseudomonas putida HS1" [PMID:8473862, PMID:1366507, PMID:3076182, PMID:7240090, PMID:20581207, PMID:22925377, PMID:1331988, PMID:1672868, PMID:7287632]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000282
-name: pLgLA39
-namespace: mobile_elements_ontology
-def: "pLgLA39 is a 33.3kb plasmid and it encodes genes related to gassericin A production/immunity (gaa), as well as gene for replication, plasmid maintenance, and conjugative transfer" [PMID:9648219, PMID:19666732]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000283
-name: pCP8533etx
-namespace: mobile_elements_ontology
-def: "pCP8533etx is an epsilon-toxin plasmid isolated from Clostridium perfringens type B strain NCTC8533, and the plasmid carries tcp conjugative transfer genes and encodes potential virulence factors including beta2-toxin, sortase and collagen adhesin" [PMID:18776010]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000284
-name: pP9014
-namespace: mobile_elements_ontology
-def: "pP9014 is an IncP-1 plasmid isolated from Photobacterium damselae subsp.piscicida, a causative agent of pseudotuberculosis" [PMID:23602560]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000285
-name: pUE30
-namespace: mobile_elements_ontology
-def: "pUE30 is a small cryptic plasmid from pUE30 from Deinococcus radiopugnans ATCC19172, and it possesses two open reading frames" [PMID:19504653]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000286
-name: pCAR2
-namespace: mobile_elements_ontology
-def: "pCAR2 is a self-transmissible plasmid isolated from Pseudomonas putida strain HS01 and it carries the transposon Tn4676" [PMID:15856217, PMID:19134166, PMID:20639326, PMID:19376894, PMID:16328978, PMID:19930443, PMID:19270415]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000287
-name: EcOYNIM_1998
-namespace: mobile_elements_ontology
-def: "EcOYNIM_1998 is a plasmid harvested from a non-insect-transmissible pyhtoplasma strain (OY-NIM) and it lacks the 157bp region upstream of orf2" [PMID:19631261]
-is_a: MOBIO:0000002 ! plasmid
-
-[Term]
-id: MOBIO:0000288
-name: EcoYNIM_2002_2004
-namespace: mobile_elements_ontology
-def: "EcoYNIM_2002_2004 is a plasmid harvested from a non-insect-transmissible pythoplasma strain (OY-NIM) and it lacks the entire orf8 and orf2, while the repBp is inserted" [PMID:19631261]
-is_a: MOBIO:0000002 ! plasmid
-
 [Typedef]
-id: is_a
-name: is_a
-xref: RO:is_a
+id: RO:0000056
+name: participates in
+name: participates_in
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
+xref: RO:participates_in
+property_value: IAO:0000111 "participates in" xsd:string
+property_value: IAO:0000112 "this blood clot participates in this blood coagulation" xsd:string
+property_value: IAO:0000112 "this input material (or this output material) participates in this process" xsd:string
+property_value: IAO:0000112 "this investigator participates in this investigation" xsd:string
+property_value: IAO:0000118 "participates_in" xsd:string
 
 [Typedef]
 id: part_of
+name: part of
 name: part_of
+namespace: external
+def: "a core relation that holds between a part and its whole" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+xref: BFO:0000050
 xref: RO:part_of
-
-[Typedef]
-id: participates_in
-name: participates_in
-xref: RO:participates_in
+property_value: IAO:0000111 "is part of" xsd:string
+property_value: IAO:0000112 "my brain is part of my body (continuant parthood, two material entities)" xsd:string
+property_value: IAO:0000112 "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)" xsd:string
+property_value: IAO:0000112 "this day is part of this year (occurrent parthood)" xsd:string
+property_value: IAO:0000116 "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other." xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
+property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
+property_value: IAO:0000118 "part_of" xsd:string
+property_value: RO:0001900 RO:0001901
+property_value: RO:0040042 BFO:0000002
+property_value: RO:0040042 BFO:0000003
+property_value: RO:0040042 BFO:0000004
+property_value: RO:0040042 BFO:0000017
+property_value: RO:0040042 BFO:0000019
+property_value: RO:0040042 BFO:0000020
+property_value: RO:0040042 BFO:0000031
+property_value: seeAlso http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
+property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartOf
+property_value: seeAlso "http://www.obofoundry.org/ro/#OBO_REL:part_of" xsd:string
+is_transitive: true
 
 [Typedef]
 id: regulates
 name: regulates
+namespace: external
+def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+xref: RO:0002211
 xref: RO:regulates
+property_value: IAO:0000117 https://orcid.org/0000-0001-7476-6306
+property_value: IAO:0000117 https://orcid.org/0000-0002-3837-8864
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 "GO" xsd:string
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000232 "Regulation precludes parthood; the regulatory process may not be within the regulated process." xsd:string
+property_value: IAO:0000589 "regulates (processual)" xsd:string
+property_value: IAO:0000600 "false" xsd:boolean
+is_transitive: true
 

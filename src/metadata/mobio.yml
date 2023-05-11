@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/mobio
+
+idspace: MOBIO
+base_url: /obo/mobio
+
+products:
+- mobio.owl: https://raw.githubusercontent.com/arpcard/mobio/main/mobio.owl
+- mobio.obo: https://raw.githubusercontent.com/arpcard/mobio/main/mobio.obo
+
+term_browser: ontobee
+example_terms:
+- MOBIO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/arpcard/mobio/v
+
+- prefix: /tracker/
+  replacement: https://github.com/arpcard/mobio/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/MOBIO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/arpcard/mobio/main/
+

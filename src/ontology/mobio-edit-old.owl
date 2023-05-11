@@ -1,3 +1,4 @@
+
 Prefix(:=<http://purl.obolibrary.org/obo/mobio.owl#>)
 Prefix(obo:=<http://purl.obolibrary.org/obo/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
@@ -6,21 +7,23 @@ Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
-
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/mobio.owl>
+
 Import(<http://purl.obolibrary.org/obo/mobio/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/mobio/imports/go_import.owl>)
+
 Import(<http://purl.obolibrary.org/obo/mobio/imports/ro_import.owl>)
+
 Import(<http://purl.obolibrary.org/obo/mobio/imports/so_import.owl>)
+
+Import(<http://purl.obolibrary.org/obo/mobio/imports/go_import.owl>)
+
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Mobilome Ontology")
 
-Declaration(Class(obo:BFO_0000001))
-Declaration(Class(obo:BFO_0000030))
 Declaration(Class(obo:MOBIO_0000001))
 Declaration(Class(obo:MOBIO_0000002))
 Declaration(Class(obo:MOBIO_0000003))
@@ -242,10 +245,12 @@ Declaration(Class(obo:MOBIO_0000222))
 Declaration(ObjectProperty(obo:BFO_0000050))
 Declaration(ObjectProperty(obo:RO_0000056))
 Declaration(ObjectProperty(obo:RO_0002211))
-Declaration(AnnotationProperty(obo:IAO_0000115))
+
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
+
+Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(oboInOwl:hasDbXref))
 Declaration(AnnotationProperty(oboInOwl:hasExactSynonym))
 Declaration(AnnotationProperty(oboInOwl:id))
@@ -272,12 +277,12 @@ AnnotationAssertion(rdfs:label oboInOwl:hasExactSynonym "has_exact_synonym")
 #   Object Properties
 ############################
 
-# Object Property: obo:BFO_0000050 (part of)
+# Object Property: obo:BFO_0000050 (part_of)
 
 AnnotationAssertion(oboInOwl:hasDbXref obo:BFO_0000050 "RO:part_of")
 AnnotationAssertion(rdfs:label obo:BFO_0000050 "part_of")
 
-# Object Property: obo:RO_0000056 (participates in)
+# Object Property: obo:RO_0000056 (participates_in)
 
 AnnotationAssertion(oboInOwl:hasDbXref obo:RO_0000056 "RO:participates_in")
 AnnotationAssertion(rdfs:label obo:RO_0000056 "participates_in")
@@ -391,6 +396,7 @@ AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000017 "Conjugation is the proces
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000017 "Conjugation")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000017 "conjugative transfer")
 SubClassOf(obo:MOBIO_0000017 obo:MOBIO_0000196)
+SubClassOf(obo:MOBIO_0000017 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000007))
 
 # Class: obo:MOBIO_0000019 (mechanism of stabilization)
 
@@ -408,6 +414,7 @@ SubClassOf(obo:MOBIO_0000020 obo:MOBIO_0000016)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000021 "A toxin-antitoxin system is a set of two or more closely linked genes that together encode both a protein 'poison' and a corresponding 'antidote'. When these systems are contained on plasmids – transferable genetic elements – they ensure that only the daughter cells that inherit the plasmid survive after cell division. If the plasmid is absent in a daughter cell, the unstable anti-toxin is degraded and the stable toxic protein kills the new cell; this is known as 'post-segregational killing' (PSK).")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000021 "Toxin-antitoxin system")
+SubClassOf(obo:MOBIO_0000021 obo:MOBIO_0000019)
 
 # Class: obo:MOBIO_0000022 (Type I TA System)
 
@@ -535,6 +542,7 @@ SubClassOf(obo:MOBIO_0000039 obo:MOBIO_0000046)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000040 "These proteins reduce chromate accumulation and are essential for chromate resistance. They are composed of one or two copies of this region. The short-chain CHR proteins form heterodimer transporters which efflux chromate ions from the cytoplasm, while the long chain CHR proteins appear to have arisen from a gene fusion event of two short chain transporters")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000040 "Chromate transport protein")
+SubClassOf(obo:MOBIO_0000040 obo:MOBIO_0000019)
 SubClassOf(obo:MOBIO_0000040 obo:MOBIO_0000188)
 
 # Class: obo:MOBIO_0000041 (Dihydrofolate reductase)
@@ -652,6 +660,7 @@ AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000056 "This system is also used 
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000056 "Type 1 Partition System")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000056 "Type I Partition System")
 SubClassOf(obo:MOBIO_0000056 obo:MOBIO_0000055)
+SubClassOf(obo:MOBIO_0000056 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000007))
 
 # Class: obo:MOBIO_0000057 (Type Ia Partition System)
 
@@ -663,6 +672,7 @@ SubClassOf(obo:MOBIO_0000057 obo:MOBIO_0000056)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000058 "partition system")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000058 "Type Ib partition system")
+SubClassOf(obo:MOBIO_0000058 obo:MOBIO_0000056)
 
 # Class: obo:MOBIO_0000059 (Type II Partition System)
 
@@ -721,6 +731,7 @@ SubClassOf(obo:MOBIO_0000066 obo:MOBIO_0000187)
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000067 "This protein is involved in the determination of copy number in gene replication. It binds to the repA promoter thus inhibiting the synthesis of the mRNA for the initiator protein RepA.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000067 "repA2")
 SubClassOf(obo:MOBIO_0000067 obo:MOBIO_0000066)
+SubClassOf(obo:MOBIO_0000067 ObjectSomeValuesFrom(obo:RO_0002211 obo:MOBIO_0000047))
 
 # Class: obo:MOBIO_0000068 (SopA)
 
@@ -868,6 +879,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000090 "recombinase")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000090 "resolvase")
 SubClassOf(obo:MOBIO_0000090 obo:MOBIO_0000190)
 SubClassOf(obo:MOBIO_0000090 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000003))
+SubClassOf(obo:MOBIO_0000090 ObjectSomeValuesFrom(obo:RO_0002211 obo:MOBIO_0000038))
 
 # Class: obo:MOBIO_0000091 (ResD)
 
@@ -1462,12 +1474,14 @@ SubClassOf(obo:MOBIO_0000184 obo:BFO_0000001)
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000185 "Proteins that participate in the partition, movement, stabilization, and replication of plasmids.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000185 "complex or subunit involved in plasmid maitenance")
 SubClassOf(obo:MOBIO_0000185 obo:MOBIO_0000190)
+SubClassOf(obo:MOBIO_0000185 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000011))
 
 # Class: obo:MOBIO_0000186 (partitioning protein)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000186 "Proteins that are involved in the partitioning of plasmids.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000186 "partitioning protein")
 SubClassOf(obo:MOBIO_0000186 obo:MOBIO_0000185)
+SubClassOf(obo:MOBIO_0000186 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000055))
 
 # Class: obo:MOBIO_0000187 (subunit or complex involved in plasmid DNA replication)
 

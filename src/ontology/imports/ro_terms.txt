@@ -1,0 +1,5 @@
+RO:0002211 # regulates
+RO:0000056 # participates in
+RO:0000057 # participant of 
+BFO:0000050 # part of
+BFO:0000051 # has part

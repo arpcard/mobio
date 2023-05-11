@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/mobio.owl#"
-     xml:base="http://purl.obolibrary.org/obo/mobio.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/mobio/mobio-full.owl#"
+     xml:base="http://purl.obolibrary.org/obo/mobio/mobio-full.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
      xmlns:so="http://purl.obolibrary.org/obo/so#"
@@ -18,8 +18,8 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mobio.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mobio/releases/2023-04-13/mobio.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mobio/mobio-full.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mobio/releases/2023-04-13/mobio-full.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Mobilome Ontology</terms:title>
