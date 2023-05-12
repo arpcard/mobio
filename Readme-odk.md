@@ -51,7 +51,7 @@ Edit and save mobio-edit.owl or whichever ontology import file you need.
 
 	> sh run.sh make IMP=false test
 
-Note that "> sh run.sh" involkes ODK via Docker, but lets you stay on command line and not have to do anything more to get access to ODK commands.
+Note that "> sh run.sh" invokes ODK via Docker, but lets you stay on command line and not have to do anything more to get access to ODK commands.
 
 Usually logical errors and accidental spaces in new term URLS etc must be dealt with. While you might see a few errors reported on screen, the full report containing these is at:
 
