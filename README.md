@@ -6,17 +6,7 @@ Description: The Mobilome Ontology describes bacterial mobile genetic elements, 
 
 More information can be found at http://obofoundry.org/ontology/mobio
 
-## Versions
-
-### Stable release versions
-
-The latest version of the ontology can always be found at:
-
-http://purl.obolibrary.org/obo/mobio.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
-
-### Editors' version
+## Editors' version
 
 Editors of this ontology should use the edit version, [src/ontology/mobio-edit.owl](src/ontology/mobio-edit.owl)
 
