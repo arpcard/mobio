@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
-
-  
-  <uri name="http://purl.obolibrary.org/obo/mobio/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/mobio/imports/bfo_import.obo" uri="imports/bfo_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/mobio/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/mobio/imports/ro_import.obo" uri="imports/ro_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/mobio/imports/so_import.owl" uri="imports/so_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/mobio/imports/so_import.obo" uri="imports/so_import.obo"/>
-  
-  <uri name="http://purl.obolibrary.org/obo/mobio/imports/go_import.owl" uri="imports/go_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/mobio/imports/go_import.obo" uri="imports/go_import.obo"/>
-  
-
-
-  
-
-</group>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/mobio/imports/robot-NTR-MGE-import.owl" uri="imports/robot-NTR-MGE-import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/em5k84n4.owl" uri="imports/iceo_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/j0awjsbn.owl" uri="imports/so_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/w5d6k8o8.owl" uri="imports/go_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/vpa9czr8.owl" uri="imports/go_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/mobio/imports/robot-inc-import.owl" uri="imports/robot-inc-import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/5o5c3xqm.owl" uri="imports/go_import%20copy.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/d0ee20w0.owl" uri="imports/go_import%20copy.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/r9na6bcp.owl" uri="imports/go_import%20copy.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/btpvk84n.owl" uri="imports/go_import%20copy.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/mobio.owl" uri="imports/go_import%20copy.owl.xml"/>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+        <uri name="http://purl.obolibrary.org/obo/mobio/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/mobio/imports/bfo_import.obo" uri="imports/bfo_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/mobio/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/mobio/imports/ro_import.obo" uri="imports/ro_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/mobio/imports/so_import.owl" uri="imports/so_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/mobio/imports/so_import.obo" uri="imports/so_import.obo"/>
+        <uri name="http://purl.obolibrary.org/obo/mobio/imports/go_import.owl" uri="imports/go_import.owl"/>
+        <uri name="http://purl.obolibrary.org/obo/mobio/imports/go_import.obo" uri="imports/go_import.obo"/>
+    </group>
 </catalog>

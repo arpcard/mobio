@@ -1,0 +1,45 @@
+[URI of the OWLoutput file]
+http://purl.obolibrary.org/obo/mobio/imports/so_import.owl
+
+[Source ontology]
+SO
+
+[Low level source term URIs]
+
+includeAllAnnotationProperties
+
+http://purl.obolibrary.org/obo/SO_0000101 # transposable_element
+http://purl.obolibrary.org/obo/SO_0000155 # plasmid
+http://purl.obolibrary.org/obo/SO_0000365 # integron
+http://purl.obolibrary.org/obo/SO_0000772 # genomic_island
+http://purl.obolibrary.org/obo/SO_0001037 # mobile_genetic_element
+http://purl.obolibrary.org/obo/SO_0001042 # phage_sequence
+
+[Top level source term URIs and target direct superclass URIs]
+
+http://purl.obolibrary.org/obo/SO_0001037 # mobile_genetic_element
+subClassOf http://purl.obolibrary.org/obo/BFO_0000030 #object
+
+http://purl.obolibrary.org/obo/SO_0000155 # plasmid
+subClassOf http://purl.obolibrary.org/obo/SO_0001037 # mobile_genetic_element
+
+http://purl.obolibrary.org/obo/SO_0000365 # integron
+subClassOf http://purl.obolibrary.org/obo/SO_0001037 # mobile_genetic_element
+
+http://purl.obolibrary.org/obo/SO_0000772 # genomic_island
+subClassOf http://purl.obolibrary.org/obo/SO_0001037 # mobile_genetic_element
+
+http://purl.obolibrary.org/obo/SO_0000101 # transposable_element
+subClassOf http://purl.obolibrary.org/obo/SO_0001037 # mobile_genetic_element
+
+http://purl.obolibrary.org/obo/SO_0001042 # phage_sequence
+subClassOf http://purl.obolibrary.org/obo/SO_0001037 # mobile_genetic_element
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://www.geneontology.org/formats/oboInOwl#hasDefinition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115

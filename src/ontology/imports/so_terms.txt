@@ -1,7 +1,0 @@
-SO:0000101 ## transposable_element
-SO:0000155 ## plasmid
-SO:0000364 ## transposable_element_flanking_region 
-SO:0000365 ## integron
-SO:0000772 ## genomic_island
-SO:0001037 ## mobile_genetic_element
-SO:0001042 ## phage_sequence

@@ -1,292 +1,126 @@
-Prefix(:=<http://purl.obolibrary.org/obo/mobio/imports/so_import.owl#>)
-Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
-Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
-Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
-Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
-Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/j0awjsbn.owl#"
+     xml:base="http://ontofox.hegroup.org/j0awjsbn.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/j0awjsbn.owl"/>
+    
 
 
-Ontology(<http://purl.obolibrary.org/obo/mobio/imports/so_import.owl>
-<http://purl.obolibrary.org/obo/mobio/releases/2023-04-13/imports/so_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/so/2021-11-22/so.owl>)
-Annotation(owl:versionInfo "2023-04-13")
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000101>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000110>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000155>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000239>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000364>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000365>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000400>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000733>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000772>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001037>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001038>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001039>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001041>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001042>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001234>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001235>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001411>))
-Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001412>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/so#has_quality>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/so#SOFA>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#date>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#inSubset>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#saved-by>))
-Declaration(AnnotationProperty(rdfs:label))
-############################
-#   Annotation Properties
-############################
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/so#SOFA> (<http://purl.obolibrary.org/obo/so#SOFA>)
-
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/so#SOFA> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
 
 
-############################
-#   Object Properties
-############################
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-# Object Property: <http://purl.obolibrary.org/obo/so#has_quality> (has_quality)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/so#has_quality> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/so#has_quality> "has_quality")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/so#has_quality> "The relationship between a feature and an attribute.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/so#has_quality> "has_quality")
-
+    
 
 
-############################
-#   Classes
-############################
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-# Class: <http://purl.obolibrary.org/obo/SO_0000001> (region)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000001> "A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000001> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000001> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000001> "SO:0000001")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/SO_0000001> <http://purl.obolibrary.org/obo/so#SOFA>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000001> "region")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0000001> <http://purl.obolibrary.org/obo/SO_0000110>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0000101> (transposable_element)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "http://www.sci.sdsu.edu/~smaloy/Glossary/T.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000101> "A transposon or insertion sequence. An element that can insert in a variety of DNA sequences.")
-AnnotationAssertion(Annotation(rdfs:label "wiki") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/SO_0000101> "http://en.wikipedia.org/wiki/Transposable_element")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000101> "transposable element")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000101> "transposon")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000101> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000101> "SO:0000101")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/SO_0000101> <http://purl.obolibrary.org/obo/so#SOFA>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000101> "transposable_element")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0000101> <http://purl.obolibrary.org/obo/SO_0001039>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0000110> (sequence_feature)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "LAMHDI:mb") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000110> "Any extent of continuous biological sequence.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000110> "INSDC_feature:misc_feature")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000110> "INSDC_note:other")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000110> "INSDC_note:sequence_feature")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000110> "located_sequence_feature")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000110> "sequence feature")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000110> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/SO_0000110> "located sequence feature")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000110> "SO:0000110")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/SO_0000110> <http://purl.obolibrary.org/obo/so#SOFA>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000110> "sequence_feature")
-DisjointClasses(<http://purl.obolibrary.org/obo/SO_0000110> <http://purl.obolibrary.org/obo/SO_0000400>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0000155> (plasmid)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ma") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000155> "A self replicating, using the hosts cellular machinery, often circular nucleic acid molecule that is distinct from a chromosome in the organism.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000155> "plasmid sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000155> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000155> "SO:0000155")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/SO_0000155> "This term is mapped to MGED. Do not obsolete without consulting MGED ontology.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000155> "plasmid")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0000155> <http://purl.obolibrary.org/obo/SO_0001235>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0000239> (flanking_region)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000239> "The sequences extending on either side of a specific region.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000239> "flanking region")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000239> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000239> "SO:0000239")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/SO_0000239> <http://purl.obolibrary.org/obo/so#SOFA>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000239> "flanking_region")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0000239> <http://purl.obolibrary.org/obo/SO_0001412>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0000364> (transposable_element_flanking_region)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000364> "The region of sequence surrounding a transposable element.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000364> "transposable element flanking region")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000364> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000364> "SO:0000364")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000364> "transposable_element_flanking_region")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0000364> <http://purl.obolibrary.org/obo/SO_0000239>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0000365> (integron)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:as") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000365> "A region encoding an integrase which acts at a site adjacent to it (attI_site) to insert DNA which must include but is not limited to an attC_site.")
-AnnotationAssertion(Annotation(rdfs:label "wiki") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/SO_0000365> "http://en.wikipedia.org/wiki/Integron")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000365> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000365> "SO:0000365")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000365> "integron")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0000365> <http://purl.obolibrary.org/obo/SO_0001039>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0000400> (sequence_attribute)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000400> "An attribute describes a quality of sequence.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000400> "sequence attribute")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000400> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000400> "SO:0000400")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000400> "sequence_attribute")
-
-# Class: <http://purl.obolibrary.org/obo/SO_0000733> (feature_attribute)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000733> "An attribute describing a located_sequence_feature.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000733> "feature attribute")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000733> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000733> "SO:0000733")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000733> "feature_attribute")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0000733> <http://purl.obolibrary.org/obo/SO_0000400>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0000772> (genomic_island)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Phigo:at") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000772> "A genomic island is an integrated mobile genetic element, characterized by size (over 10 Kb). It that has features that suggest a foreign origin. These can include nucleotide distribution (oligonucleotides signature, CG content etc.) that differs from the bulk of the chromosome and/or genes suggesting DNA mobility.")
-AnnotationAssertion(Annotation(rdfs:label "wiki") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/SO_0000772> "http://en.wikipedia.org/wiki/Genomic_island")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0000772> "genomic island")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0000772> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0000772> "SO:0000772")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/SO_0000772> "Genomic islands are transmissible elements characterized by large size (>10kb).")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000772> "genomic_island")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0000772> <http://purl.obolibrary.org/obo/SO_0001039>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0001037> (mobile_genetic_element)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:14681355") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001037> "A nucleotide region with either intra-genome or intracellular mobility, of varying length, which often carry the information necessary for transfer and recombination with the host genome.")
-AnnotationAssertion(Annotation(rdfs:label "wiki") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/SO_0001037> "http://en.wikipedia.org/wiki/Mobile_genetic_element")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001037> "INSDC_feature:mobile_element")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001037> "MGE")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001037> "mobile genetic element")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001037> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0001037> "SO:0001037")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/SO_0001037> <http://purl.obolibrary.org/obo/so#SOFA>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001037> "mobile_genetic_element")
-EquivalentClasses(<http://purl.obolibrary.org/obo/SO_0001037> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/SO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/so#has_quality> <http://purl.obolibrary.org/obo/SO_0001234>)))
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001037> <http://purl.obolibrary.org/obo/SO_0001411>)
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/so#has_quality> <http://purl.obolibrary.org/obo/SO_0001234>))
-
-# Class: <http://purl.obolibrary.org/obo/SO_0001038> (extrachromosomal_mobile_genetic_element)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001038> "An MGE that is not integrated into the host chromosome.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001038> "extrachromosomal mobile genetic element")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001038> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0001038> "SO:0001038")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001038> "extrachromosomal_mobile_genetic_element")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001038> <http://purl.obolibrary.org/obo/SO_0001037>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0001039> (integrated_mobile_genetic_element)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001039> "An MGE that is integrated into the host chromosome.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001039> "integrated mobile genetic element")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001039> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0001039> "SO:0001039")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/SO_0001039> <http://purl.obolibrary.org/obo/so#SOFA>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001039> "integrated_mobile_genetic_element")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001039> <http://purl.obolibrary.org/obo/SO_0001037>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0001041> (viral_sequence)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001041> "The region of nucleotide sequence of a virus, a submicroscopic particle that replicates by infecting a host cell.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001041> "viral sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001041> "virus sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001041> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0001041> "SO:0001041")
-AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/SO_0001041> "The definitions of the children of this term were revised Decemeber 2007 after discussion on song-devel. The resulting definitions are slightly unweildy but hopefully more logically correct.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001041> "viral_sequence")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001041> <http://purl.obolibrary.org/obo/SO_0001038>)
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001041> <http://purl.obolibrary.org/obo/SO_0001235>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0001042> (phage_sequence)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:ke") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001042> "The nucleotide sequence of a virus that infects bacteria.")
-AnnotationAssertion(Annotation(rdfs:label "wiki") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/SO_0001042> "http://en.wikipedia.org/wiki/Bacteriophage")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001042> "bacteriophage")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001042> "phage")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001042> "phage sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001042> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0001042> "SO:0001042")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001042> "phage_sequence")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001042> <http://purl.obolibrary.org/obo/SO_0001041>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0001234> (mobile)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RSC:cb") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001234> "An attribute describing a feature that has either intra-genome or intracellular mobility.")
-AnnotationAssertion(Annotation(rdfs:label "wiki") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/SO_0001234> "http://en.wikipedia.org/wiki/Mobile")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001234> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0001234> "SO:0001234")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001234> "mobile")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001234> <http://purl.obolibrary.org/obo/SO_0000733>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0001235> (replicon)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0716719207") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001235> "A region containing at least one unique origin of replication and a unique termination site.")
-AnnotationAssertion(Annotation(rdfs:label "wiki") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/SO_0001235> "http://en.wikipedia.org/wiki/Replicon_(genetics)")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001235> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0001235> "SO:0001235")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/SO_0001235> <http://purl.obolibrary.org/obo/so#SOFA>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001235> "replicon")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001235> <http://purl.obolibrary.org/obo/SO_0001411>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0001411> (biological_region)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:cb") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001411> "A region defined by its disposition to be involved in a biological process.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/SO_0001411> "INSDC_misc_feature")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001411> "INSDC_note:biological_region")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001411> "biological region")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001411> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0001411> "SO:0001411")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/SO_0001411> <http://purl.obolibrary.org/obo/so#SOFA>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001411> "biological_region")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001411> <http://purl.obolibrary.org/obo/SO_0000001>)
-
-# Class: <http://purl.obolibrary.org/obo/SO_0001412> (topologically_defined_region)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32782014") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "SO:cb") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001412> "A DNA region within which self-interaction occurs more often than expected by chance because of DNA-looping.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/SO_0001412> "topologically defined region")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/SO_0001412> "sequence")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SO_0001412> "SO:0001412")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/SO_0001412> <http://purl.obolibrary.org/obo/so#SOFA>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001412> "topologically_defined_region")
-SubClassOf(<http://purl.obolibrary.org/obo/SO_0001412> <http://purl.obolibrary.org/obo/SO_0000001>)
+    
 
 
-)
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000101">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transposable_element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001037"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transposable_element</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000155">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001037"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasmid</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000365">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001037"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integron</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000772">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genomic_island</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001037"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genomic_island</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001037">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_genetic_element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobile_genetic_element</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001042">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phage_sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001037"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phage_sequence</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+

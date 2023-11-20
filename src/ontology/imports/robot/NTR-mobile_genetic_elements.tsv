@@ -1,0 +1,173 @@
+Ontology ID	label	term tracker item	Type	parent class ID	parent class label	definition	definition source	example of usage	contributor	Subclass ID	Subclass axiom	Equivalence axiom	is about	created	curation status
+ID	AL rdfs:label@en	A IAO:0000233 SPLIT=|	TYPE	SC % SPLIT=|	SC % SPLIT=|	AL IAO:0000115@en	A IAO:0000119 SPLIT=|	A IAO:0000112	A dc:contributor SPLIT=|	SC % SPLIT=|	SC % SPLIT=|	EC %	SC 'is about' some %	AT dc:date^^xsd:dateTime	A IAO:0000114
+MOBIO:0000223	ISApu1		Class		transposase	IS4 family transposase originated in Aeromonas punctata. 	https://isfinder.biotoul.fr/scripts/ficheIS.php?ident=1342		https://orcid.org/0000-0002-4880-8311					2023-11-20T08:22:54.234Z	
+MOBIO:0000224	ISApu2		Class		transposase	IS4 family transposase originated in Aeromonas punctata. ISApu2 (ISUnCu5) is 78% aa similar to ISApu1	https://isfinder.biotoul.fr/scripts/ficheIS.php?ident=1342		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000225	ISKpn8		Class		transposable_element	IS3 family Insertion sequence originated from  K. pneumoniae	https://isfinder.biotoul.fr/scripts/ficheIS.php?ident=1342		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000226	ISKpn6		Class		transposase	IS1182 family transposase that originated from  K. pneumoniae. Insertion sequence found in Tn4401 that carries the KPC carbapenemase gene which has a role in KPC gene dissemination	Cuzon G, Naas T, Villegas MV, Correa A, Quinn JP, Nordmann P. Wide dissemination of Pseudomonas aeruginosa producing β-lactamase bla KPC-2 gene in Colombia. Antimicrobial agents and chemotherapy. 2011 Nov;55(11):5350-3.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000227	Tn1721		Class		transposable_element	Tn1721 is a transposon, a mobile genetic element that can move within a genome. It may carry genes providing selective advantages or contribute to genetic diversity.	Rogowsky P, Schmitt R. Tn 1721-encoded resolvase: structure of the tnpR gene and its in vitro functions. Molecular and General Genetics MGG. 1985 Jun;200(1):176-81.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000228	RepA		Class		replication initiation protein	RepA typically refers to a replication initiator protein found in plasmids. These proteins are essential for initiating plasmid DNA replication within bacterial cells.	Rozwandowicz, M., Brouwer, M.S.M., Fischer, J., Wagenaar, J.A., Gonzalez-Zorn, B., Guerra, B., Mevius, D.J. and Hordijk, J., 2018. Plasmids carrying antimicrobial resistance genes in Enterobacteriaceae. Journal of Antimicrobial Chemotherapy, 73(5), pp.1121-1137.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000229	Inc13		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes	Shintani M, Sanchez ZK, Kimbara K. Genomics of microbial plasmids: classification and identification based on replication and transfer systems and host taxonomy. Frontiers in microbiology. 2015 Mar 31;6:242.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000230	IncA/C2		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes	Papagiannitsis CC, Kutilova I, Medvecky M, Hrabak J, Dolejska M. Characterization of the complete nucleotide sequences of IncA/C2 plasmids carrying In809-like integrons from Enterobacteriaceae isolates of wildlife origin. Antimicrobial agents and chemotherapy. 2017 Sep;61(9):10-128.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000231	IncFIA		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000232	IncFIB		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000233	IncFII		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000234	IncFIIA		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000235	IncN		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000236	IncP		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000237	IncR		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000238	IncX4		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000239	IncX5		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000240	IncH		Class		Inc grouping	A plasmid replicon type commonly associated with beta-lactam resistance genes			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000241	ColRNAI		Class		Col Plasmids	ColRNAI plasmids are present in Gram-Negative bacteria that play a role in conjugal transfer to receipients	Sugita K, Aoki K, Komori K, Nagasawa T, Ishii Y, Iwata S, Tateda K. Molecular analysis of bla KPC-2-harboring plasmids: Tn 4401a interplasmid transposition and Tn 4401a-carrying ColRNAI plasmid mobilization from Klebsiella pneumoniae to Citrobacter europaeus and Morganella morganii in a single patient. Msphere. 2021 Dec 22;6(6):e00850-21.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000242	MOBF		Class		mobility relaxase	relaxases of the MOBF family are large proteins that consist of two domains: an N-terminal relaxase domain in which there are two catalytically active tyrosines and a C-terminal helicase domain	Garcillán-Barcia MP, Francia MV, de La Cruz F. The diversity of conjugative relaxases and its application in plasmid classification. FEMS microbiology reviews. 2009 May 1;33(3):657-87.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000243	MOBP		Class		mobility relaxase	MOBP is a cluster of actively evolving relaxases, with several distinguishable clades	Garcillán-Barcia MP, Francia MV, de La Cruz F. The diversity of conjugative relaxases and its application in plasmid classification. FEMS microbiology reviews. 2009 May 1;33(3):657-87.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000244	MOBV		Class		mobility relaxase	MOBV family relaxases are constantly evolving and play a huge role in mobile genetic elements transfer	Garcillán-Barcia MP, Francia MV, de La Cruz F. The diversity of conjugative relaxases and its application in plasmid classification. FEMS microbiology reviews. 2009 May 1;33(3):657-87.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000245	MOBH		Class		mobility relaxase	MOBH family relaxases are present almost exclusively in conjugative plasmids	Garcillán-Barcia MP, Francia MV, de La Cruz F. The diversity of conjugative relaxases and its application in plasmid classification. FEMS microbiology reviews. 2009 May 1;33(3):657-87.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000246	MOBQ		Class		mobility relaxase	MOBQ family relaxases are highly divergent	Garcillán-Barcia MP, Francia MV, de La Cruz F. The diversity of conjugative relaxases and its application in plasmid classification. FEMS microbiology reviews. 2009 May 1;33(3):657-87.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000247	MPF_F		Class		mating pair formation complex	putative T4SS's assosiated with congugative pilus for vir system 	Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EP, de la Cruz F. Mobility of plasmids. Microbiology and Molecular Biology Reviews. 2010 Sep;74(3):434-52.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000248	MPF_T		Class		mating pair formation complex	putative T4SS's assosiated with congugative pilus for F system 	Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EP, de la Cruz F. Mobility of plasmids. Microbiology and Molecular Biology Reviews. 2010 Sep;74(3):434-52.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000249	MPF_I		Class		mating pair formation complex	putative T4SS's assosiated with congugative pilus for R64 system 	Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EP, de la Cruz F. Mobility of plasmids. Microbiology and Molecular Biology Reviews. 2010 Sep;74(3):434-52.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000410	MPF_G				mating pair formation complex	putative T4SS's assosiated with congugative pilus for ICEHIN1056 for Haemophilusinfluenzae genome island-like system	Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EP, de la Cruz F. Mobility of plasmids. Microbiology and Molecular Biology Reviews. 2010 Sep;74(3):434-52.								
+MOBIO:0000250	istB		Class		transposase	istB-istA gene products have a role in the transposition of IS21	Reimmann C, Moore R, Little S, Savioz A, Willetts NS, Haas D. Genetic structure, function and regulation of the transposable element IS 21. Molecular and General Genetics MGG. 1989 Feb;215:416-24.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000251	IS21		Class		transposable_element	Insertion sequence that is closely related to IS116 family, involved in mobility of cfr gene plasmids	Kehrenberg C, Aarestrup FM, Schwarz S. IS 21-558 insertion sequences are involved in the mobility of the multiresistance gene cfr. Antimicrobial agents and chemotherapy. 2007 Feb;51(2):483-7.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000252	Tn5403		Class		Tn3-like family transposon	Tn5403 transposon belongs to Tn3 family like transposons are associated with blaCTX-M-55 antibiotics resistance genes 	Zheng Z, Li R, Ye L, Wai-chi Chan E, Xia X, Chen S. Genetic Characterization of bla CTX–M–55-Bearing Plasmids Harbored by Food-Borne Cephalosporin-Resistant Vibrio parahaemolyticus Strains in China. Frontiers in Microbiology. 2019 Jun 18;10:1338.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000253	KikA		Class		IncN	A region on IncN group of plasmids	Hengen PN, Denicourt D, Iyer VN. Isolation and characterization of kikA, a region on IncN group plasmids that determines killing of Klebsiella oxytoca. Journal of bacteriology. 1992 May;174(9):3070-7.		https://orcid.org/0000-0002-4880-8311						
+															
+MOBIO:0000255	Plasmid inheritance protein		Class		plasmid maitenance	proteins that confer selective advantages to bacteria such as antibiotic or virulence factors	Hiraga S. Mechanisms of stable plasmid inheritance. Advances in biophysics. 1986 Jan 1;21:91-103.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000256	IS6100		Class		transposase	IS6100 may play an important role in the establishment of carbazole-degrading pathway,	Gai Z, Wang X, Liu X, Tai C, Tang H, He X, Wu G, Deng Z, Xu P. The genes coding for the conversion of carbazole to catechol are flanked by IS 6100 elements in Sphingomonas sp. strain XLDN2-5. PLoS One. 2010 Apr 2;5(4):e10018.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000257	ISKpn19		Class		transposase	ISKpn19 element is are associated with Tn2 family transposons that play a role in dissemination of fluroquinolone and beta-lactam resistant genes	Zhong YX, Liu WT, Yuan PB, Yang L, Xu Z, Chen DQ. Characterization of the bla VEB-3 bearing IncC plasmid and bla KPC-2 bearing IncFII plasmid in a type IE CRISPR-Cas system harboring Klebsiella oxytoca stain.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000258	DNA-invertase		Class		conjugal transfer subunit or complex	DNA invertase is an enzyme that mediates site-specific DNA inversions. These inversions typically occur at adjacent regions of DNA and can flip the orientation of DNA segments.	Zhou Z, Xiang Y, Tong A, Lu Y. Simple and efficient method to purify DNA–protein conjugates and its sensing applications. Analytical chemistry. 2014 Apr 15;86(8):3869-75.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000259	ISKpn26		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+															
+															
+MOBIO:0000262	trpR		Class		conjugal transfer subunit or complex	TrpR repressor protein represses the transcription of mtr operon	Zhao Z, Chen S, Wu D, Wu J, Chen J. Effect of gene knockouts of L-tryptophan uptake system on the production of L-tryptophan in Escherichia coli. Process Biochemistry. 2012 Feb 1;47(2):340-4.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000263	trpA		Class		conjugal transfer subunit or complex	tryptophan synthase from Chlamydia trachomatis	Michalska K, Wellington S, Maltseva N, Jedrzejczak R, Selem‐Mojica N, Rosas‐Becerra LR, Barona‐Gómez F, Hung DT, Joachimiak A. Catalytically impaired TrpA subunit of tryptophan synthase from Chlamydia trachomatis is an allosteric regulator of TrpB. Protein Science. 2021 Sep;30(9):1904-18.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000264	ISKpn7		Class		transposase	IS1182 family transposase that originated from  K. pneumoniae. Insertion sequence found in Tn4401 that carries the KPC carbapenemase gene which has a role in KPC gene dissemination	Naas T, Cuzon G, Truong HV, Nordmann P. Role of IS Kpn7 and deletions in bla KPC gene expression. Antimicrobial agents and chemotherapy. 2012 Sep;56(9):4753-9.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000265	ISEc29		Class		transposase	ISEc29 contains tnpMut which is mutator transposase	Yousfi K, Touati A, Lefebvre B, Fournier É, Côté JC, Soualhine H, Walker M, Bougdour D, Tremblay C, Bekal S. A novel plasmid, pSx1, harboring a new Tn 1696 derivative from extensively drug-resistant Shewanella xiamenensis encoding OXA-416. Microbial Drug Resistance. 2017 Jun 1;23(4):429-36.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000266	ISKpn21		Class		transposase	IsKpn21 is a ISNCY element associted with mcr and beta-lactam genes	Yuan Q, Xia P, Xiong L, Xie L, Lv S, Sun F, Feng W. First report of coexistence of blaKPC-2-, blaNDM-1-and mcr-9-carrying plasmids in a clinical carbapenem-resistant Enterobacter hormaechei isolate. Frontiers in Microbiology. 2023 Mar 23;14:1153366.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000267	ISBcen27		Class		transposase	Associated with colistin resistance	Peng Z, Dottorini T, Hu Y, Li M, Yan S, Fanning S, Baker M, Xu J, Li F. Comparative genomic analysis of the foodborne pathogen Burkholderia gladioli pv. cocovenenans harboring a bongkrekic acid biosynthesis gene cluster. Frontiers in Microbiology. 2021 May 17;12:628538.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000268	ISAba125		Class		transposase	ISAba125 insertion sequence associated with NDM transposons			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000269	ISKpn14		Class		transposase	IS elements associated in mediating colistin resistance			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000270	ISKra4		Class		transposase	DDE transposase			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000271	IS630		Class		transposase	IS630/Tc1/mariner DNA transposon family transposase	Puzakov MV, Puzakova LV, Cheresiz SV. An analysis of IS630/Tc1/mariner transposons in the genome of a Pacific oyster, Crassostrea gigas. Journal of Molecular Evolution. 2018 Oct;86(8):566-80.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000272	IS3 family		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000273	IS1380		Class		transposase	IS1380 family transposase contain metronidazole-resistant elements	Veloo AC, Chlebowicz M, Winter HL, Bathoorn D, Rossen JW. Three metronidazole-resistant Prevotella bivia strains harbour a mobile element, encoding a novel nim gene, nimK, and an efflux small MDR transporter. Journal of Antimicrobial Chemotherapy. 2018 Oct 1;73(10):2687-90.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000274	IS30		Class		transposase	Family of insertion sequences that have role in colistin resistance	Snesrud E, He S, Chandler M, Dekker JP, Hickman AB, McGann P, Dyda F. A model for transposition of the colistin resistance gene mcr-1 by IS Apl1. Antimicrobial agents and chemotherapy. 2016 Nov;60(11):6973-6.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000275	IS1595		Class		transposase	Superfamily of Insertion Sequences associated with IS6/IS26 family of insertion sequences	Harmer CJ, Hall RM. An analysis of the IS6/IS26 family of insertion sequences: is it a single family?. Microbial genomics. 2019 Sep;5(9).		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000276	IS110		Class		transposase	IS110 family members are associated with GES carbapenemase gene dissipations	Botelho J, Grosso F, Sousa C, Peixe L. Characterization of a new genetic environment associated with GES-6 carbapenemase from a Pseudomonas aeruginosa isolate belonging to the high-risk clone ST235. Journal of Antimicrobial Chemotherapy. 2015 Feb 1;70(2):615-7.		https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000277	IS5		Class		transposase	IS5 family insertion sequences 			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000278	ISL3		Class		transposase	ISL3-like insertion sequences derived from Pseudomonas stutzeri associated with various beta-lactam antibiotic resistance dissemination			https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000279	ISSpu2		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000280	ISEc33		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000281	ISAba14		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000282	ISEc36		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000283	Tn2 family		Class		class II transposable element				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000284	ISEcp1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000285	IS3000		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000286	IS26		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000287	TnAs2		Class		class II transposable element				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000288	ISSsu9		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000289	IS4321L		Class		class II transposable element				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000290	TnAs3		Class						https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000291	ISEhe3		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000292	ISPa38		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000293	ISSen4		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000294	IS1222		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000295	ISPst2		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000296	ISKpn18		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000297	IS103		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000298	IS903B		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000299	ISEc17		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000300	IS30D		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000301	ISSen6		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000302	IS640		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000303	ISKpn34		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000304	ISEc5		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000305	ISSoEn2		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000306	ISAeme2		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000307	TnEc1		Class		class II transposable element				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000308	ISPan1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000309	ISCfr4		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000310	ISSgsp1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000311	ISPsy24		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000312	ISEc27		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000313	ISArsp6		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000314	ISStma11		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000315	IS903		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000316	ISEc51		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000317	IS102		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000318	ISEcl6		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000319	ISAzvi12		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000320	ISRssp9		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000321	IS1400		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000322	ISKpn1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000323	ISKox1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000324	ISKpn38		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000325	ISSba14		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000326	ISSen3		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000327	ISEc21		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000328	IS186A		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000329	IS1397		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000330	ISEc38		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000331	ISSfl4		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000332	ISEc12		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000333	ISSen8		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000334	ISEc23		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000335	ISKpn25		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000336	ISSpr2		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000337	IS1203		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000338	ISCro4		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000339	IS911		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000340	ISSd1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000341	ISSbo1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000342	IS5D		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000343	ISEcl1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000344	ISBrsa1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000345	IS3H		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000346	ISEc16		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000347	IS1326		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000348	ISKpn37		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000349	IS629		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000350	IS100X		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000351	ISEc26		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000352	ISEc32		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000353	ISEc22		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000354	IS4		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000355	ISCro1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000356	ISPpu12		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000357	ISCfr12		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000358	ISKpn24		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000359	IS4321R		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000360	ISShes11		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000361	IS609		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000362	IS91		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000363	ISEc68		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000364	ISKpn28		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000365	IS1203E		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000366	ISLad2		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000367	ISEc1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000368	ISPpu23		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000369	ISPpu18		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000370	IS679		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000371	ISEc62		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000372	ISYps1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000373	ISEc31		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000374	IS1351		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000375	ISEc8		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000376	ISCro2		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000377	ISAs25		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000378	ISCfr6		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000379	ISEc52		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000380	ISPpu29		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000381	IS1133		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000382	ISEc25		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000383	ISEc63		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000384	ISAs2		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000385	ISSen1		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000386	ISEc39		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000387	ISEc43		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000388	ISKpn20		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000389	ISKpn40		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000390	ISKox3		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000391	IS1D		Class		transposase				https://orcid.org/0000-0002-4880-8311						
+MOBIO:0000392	Col(VCM04)		Class		Col Plasmids				https://orcid.org/0000-0002-4880-8311						
