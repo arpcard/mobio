@@ -1,0 +1,1897 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/mobio/imports/robot-NTR-MGE-import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/mobio/imports/robot-NTR-MGE-import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mobio/imports/robot-NTR-MGE-import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000046"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000120"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000183"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000185"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000205"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000215"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000101"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IS4 family transposase originated in Aeromonas punctata.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://isfinder.biotoul.fr/scripts/ficheIS.php?ident=1342</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-20T08:22:54.234Z</terms:date>
+        <rdfs:label xml:lang="en">ISApu1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IS4 family transposase originated in Aeromonas punctata. ISApu2 (ISUnCu5) is 78% aa similar to ISApu1</obo:IAO_0000115>
+        <obo:IAO_0000119>https://isfinder.biotoul.fr/scripts/ficheIS.php?ident=1342</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISApu2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000101"/>
+        <obo:IAO_0000115 xml:lang="en">IS3 family Insertion sequence originated from  K. pneumoniae</obo:IAO_0000115>
+        <obo:IAO_0000119>https://isfinder.biotoul.fr/scripts/ficheIS.php?ident=1342</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IS1182 family transposase that originated from  K. pneumoniae. Insertion sequence found in Tn4401 that carries the KPC carbapenemase gene which has a role in KPC gene dissemination</obo:IAO_0000115>
+        <obo:IAO_0000119>Cuzon G, Naas T, Villegas MV, Correa A, Quinn JP, Nordmann P. Wide dissemination of Pseudomonas aeruginosa producing β-lactamase bla KPC-2 gene in Colombia. Antimicrobial agents and chemotherapy. 2011 Nov;55(11):5350-3.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000101"/>
+        <obo:IAO_0000115 xml:lang="en">Tn1721 is a transposon, a mobile genetic element that can move within a genome. It may carry genes providing selective advantages or contribute to genetic diversity.</obo:IAO_0000115>
+        <obo:IAO_0000119>Rogowsky P, Schmitt R. Tn 1721-encoded resolvase: structure of the tnpR gene and its in vitro functions. Molecular and General Genetics MGG. 1985 Jun;200(1):176-81.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">Tn1721</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000046"/>
+        <obo:IAO_0000115 xml:lang="en">RepA typically refers to a replication initiator protein found in plasmids. These proteins are essential for initiating plasmid DNA replication within bacterial cells.</obo:IAO_0000115>
+        <obo:IAO_0000119>Rozwandowicz, M., Brouwer, M.S.M., Fischer, J., Wagenaar, J.A., Gonzalez-Zorn, B., Guerra, B., Mevius, D.J. and Hordijk, J., 2018. Plasmids carrying antimicrobial resistance genes in Enterobacteriaceae. Journal of Antimicrobial Chemotherapy, 73(5), pp.1121-1137.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">RepA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <obo:IAO_0000119>Shintani M, Sanchez ZK, Kimbara K. Genomics of microbial plasmids: classification and identification based on replication and transfer systems and host taxonomy. Frontiers in microbiology. 2015 Mar 31;6:242.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">Inc13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <obo:IAO_0000119>Papagiannitsis CC, Kutilova I, Medvecky M, Hrabak J, Dolejska M. Characterization of the complete nucleotide sequences of IncA/C2 plasmids carrying In809-like integrons from Enterobacteriaceae isolates of wildlife origin. Antimicrobial agents and chemotherapy. 2017 Sep;61(9):10-128.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncA/C2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncFIA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncFIB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncFII</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncFIIA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncX4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncX5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000006"/>
+        <obo:IAO_0000115 xml:lang="en">ColRNAI plasmids are present in Gram-Negative bacteria that play a role in conjugal transfer to receipients</obo:IAO_0000115>
+        <obo:IAO_0000119>Sugita K, Aoki K, Komori K, Nagasawa T, Ishii Y, Iwata S, Tateda K. Molecular analysis of bla KPC-2-harboring plasmids: Tn 4401a interplasmid transposition and Tn 4401a-carrying ColRNAI plasmid mobilization from Klebsiella pneumoniae to Citrobacter europaeus and Morganella morganii in a single patient. Msphere. 2021 Dec 22;6(6):e00850-21.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ColRNAI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">relaxases of the MOBF family are large proteins that consist of two domains: an N-terminal relaxase domain in which there are two catalytically active tyrosines and a C-terminal helicase domain</obo:IAO_0000115>
+        <obo:IAO_0000119>Garcillán-Barcia MP, Francia MV, de La Cruz F. The diversity of conjugative relaxases and its application in plasmid classification. FEMS microbiology reviews. 2009 May 1;33(3):657-87.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">MOBF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">MOBP is a cluster of actively evolving relaxases, with several distinguishable clades</obo:IAO_0000115>
+        <obo:IAO_0000119>Garcillán-Barcia MP, Francia MV, de La Cruz F. The diversity of conjugative relaxases and its application in plasmid classification. FEMS microbiology reviews. 2009 May 1;33(3):657-87.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">MOBP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">MOBV family relaxases are constantly evolving and play a huge role in mobile genetic elements transfer</obo:IAO_0000115>
+        <obo:IAO_0000119>Garcillán-Barcia MP, Francia MV, de La Cruz F. The diversity of conjugative relaxases and its application in plasmid classification. FEMS microbiology reviews. 2009 May 1;33(3):657-87.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">MOBV</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">MOBH family relaxases are present almost exclusively in conjugative plasmids</obo:IAO_0000115>
+        <obo:IAO_0000119>Garcillán-Barcia MP, Francia MV, de La Cruz F. The diversity of conjugative relaxases and its application in plasmid classification. FEMS microbiology reviews. 2009 May 1;33(3):657-87.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">MOBH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">MOBQ family relaxases are highly divergent</obo:IAO_0000115>
+        <obo:IAO_0000119>Garcillán-Barcia MP, Francia MV, de La Cruz F. The diversity of conjugative relaxases and its application in plasmid classification. FEMS microbiology reviews. 2009 May 1;33(3):657-87.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">MOBQ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000183"/>
+        <obo:IAO_0000115 xml:lang="en">putative T4SS&apos;s assosiated with congugative pilus for vir system</obo:IAO_0000115>
+        <obo:IAO_0000119>Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EP, de la Cruz F. Mobility of plasmids. Microbiology and Molecular Biology Reviews. 2010 Sep;74(3):434-52.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">MPF_F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000183"/>
+        <obo:IAO_0000115 xml:lang="en">putative T4SS&apos;s assosiated with congugative pilus for F system</obo:IAO_0000115>
+        <obo:IAO_0000119>Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EP, de la Cruz F. Mobility of plasmids. Microbiology and Molecular Biology Reviews. 2010 Sep;74(3):434-52.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">MPF_T</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000183"/>
+        <obo:IAO_0000115 xml:lang="en">putative T4SS&apos;s assosiated with congugative pilus for R64 system</obo:IAO_0000115>
+        <obo:IAO_0000119>Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EP, de la Cruz F. Mobility of plasmids. Microbiology and Molecular Biology Reviews. 2010 Sep;74(3):434-52.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">MPF_I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">istB-istA gene products have a role in the transposition of IS21</obo:IAO_0000115>
+        <obo:IAO_0000119>Reimmann C, Moore R, Little S, Savioz A, Willetts NS, Haas D. Genetic structure, function and regulation of the transposable element IS 21. Molecular and General Genetics MGG. 1989 Feb;215:416-24.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">istB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000101"/>
+        <obo:IAO_0000115 xml:lang="en">Insertion sequence that is closely related to IS116 family, involved in mobility of cfr gene plasmids</obo:IAO_0000115>
+        <obo:IAO_0000119>Kehrenberg C, Aarestrup FM, Schwarz S. IS 21-558 insertion sequences are involved in the mobility of the multiresistance gene cfr. Antimicrobial agents and chemotherapy. 2007 Feb;51(2):483-7.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS21</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000215"/>
+        <obo:IAO_0000115 xml:lang="en">Tn5403 transposon belongs to Tn3 family like transposons are associated with blaCTX-M-55 antibiotics resistance genes</obo:IAO_0000115>
+        <obo:IAO_0000119>Zheng Z, Li R, Ye L, Wai-chi Chan E, Xia X, Chen S. Genetic Characterization of bla CTX–M–55-Bearing Plasmids Harbored by Food-Borne Cephalosporin-Resistant Vibrio parahaemolyticus Strains in China. Frontiers in Microbiology. 2019 Jun 18;10:1338.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">Tn5403</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/mobio/MOBIO_0000235"/>
+        <obo:IAO_0000115 xml:lang="en">A region on IncN group of plasmids</obo:IAO_0000115>
+        <obo:IAO_0000119>Hengen PN, Denicourt D, Iyer VN. Isolation and characterization of kikA, a region on IncN group plasmids that determines killing of Klebsiella oxytoca. Journal of bacteriology. 1992 May;174(9):3070-7.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">KikA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000185"/>
+        <obo:IAO_0000115 xml:lang="en">proteins that confer selective advantages to bacteria such as antibiotic or virulence factors</obo:IAO_0000115>
+        <obo:IAO_0000119>Hiraga S. Mechanisms of stable plasmid inheritance. Advances in biophysics. 1986 Jan 1;21:91-103.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">Plasmid inheritance protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IS6100 may play an important role in the establishment of carbazole-degrading pathway,</obo:IAO_0000115>
+        <obo:IAO_0000119>Gai Z, Wang X, Liu X, Tai C, Tang H, He X, Wu G, Deng Z, Xu P. The genes coding for the conversion of carbazole to catechol are flanked by IS 6100 elements in Sphingomonas sp. strain XLDN2-5. PLoS One. 2010 Apr 2;5(4):e10018.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS6100</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">ISKpn19 element is are associated with Tn2 family transposons that play a role in dissemination of fluroquinolone and beta-lactam resistant genes</obo:IAO_0000115>
+        <obo:IAO_0000119>Zhong YX, Liu WT, Yuan PB, Yang L, Xu Z, Chen DQ. Characterization of the bla VEB-3 bearing IncC plasmid and bla KPC-2 bearing IncFII plasmid in a type IE CRISPR-Cas system harboring Klebsiella oxytoca stain.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn19</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115 xml:lang="en">DNA invertase is an enzyme that mediates site-specific DNA inversions. These inversions typically occur at adjacent regions of DNA and can flip the orientation of DNA segments.</obo:IAO_0000115>
+        <obo:IAO_0000119>Zhou Z, Xiang Y, Tong A, Lu Y. Simple and efficient method to purify DNA–protein conjugates and its sensing applications. Analytical chemistry. 2014 Apr 15;86(8):3869-75.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">DNA-invertase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn26</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115 xml:lang="en">TrpR repressor protein represses the transcription of mtr operon</obo:IAO_0000115>
+        <obo:IAO_0000119>Zhao Z, Chen S, Wu D, Wu J, Chen J. Effect of gene knockouts of L-tryptophan uptake system on the production of L-tryptophan in Escherichia coli. Process Biochemistry. 2012 Feb 1;47(2):340-4.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">trpR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000025"/>
+        <obo:IAO_0000115 xml:lang="en">tryptophan synthase from Chlamydia trachomatis</obo:IAO_0000115>
+        <obo:IAO_0000119>Michalska K, Wellington S, Maltseva N, Jedrzejczak R, Selem‐Mojica N, Rosas‐Becerra LR, Barona‐Gómez F, Hung DT, Joachimiak A. Catalytically impaired TrpA subunit of tryptophan synthase from Chlamydia trachomatis is an allosteric regulator of TrpB. Protein Science. 2021 Sep;30(9):1904-18.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">trpA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IS1182 family transposase that originated from  K. pneumoniae. Insertion sequence found in Tn4401 that carries the KPC carbapenemase gene which has a role in KPC gene dissemination</obo:IAO_0000115>
+        <obo:IAO_0000119>Naas T, Cuzon G, Truong HV, Nordmann P. Role of IS Kpn7 and deletions in bla KPC gene expression. Antimicrobial agents and chemotherapy. 2012 Sep;56(9):4753-9.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">ISEc29 contains tnpMut which is mutator transposase</obo:IAO_0000115>
+        <obo:IAO_0000119>Yousfi K, Touati A, Lefebvre B, Fournier É, Côté JC, Soualhine H, Walker M, Bougdour D, Tremblay C, Bekal S. A novel plasmid, pSx1, harboring a new Tn 1696 derivative from extensively drug-resistant Shewanella xiamenensis encoding OXA-416. Microbial Drug Resistance. 2017 Jun 1;23(4):429-36.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc29</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IsKpn21 is a ISNCY element associted with mcr and beta-lactam genes</obo:IAO_0000115>
+        <obo:IAO_0000119>Yuan Q, Xia P, Xiong L, Xie L, Lv S, Sun F, Feng W. First report of coexistence of blaKPC-2-, blaNDM-1-and mcr-9-carrying plasmids in a clinical carbapenem-resistant Enterobacter hormaechei isolate. Frontiers in Microbiology. 2023 Mar 23;14:1153366.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn21</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">Associated with colistin resistance</obo:IAO_0000115>
+        <obo:IAO_0000119>Peng Z, Dottorini T, Hu Y, Li M, Yan S, Fanning S, Baker M, Xu J, Li F. Comparative genomic analysis of the foodborne pathogen Burkholderia gladioli pv. cocovenenans harboring a bongkrekic acid biosynthesis gene cluster. Frontiers in Microbiology. 2021 May 17;12:628538.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISBcen27</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">ISAba125 insertion sequence associated with NDM transposons</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISAba125</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IS elements associated in mediating colistin resistance</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn14</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">DDE transposase</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKra4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IS630/Tc1/mariner DNA transposon family transposase</obo:IAO_0000115>
+        <obo:IAO_0000119>Puzakov MV, Puzakova LV, Cheresiz SV. An analysis of IS630/Tc1/mariner transposons in the genome of a Pacific oyster, Crassostrea gigas. Journal of Molecular Evolution. 2018 Oct;86(8):566-80.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS630</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS3 family</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IS1380 family transposase contain metronidazole-resistant elements</obo:IAO_0000115>
+        <obo:IAO_0000119>Veloo AC, Chlebowicz M, Winter HL, Bathoorn D, Rossen JW. Three metronidazole-resistant Prevotella bivia strains harbour a mobile element, encoding a novel nim gene, nimK, and an efflux small MDR transporter. Journal of Antimicrobial Chemotherapy. 2018 Oct 1;73(10):2687-90.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1380</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">Family of insertion sequences that have role in colistin resistance</obo:IAO_0000115>
+        <obo:IAO_0000119>Snesrud E, He S, Chandler M, Dekker JP, Hickman AB, McGann P, Dyda F. A model for transposition of the colistin resistance gene mcr-1 by IS Apl1. Antimicrobial agents and chemotherapy. 2016 Nov;60(11):6973-6.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS30</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">Superfamily of Insertion Sequences associated with IS6/IS26 family of insertion sequences</obo:IAO_0000115>
+        <obo:IAO_0000119>Harmer CJ, Hall RM. An analysis of the IS6/IS26 family of insertion sequences: is it a single family?. Microbial genomics. 2019 Sep;5(9).</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1595</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IS110 family members are associated with GES carbapenemase gene dissipations</obo:IAO_0000115>
+        <obo:IAO_0000119>Botelho J, Grosso F, Sousa C, Peixe L. Characterization of a new genetic environment associated with GES-6 carbapenemase from a Pseudomonas aeruginosa isolate belonging to the high-risk clone ST235. Journal of Antimicrobial Chemotherapy. 2015 Feb 1;70(2):615-7.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS110</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">IS5 family insertion sequences</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <obo:IAO_0000115 xml:lang="en">ISL3-like insertion sequences derived from Pseudomonas stutzeri associated with various beta-lactam antibiotic resistance dissemination</obo:IAO_0000115>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISL3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSpu2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc33</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISAba14</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc36</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000205"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">Tn2 family</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEcp1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS3000</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS26</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000205"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">TnAs2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSsu9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000205"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS4321L</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000290">
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">TnAs3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEhe3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISPa38</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000293">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSen4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1222</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISPst2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn18</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS103</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS903B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc17</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS30D</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSen6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS640</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn34</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSoEn2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISAeme2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000205"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">TnEc1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISPan1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISCfr4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSgsp1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISPsy24</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc27</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISArsp6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISStma11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS903</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc51</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS102</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEcl6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISAzvi12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISRssp9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1400</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKox1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn38</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSba14</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSen3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc21</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS186A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1397</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc38</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSfl4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSen8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc23</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn25</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSpr2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1203</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISCro4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS911</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSd1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSbo1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS5D</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEcl1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISBrsa1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000345">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS3H</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc16</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1326</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn37</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS629</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS100X</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc26</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc32</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc22</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISCro1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISPpu12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISCfr12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000358">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn24</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS4321R</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISShes11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS609</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS91</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc68</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn28</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1203E</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISLad2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISPpu23</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000369">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISPpu18</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS679</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc62</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISYps1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc31</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000374">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1351</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000375">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISCro2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISAs25</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISCfr6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc52</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISPpu29</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1133</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc25</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc63</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISAs2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISSen1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc39</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISEc43</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn20</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000389">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKpn40</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">ISKox3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000391">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000038"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IS1D</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000006"/>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">Col(VCM04)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000183"/>
+        <obo:IAO_0000115 xml:lang="en">putative T4SS&apos;s assosiated with congugative pilus for ICEHIN1056 for Haemophilusinfluenzae genome island-like system</obo:IAO_0000115>
+        <obo:IAO_0000119>Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EP, de la Cruz F. Mobility of plasmids. Microbiology and Molecular Biology Reviews. 2010 Sep;74(3):434-52.</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">MPF_G</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+

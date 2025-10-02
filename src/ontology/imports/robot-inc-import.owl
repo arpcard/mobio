@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/mobio/imports/robot-inc-import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/mobio/imports/robot-inc-import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mobio/imports/robot-inc-import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOBIO_0000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000393">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <obo:IAO_0000119>Rozwandowicz M, Brouwer MS, Fischer J, Wagenaar JA, Gonzalez-Zorn B, Guerra B, Mevius DJ, Hordijk J. Plasmids carrying antimicrobial resistance genes in Enterobacteriaceae. Journal of Antimicrobial Chemotherapy. 2018 May 1;73(5):1121-37.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam, fluriquinolone resistance genes</obo:IAO_0000115>
+        <obo:IAO_0000119>Tohmaz, M., Askari Badouei, M., Kalateh Rahmani, H. and Hashemi Tabar, G., 2022. Antimicrobial resistance, virulence associated genes and phylogenetic background versus plasmid replicon types: the possible associations in avian pathogenic Escherichia coli (APEC). BMC Veterinary Research, 18(1), pp.1-15.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncFIC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with aminoglycoside, beta-lactam resistance genes</obo:IAO_0000115>
+        <obo:IAO_0000119>McMillan, E.A., Gupta, S.K., Williams, L.E., Jové, T., Hiott, L.M., Woodley, T.A., Barrett, J.B., Jackson, C.R., Wasilenko, J.L., Simmons, M. and Tillman, G.E., 2019. Antimicrobial resistance genes, cassettes, and plasmids present in Salmonella enterica associated with United States food animals. Frontiers in microbiology, 10, p.832.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncHI1A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with aminoglycoside, beta-lactam resistance genes</obo:IAO_0000115>
+        <obo:IAO_0000119>McMillan, E.A., Gupta, S.K., Williams, L.E., Jové, T., Hiott, L.M., Woodley, T.A., Barrett, J.B., Jackson, C.R., Wasilenko, J.L., Simmons, M. and Tillman, G.E., 2019. Antimicrobial resistance genes, cassettes, and plasmids present in Salmonella enterica associated with United States food animals. Frontiers in microbiology, 10, p.832.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncHI1B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000397">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with aminoglycoside, beta-lactam resistance genes</obo:IAO_0000115>
+        <obo:IAO_0000119>McMillan, E.A., Gupta, S.K., Williams, L.E., Jové, T., Hiott, L.M., Woodley, T.A., Barrett, J.B., Jackson, C.R., Wasilenko, J.L., Simmons, M. and Tillman, G.E., 2019. Antimicrobial resistance genes, cassettes, and plasmids present in Salmonella enterica associated with United States food animals. Frontiers in microbiology, 10, p.832.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncHI2A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <obo:IAO_0000119>Migura-Garcia, L., González-López, J.J., Martinez-Urtaza, J., Aguirre Sánchez, J.R., Moreno-Mingorance, A., Pérez de Rozas, A., Höfle, U., Ramiro, Y. and Gonzalez-Escalona, N., 2020. mcr-colistin resistance genes mobilized by IncX4, IncHI2, and IncI2 plasmids in Escherichia coli of pigs and White Stork in Spain. Frontiers in Microbiology, 10, p.3072.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncI2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mobio/MOBIO_0000399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mobio/MOBIO_0000399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOBIO_0000209"/>
+        <obo:IAO_0000112>KPC was identified on an IncK2/Z plasmid</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A plasmid replicon type commonly associated with beta-lactam resistance genes</obo:IAO_0000115>
+        <obo:IAO_0000119>Zhang D, Zhao Y, Feng J, Hu L, Jiang X, Zhan Z, Yang H, Yang W, Gao B, Wang J, Li J. Replicon-based typing of IncI-complex plasmids, and comparative genomics analysis of IncIγ/K1 plasmids. Frontiers in microbiology. 2019 Jan 29;10:48.</obo:IAO_0000119>
+        <terms:contributor>https://orcid.org/0000-0002-4880-8311</terms:contributor>
+        <rdfs:label xml:lang="en">IncK2/Z</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

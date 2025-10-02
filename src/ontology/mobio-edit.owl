@@ -11,35 +11,28 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/mobio.owl>
+Import(<http://ontofox.hegroup.org/em5k84n4.owl>)
+Import(<http://ontofox.hegroup.org/j0awjsbn.owl>)
+Import(<http://ontofox.hegroup.org/w5d6k8o8.owl>)
 Import(<http://purl.obolibrary.org/obo/mobio/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/mobio/imports/go_import.owl>)
-Import(<http://purl.obolibrary.org/obo/mobio/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/mobio/imports/so_import.owl>)
+Import(<http://purl.obolibrary.org/obo/mobio/imports/robot-NTR-MGE-import.owl>)
+Import(<http://purl.obolibrary.org/obo/mobio/imports/robot-inc-import.owl>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Mobilome Ontology")
 
 Declaration(Class(obo:BFO_0000001))
 Declaration(Class(obo:BFO_0000030))
-Declaration(Class(obo:MOBIO_0000001))
-Declaration(Class(obo:MOBIO_0000002))
-Declaration(Class(obo:MOBIO_0000003))
-Declaration(Class(obo:MOBIO_0000004))
 Declaration(Class(obo:MOBIO_0000006))
 Declaration(Class(obo:MOBIO_0000007))
 Declaration(Class(obo:MOBIO_0000008))
 Declaration(Class(obo:MOBIO_0000009))
 Declaration(Class(obo:MOBIO_0000010))
-Declaration(Class(obo:MOBIO_0000011))
 Declaration(Class(obo:MOBIO_0000012))
-Declaration(Class(obo:MOBIO_0000013))
-Declaration(Class(obo:MOBIO_0000014))
-Declaration(Class(obo:MOBIO_0000015))
 Declaration(Class(obo:MOBIO_0000016))
 Declaration(Class(obo:MOBIO_0000017))
 Declaration(Class(obo:MOBIO_0000019))
 Declaration(Class(obo:MOBIO_0000020))
-Declaration(Class(obo:MOBIO_0000021))
 Declaration(Class(obo:MOBIO_0000022))
 Declaration(Class(obo:MOBIO_0000023))
 Declaration(Class(obo:MOBIO_0000024))
@@ -54,18 +47,15 @@ Declaration(Class(obo:MOBIO_0000032))
 Declaration(Class(obo:MOBIO_0000033))
 Declaration(Class(obo:MOBIO_0000034))
 Declaration(Class(obo:MOBIO_0000035))
-Declaration(Class(obo:MOBIO_0000036))
 Declaration(Class(obo:MOBIO_0000037))
 Declaration(Class(obo:MOBIO_0000038))
 Declaration(Class(obo:MOBIO_0000039))
 Declaration(Class(obo:MOBIO_0000040))
 Declaration(Class(obo:MOBIO_0000041))
 Declaration(Class(obo:MOBIO_0000042))
-Declaration(Class(obo:MOBIO_0000043))
 Declaration(Class(obo:MOBIO_0000044))
 Declaration(Class(obo:MOBIO_0000045))
 Declaration(Class(obo:MOBIO_0000046))
-Declaration(Class(obo:MOBIO_0000047))
 Declaration(Class(obo:MOBIO_0000048))
 Declaration(Class(obo:MOBIO_0000049))
 Declaration(Class(obo:MOBIO_0000050))
@@ -135,7 +125,6 @@ Declaration(Class(obo:MOBIO_0000114))
 Declaration(Class(obo:MOBIO_0000115))
 Declaration(Class(obo:MOBIO_0000116))
 Declaration(Class(obo:MOBIO_0000117))
-Declaration(Class(obo:MOBIO_0000118))
 Declaration(Class(obo:MOBIO_0000119))
 Declaration(Class(obo:MOBIO_0000120))
 Declaration(Class(obo:MOBIO_0000121))
@@ -199,9 +188,7 @@ Declaration(Class(obo:MOBIO_0000178))
 Declaration(Class(obo:MOBIO_0000179))
 Declaration(Class(obo:MOBIO_0000180))
 Declaration(Class(obo:MOBIO_0000181))
-Declaration(Class(obo:MOBIO_0000182))
 Declaration(Class(obo:MOBIO_0000183))
-Declaration(Class(obo:MOBIO_0000184))
 Declaration(Class(obo:MOBIO_0000185))
 Declaration(Class(obo:MOBIO_0000186))
 Declaration(Class(obo:MOBIO_0000187))
@@ -212,23 +199,18 @@ Declaration(Class(obo:MOBIO_0000192))
 Declaration(Class(obo:MOBIO_0000193))
 Declaration(Class(obo:MOBIO_0000194))
 Declaration(Class(obo:MOBIO_0000195))
-Declaration(Class(obo:MOBIO_0000196))
-Declaration(Class(obo:MOBIO_0000197))
 Declaration(Class(obo:MOBIO_0000198))
 Declaration(Class(obo:MOBIO_0000199))
 Declaration(Class(obo:MOBIO_0000200))
 Declaration(Class(obo:MOBIO_0000201))
 Declaration(Class(obo:MOBIO_0000202))
-Declaration(Class(obo:MOBIO_0000203))
 Declaration(Class(obo:MOBIO_0000204))
 Declaration(Class(obo:MOBIO_0000205))
-Declaration(Class(obo:MOBIO_0000206))
 Declaration(Class(obo:MOBIO_0000207))
 Declaration(Class(obo:MOBIO_0000208))
 Declaration(Class(obo:MOBIO_0000209))
 Declaration(Class(obo:MOBIO_0000210))
 Declaration(Class(obo:MOBIO_0000211))
-Declaration(Class(obo:MOBIO_0000212))
 Declaration(Class(obo:MOBIO_0000213))
 Declaration(Class(obo:MOBIO_0000214))
 Declaration(Class(obo:MOBIO_0000215))
@@ -239,13 +221,25 @@ Declaration(Class(obo:MOBIO_0000219))
 Declaration(Class(obo:MOBIO_0000220))
 Declaration(Class(obo:MOBIO_0000221))
 Declaration(Class(obo:MOBIO_0000222))
+Declaration(Class(obo:MOBIO_0000400))
+Declaration(Class(obo:MOBIO_0000401))
+Declaration(Class(obo:MOBIO_0000402))
+Declaration(Class(obo:MOBIO_0000403))
 Declaration(ObjectProperty(obo:BFO_0000050))
+Declaration(ObjectProperty(obo:BFO_0000051))
 Declaration(ObjectProperty(obo:RO_0000056))
+Declaration(ObjectProperty(obo:RO_0000057))
+Declaration(ObjectProperty(obo:RO_0000087))
 Declaration(ObjectProperty(obo:RO_0002211))
+Declaration(ObjectProperty(obo:RO_0002331))
+Declaration(ObjectProperty(obo:RO_HOM0000007))
+Declaration(AnnotationProperty(obo:IAO000017))
 Declaration(AnnotationProperty(obo:IAO_0000115))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
+Declaration(AnnotationProperty(oboInOwl:created_by))
 Declaration(AnnotationProperty(oboInOwl:hasDbXref))
 Declaration(AnnotationProperty(oboInOwl:hasExactSynonym))
 Declaration(AnnotationProperty(oboInOwl:id))
@@ -272,20 +266,40 @@ AnnotationAssertion(rdfs:label oboInOwl:hasExactSynonym "has_exact_synonym")
 #   Object Properties
 ############################
 
-# Object Property: obo:BFO_0000050 (part of)
+# Object Property: obo:BFO_0000050 (part_of)
 
 AnnotationAssertion(oboInOwl:hasDbXref obo:BFO_0000050 "RO:part_of")
 AnnotationAssertion(rdfs:label obo:BFO_0000050 "part_of")
 
-# Object Property: obo:RO_0000056 (participates in)
+# Object Property: obo:BFO_0000051 (has part)
+
+AnnotationAssertion(rdfs:label obo:BFO_0000051 "has part")
+
+# Object Property: obo:RO_0000056 (participates_in)
 
 AnnotationAssertion(oboInOwl:hasDbXref obo:RO_0000056 "RO:participates_in")
 AnnotationAssertion(rdfs:label obo:RO_0000056 "participates_in")
+
+# Object Property: obo:RO_0000057 (has participant)
+
+AnnotationAssertion(rdfs:label obo:RO_0000057 "has participant")
+
+# Object Property: obo:RO_0000087 (has role)
+
+AnnotationAssertion(rdfs:label obo:RO_0000087 "has role")
 
 # Object Property: obo:RO_0002211 (regulates)
 
 AnnotationAssertion(oboInOwl:hasDbXref obo:RO_0002211 "RO:regulates")
 AnnotationAssertion(rdfs:label obo:RO_0002211 "regulates")
+
+# Object Property: obo:RO_0002331 (involved in)
+
+AnnotationAssertion(rdfs:label obo:RO_0002331 "involved in")
+
+# Object Property: obo:RO_HOM0000007 (in historical homology relationship with)
+
+AnnotationAssertion(rdfs:label obo:RO_HOM0000007 "in historical homology relationship with")
 
 
 
@@ -293,110 +307,88 @@ AnnotationAssertion(rdfs:label obo:RO_0002211 "regulates")
 #   Classes
 ############################
 
-# Class: obo:MOBIO_0000001 (mobile genetic element)
+# Class: obo:BFO_0000001 (entity)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000001 "Mobile genetic elements (MGEs) are a type of genetic material, a segment of DNA or RNA, that is capable of movement around a genome or that can be transferred from one species or replicon to another. These include transposons, plasmids, bacteriophages, and genomic islands. The mechanism of movement may be self-encoded or may rely on other enzymes and structures, such as a pilus. In bacteria, MGEs are often associated with the movement of antibiotic resistance genes and virulence factors from one species to another, for example by plasmid-mediated transfer.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000001 "mobile genetic element")
-SubClassOf(obo:MOBIO_0000001 obo:BFO_0000030)
+AnnotationAssertion(rdfs:label obo:BFO_0000001 "entity")
 
-# Class: obo:MOBIO_0000002 (plasmid)
+# Class: obo:BFO_0000015 (process)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000002 "A plasmid is a small, circular, double-stranded DNA molecule that is distinct from a cell's chromosomal DNA. Plasmids naturally exist in bacterial cells, and they also occur in some eukaryotes. Often, the genes carried in plasmids provide bacteria with genetic advantages, such as antibiotic resistance. Plasmids have a wide range of lengths, from roughly one thousand DNA base pairs to hundreds of thousands of base pairs.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000002 "plasmid")
-SubClassOf(obo:MOBIO_0000002 obo:MOBIO_0000001)
+AnnotationAssertion(rdfs:label obo:BFO_0000015 "occurent")
 
-# Class: obo:MOBIO_0000003 (transposable element)
+# Class: obo:BFO_0000030 (object)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000003 "A transposable element (TE or transposon) is a DNA sequence that can change its position within a genome, sometimes creating or reversing mutations and altering the cell's genome size. Transposition often results in duplication of the same genetic material. Transposons were originally discovered as \"jumping genes\" by Barbara McClintock.")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000003 "transposon")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000003 "transposable element")
-SubClassOf(obo:MOBIO_0000003 obo:MOBIO_0000001)
-SubClassOf(obo:MOBIO_0000003 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000002))
+AnnotationAssertion(rdfs:label obo:BFO_0000030 "continuent")
 
-# Class: obo:MOBIO_0000004 (bacteriophage)
+# Class: obo:GO_0000150 (DNA strand exchange activity)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000004 "Bacteriophage are viral infectious agents with bacterial host organisms. Bacteriophage infect and replicate inside bacterial host cells, causing cell lysis as viral particles replicate. Bacteriophage are involved in DNA transfer between host organisms at low frequency through transduction: when segments of host DNA is accidentally packaged with the viral DNA, then integrated into a new host genome and later inherited.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000004 "bacteriophage")
-SubClassOf(obo:MOBIO_0000004 obo:MOBIO_0000001)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:GO_0000150 "recombinase activity")
+
+# Class: obo:GO_0009293 (transduction)
+
+SubClassOf(obo:GO_0009293 obo:MOBIO_0000016)
+
+# Class: obo:GO_0101031 (protein folding chaperone complex)
+
+SubClassOf(obo:GO_0101031 obo:MOBIO_0000025)
+
+# Class: obo:GO_0110001 (toxin-antitoxin complex)
+
+SubClassOf(obo:GO_0110001 obo:MOBIO_0000185)
 
 # Class: obo:MOBIO_0000006 (Col Plasmids)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000006 "These plasmids contain genes that code for bacteriocins, proteins that can kill other bacteria.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000006 "Col Plasmids")
-SubClassOf(obo:MOBIO_0000006 obo:MOBIO_0000002)
+SubClassOf(obo:MOBIO_0000006 obo:SO_0000155)
 
 # Class: obo:MOBIO_0000007 (Fertility F-Plasmids)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000007 "Fertility F-plasmids contain tra genes and are capable of conjugation resulting in the expression of sex pilli.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000007 "Fertility F-Plasmids")
-SubClassOf(obo:MOBIO_0000007 obo:MOBIO_0000002)
+SubClassOf(obo:MOBIO_0000007 obo:SO_0000155)
 
 # Class: obo:MOBIO_0000008 (Resistance Plasmids)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000008 "These plasmids contain genes that provide resistance against antibiotics or poisons. Historically known as R-factors, before the nature of plasmids was understood.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000008 "Resistance Plasmids")
-SubClassOf(obo:MOBIO_0000008 obo:MOBIO_0000002)
+SubClassOf(obo:MOBIO_0000008 obo:SO_0000155)
 
 # Class: obo:MOBIO_0000009 (Degradative Plasmids)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000009 "These plasmids enable the digestion of unusual substances, e.g. toluene and salicylic acid.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000009 "Degradative Plasmids")
-SubClassOf(obo:MOBIO_0000009 obo:MOBIO_0000002)
+SubClassOf(obo:MOBIO_0000009 obo:SO_0000155)
 
 # Class: obo:MOBIO_0000010 (Virulence Plasmids)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000010 "which turn the bacterium into a pathogen")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000010 "Virulence Plasmids")
-SubClassOf(obo:MOBIO_0000010 obo:MOBIO_0000002)
+SubClassOf(obo:MOBIO_0000010 obo:SO_0000155)
 
-# Class: obo:MOBIO_0000011 (mechanism of plasmid maintenance)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000011 "The set of specific processes that needed for plasmid partition, stability, replication, and mobility. These are all processes that allow for the plasmid to move between organisms.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000011 "mechanism of plasmid maintenance")
-SubClassOf(obo:MOBIO_0000011 obo:BFO_0000015)
-
-# Class: obo:MOBIO_0000012 (mechanism of replication)
+# Class: obo:MOBIO_0000012 (replication)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000012 "Any process or set of processes through which plasmid replication is initiated.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000012 "mechanism of replication")
-SubClassOf(obo:MOBIO_0000012 obo:MOBIO_0000011)
+AnnotationAssertion(rdfs:label obo:MOBIO_0000012 "replication")
+SubClassOf(obo:MOBIO_0000012 obo:GO_0006276)
 
-# Class: obo:MOBIO_0000013 (theta type)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000013 "Replication by the Theta Mechanism - opening of the strands followed by RNA priming")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000013 "theta type")
-SubClassOf(obo:MOBIO_0000013 obo:MOBIO_0000012)
-
-# Class: obo:MOBIO_0000014 (strand displacement)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000014 "strand displacement replication. Opening of the strands followed by RNA priming")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000014 "strand displacement")
-SubClassOf(obo:MOBIO_0000014 obo:MOBIO_0000012)
-
-# Class: obo:MOBIO_0000015 (rolling circle replication)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000015 "A mechanism of plasmid replication in which the two strands are asynchronously copied, with one strand initially forming a single-stranded circle.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000015 "rolling circle replication")
-SubClassOf(obo:MOBIO_0000015 obo:MOBIO_0000012)
-
-# Class: obo:MOBIO_0000016 (process or mechanism of genetic mobility)
+# Class: obo:MOBIO_0000016 (genetic mobility)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000016 "Molecular mechanisms involved in the intracellular and intercellular transfer, integration, stabilization and recombination of mobile genetic elements.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000016 "process or mechanism of genetic mobility")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000016 "genetic mobility")
 SubClassOf(obo:MOBIO_0000016 obo:BFO_0000015)
 
-# Class: obo:MOBIO_0000017 (conjugative transfer)
+# Class: obo:MOBIO_0000017 (conjugation)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000017 "Conjugation is the process by which one bacterium transfers genetic material to another through direct contact. During conjugation, one bacterium serves as the donor of the genetic material, and the other serves as the recipient.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000017 "Conjugation")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000017 "conjugative transfer")
-SubClassOf(obo:MOBIO_0000017 obo:MOBIO_0000196)
+AnnotationAssertion(rdfs:label obo:MOBIO_0000017 "conjugation")
+SubClassOf(obo:MOBIO_0000017 obo:MOBIO_0000016)
 
-# Class: obo:MOBIO_0000019 (mechanism of stabilization)
+# Class: obo:MOBIO_0000019 (stabilization)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000019 "Stabilization mechanisms facilitate and promote the survival of plasmids in their host cells. This includes mechanisms that allow for the survival of the host cell itself in harsh conditions.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000019 "mechanism of stabilization")
-SubClassOf(obo:MOBIO_0000019 obo:MOBIO_0000011)
+AnnotationAssertion(rdfs:label obo:MOBIO_0000019 "stabilization")
+SubClassOf(obo:MOBIO_0000019 obo:GO_0006276)
 
 # Class: obo:MOBIO_0000020 (transformation)
 
@@ -404,45 +396,41 @@ AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000020 "Transformation refers to 
 AnnotationAssertion(rdfs:label obo:MOBIO_0000020 "transformation")
 SubClassOf(obo:MOBIO_0000020 obo:MOBIO_0000016)
 
-# Class: obo:MOBIO_0000021 (Toxin-antitoxin system)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000021 "A toxin-antitoxin system is a set of two or more closely linked genes that together encode both a protein 'poison' and a corresponding 'antidote'. When these systems are contained on plasmids – transferable genetic elements – they ensure that only the daughter cells that inherit the plasmid survive after cell division. If the plasmid is absent in a daughter cell, the unstable anti-toxin is degraded and the stable toxic protein kills the new cell; this is known as 'post-segregational killing' (PSK).")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000021 "Toxin-antitoxin system")
-
 # Class: obo:MOBIO_0000022 (Type I TA System)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000022 "Type I toxin-antitoxin systems rely on the base-pairing of complementary antitoxin RNA with the toxin's mRNA. Translation of the mRNA is then inhibited either by degradation via RNase III or by occluding the Shine-Dalgarno sequence or ribosome binding site.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000022 "Type I TA System")
-SubClassOf(obo:MOBIO_0000022 obo:MOBIO_0000021)
+SubClassOf(obo:MOBIO_0000022 obo:GO_0110001)
 
 # Class: obo:MOBIO_0000023 (Type II TA System)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000023 "In this system a labile protein antitoxin tightly binds and inhibits the activity of a stable toxin. Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression.")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000023 "Type II systems are organised in operons with the antitoxin protein typically being located upstream of the toxin. The antitoxin inhibits the toxin by downregulating its expression.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000023 "Type II TA System")
-SubClassOf(obo:MOBIO_0000023 obo:MOBIO_0000021)
+SubClassOf(obo:MOBIO_0000023 obo:GO_0110001)
 
 # Class: obo:MOBIO_0000024 (Type III TA System)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000024 "Type III toxin-antitoxin systems rely on direct interaction between a toxic protein and an RNA antitoxin. The toxic effects of the protein are neutralised by the RNA gene.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000024 "Type III TA System")
-SubClassOf(obo:MOBIO_0000024 obo:MOBIO_0000021)
+SubClassOf(obo:MOBIO_0000024 obo:GO_0110001)
 
 # Class: obo:MOBIO_0000025 (conjugal transfer subunit or complex)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000025 "The process of conjugation requires several different types of subunits and complexes.")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000025 "genes and proteins involved in the process of conjugation")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000025 "conjugal transfer subunit or complex")
 SubClassOf(obo:MOBIO_0000025 obo:MOBIO_0000185)
+SubClassOf(obo:MOBIO_0000025 ObjectSomeValuesFrom(obo:BFO_0000051 obo:MOBIO_0000181))
 
-# Class: obo:MOBIO_0000026 (pilX7)
+# Class: obo:MOBIO_0000026 (PilX7)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") Annotation(oboInOwl:hasDbXref "PMID:19717626") obo:IAO_0000115 obo:MOBIO_0000026 "Protein involved in the conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000026 "pilX7")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000026 "PilX7")
 SubClassOf(obo:MOBIO_0000026 obo:MOBIO_0000025)
 
-# Class: obo:MOBIO_0000027 (pilX8)
+# Class: obo:MOBIO_0000027 (PilX8)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") Annotation(oboInOwl:hasDbXref "PMID:19717626") obo:IAO_0000115 obo:MOBIO_0000027 "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000027 "pilX8")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000027 "PilX8")
 SubClassOf(obo:MOBIO_0000027 obo:MOBIO_0000025)
 
 # Class: obo:MOBIO_0000028 (colicin immunity protein)
@@ -452,17 +440,17 @@ AnnotationAssertion(rdfs:label obo:MOBIO_0000028 "colicin immunity protein")
 SubClassOf(obo:MOBIO_0000028 obo:MOBIO_0000188)
 SubClassOf(obo:MOBIO_0000028 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000006))
 
-# Class: obo:MOBIO_0000029 (pilX9)
+# Class: obo:MOBIO_0000029 (PilX9)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") Annotation(oboInOwl:hasDbXref "PMID:19717626") obo:IAO_0000115 obo:MOBIO_0000029 "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli.
 ")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000029 "pilX9")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000029 "PilX9")
 SubClassOf(obo:MOBIO_0000029 obo:MOBIO_0000025)
 
-# Class: obo:MOBIO_0000030 (pilX10)
+# Class: obo:MOBIO_0000030 (PilX10)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") Annotation(oboInOwl:hasDbXref "PMID:19717626") obo:IAO_0000115 obo:MOBIO_0000030 "Protein involved in conjugal transfer of DNA. First identified in conjugative plasmid R6K of E. coli. It is homologous to type IV secretory pathway VirB10 protein")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000030 "pilX10")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") Annotation(oboInOwl:hasDbXref "PMID:19717626") obo:IAO_0000115 obo:MOBIO_0000030 "First identified in conjugative plasmid R6K of E. coli. It is homologous to type IV secretory pathway VirB10 protein")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000030 "PilX10")
 SubClassOf(obo:MOBIO_0000030 obo:MOBIO_0000025)
 
 # Class: obo:MOBIO_0000031 (pilX11)
@@ -471,10 +459,10 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") Annotation(ob
 AnnotationAssertion(rdfs:label obo:MOBIO_0000031 "pilX11")
 SubClassOf(obo:MOBIO_0000031 obo:MOBIO_0000025)
 
-# Class: obo:MOBIO_0000032 (taxB)
+# Class: obo:MOBIO_0000032 (TaxB)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") obo:IAO_0000115 obo:MOBIO_0000032 "conjugal transfer protein - conjugal transfer protein TraG")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000032 "taxB")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") obo:IAO_0000115 obo:MOBIO_0000032 "TaxB protein plays a role in DNA processing of type-IV secretion machineries. TaxB shares sequence homology and functionality with TraG proteins")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000032 "TaxB")
 SubClassOf(obo:MOBIO_0000032 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000033 (RelE)
@@ -489,9 +477,6 @@ SubClassOf(obo:MOBIO_0000033 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000034 "Topoisomerases are enzymes that participate in the overwinding or underwinding of DNA. They bind to double-stranded DNA and cut the phosphate backbone of either one or both the DNA strands. ")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000034 "DNA topoisomerase")
 SubClassOf(obo:MOBIO_0000034 obo:MOBIO_0000187)
-SubClassOf(obo:MOBIO_0000034 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000013))
-SubClassOf(obo:MOBIO_0000034 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000014))
-SubClassOf(obo:MOBIO_0000034 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000015))
 
 # Class: obo:MOBIO_0000035 (traE)
 
@@ -499,21 +484,12 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") obo:IAO_00001
 AnnotationAssertion(rdfs:label obo:MOBIO_0000035 "traE")
 SubClassOf(obo:MOBIO_0000035 obo:MOBIO_0000034)
 
-# Class: obo:MOBIO_0000036 (Molecular Chaperone)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000036 "Molecular chaperones are proteins that assist the covalent folding or unfolding and the assembly or disassembly of other macromolecular structures. Chaperones are present when the macromolecules perform their normal biological functions and have correctly completed the processes of folding and/or assembly. The chaperones are concerned primarily with protein folding. One major function of chaperones is to prevent both newly synthesized polypeptide chains and assembled subunits from aggregating into nonfunctional structures. Many chaperones are heat shock proteins because the tendency to aggregate increases as proteins are denatured by stress.
-
-Molecular chaperones have been shown to be involved in both the assembly and disassembly of DNA replication complexes.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000036 "Molecular Chaperone")
-SubClassOf(obo:MOBIO_0000036 obo:MOBIO_0000187)
-SubClassOf(obo:MOBIO_0000036 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000015))
-
 # Class: obo:MOBIO_0000037 (DnaJ)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") obo:IAO_0000115 obo:MOBIO_0000037 "Chaperone DnaJ, also known as Hsp40 (heat shock protein 40 kD), is a molecular chaperone protein. The J domain of DnaJ interacts with Hsp70 heat shock proteins. DnaJ heat-shock proteins play a role in regulating the ATPase activity of Hsp70 heat-shock proteins.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") obo:IAO_0000115 obo:MOBIO_0000037 "DnaJ heat-shock proteins play a role in regulating the ATPase activity of Hsp70 heat-shock proteins.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000037 "Hsp40")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000037 "DnaJ")
-SubClassOf(obo:MOBIO_0000037 obo:MOBIO_0000036)
+SubClassOf(obo:MOBIO_0000037 obo:GO_0101031)
 
 # Class: obo:MOBIO_0000038 (transposase)
 
@@ -521,20 +497,18 @@ AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000038 "Class 2 transposons encod
 ")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000038 "transposase")
 SubClassOf(obo:MOBIO_0000038 obo:MOBIO_0000190)
-SubClassOf(obo:MOBIO_0000038 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000003))
 
-# Class: obo:MOBIO_0000039 (replication initiation protein RepC)
+# Class: obo:MOBIO_0000039 (RepC)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000039 "This protein is a specific topoisomerase involved in initiating replication. This protein is specifically required and may be rate-limiting for replication of the plasmid in vivo.
 ")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000039 "repC")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000039 "replication initiation protein RepC")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000039 "RepC")
 SubClassOf(obo:MOBIO_0000039 obo:MOBIO_0000046)
 
-# Class: obo:MOBIO_0000040 (Chromate transport protein)
+# Class: obo:MOBIO_0000040 (chromate transport protein)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000040 "These proteins reduce chromate accumulation and are essential for chromate resistance. They are composed of one or two copies of this region. The short-chain CHR proteins form heterodimer transporters which efflux chromate ions from the cytoplasm, while the long chain CHR proteins appear to have arisen from a gene fusion event of two short chain transporters")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000040 "Chromate transport protein")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000040 "These proteins reduce chromate accumulation and are essential for chromate resistance.")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000040 "chromate transport protein")
 SubClassOf(obo:MOBIO_0000040 obo:MOBIO_0000188)
 
 # Class: obo:MOBIO_0000041 (Dihydrofolate reductase)
@@ -543,9 +517,6 @@ AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000041 "Dihydrofolate reductase c
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000041 "DfrA")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000041 "Dihydrofolate reductase")
 SubClassOf(obo:MOBIO_0000041 obo:MOBIO_0000187)
-SubClassOf(obo:MOBIO_0000041 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000013))
-SubClassOf(obo:MOBIO_0000041 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000014))
-SubClassOf(obo:MOBIO_0000041 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000015))
 
 # Class: obo:MOBIO_0000042 (Class 1 Integrase)
 
@@ -553,15 +524,6 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18193080") Annotation(ob
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000042 "Intl1")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000042 "Class 1 Integrase")
 SubClassOf(obo:MOBIO_0000042 obo:MOBIO_0000104)
-SubClassOf(obo:MOBIO_0000042 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000043))
-
-# Class: obo:MOBIO_0000043 (integron)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000043 "Integrons are genetic mechanisms that allow bacteria to adapt and evolve rapidly through the acquisition, stockpiling and differential expression of new genes. Additionally, an integron will usually contain one or more gene cassettes that have been incorporated into it.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000043 "integron")
-SubClassOf(obo:MOBIO_0000043 obo:MOBIO_0000001)
-SubClassOf(obo:MOBIO_0000043 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000002))
-SubClassOf(obo:MOBIO_0000043 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000003))
 
 # Class: obo:MOBIO_0000044 (PadR family transcriptional regulator)
 
@@ -569,10 +531,10 @@ AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000044 "DNA-binding transcription
 AnnotationAssertion(rdfs:label obo:MOBIO_0000044 "PadR family transcriptional regulator")
 SubClassOf(obo:MOBIO_0000044 obo:MOBIO_0000045)
 
-# Class: obo:MOBIO_0000045 (transcriptional regulator of operons found in MGEs)
+# Class: obo:MOBIO_0000045 (transcriptional regulators)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000045 "transcriptional regulation is the means by which a cell regulates the conversion of DNA to RNA (transcription), thereby orchestrating gene activity.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000045 "transcriptional regulator of operons found in MGEs")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000045 "transcriptional regulators")
 SubClassOf(obo:MOBIO_0000045 obo:MOBIO_0000190)
 
 # Class: obo:MOBIO_0000046 (replication initiation protein)
@@ -580,21 +542,11 @@ SubClassOf(obo:MOBIO_0000045 obo:MOBIO_0000190)
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000046 "protein required for initiation of replication")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000046 "replication initiation protein")
 SubClassOf(obo:MOBIO_0000046 obo:MOBIO_0000187)
-SubClassOf(obo:MOBIO_0000046 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000013))
-SubClassOf(obo:MOBIO_0000046 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000014))
-SubClassOf(obo:MOBIO_0000046 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000015))
 
-# Class: obo:MOBIO_0000047 (replication initiation protein RepA)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000047 "This protein is essential for plasmid replication; it is involved in copy control functions")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000047 "RepA")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000047 "replication initiation protein RepA")
-SubClassOf(obo:MOBIO_0000047 obo:MOBIO_0000046)
-
-# Class: obo:MOBIO_0000048 (Major pili subunit operon regulatory protein papB)
+# Class: obo:MOBIO_0000048 (PapB)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000048 "papB may act as both positive and negative regulator of the pyelonephritis-associated pili (pap) pilin gene transcription. It is found in the pap operon.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000048 "Major pili subunit operon regulatory protein papB")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000048 "PapB")
 SubClassOf(obo:MOBIO_0000048 obo:MOBIO_0000025)
 SubClassOf(obo:MOBIO_0000048 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000017))
 
@@ -621,7 +573,7 @@ SubClassOf(obo:MOBIO_0000051 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000
 
 # Class: obo:MOBIO_0000052 (CcdA)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:27357537") obo:IAO_0000115 obo:MOBIO_0000052 "Antitoxin component of a toxin-antitoxin (TA) module which inhibits the post-segregational killing (PSK) of plasmid-free cells, also referred to as a plasmid addiction system. Labile antitoxin with a half-life of about 1 hour in the presence of CcdB. Binds to and blocks the activity of CcdB; will also remove bound CcdB protein from the CcdB-GyrA complex by forming a CcdA-CcdB complex, a process termed rejuvenation. The N-terminal 36 residues are not required for rejuventation. Functions as a transcriptional corepressor for the ccdAB operon, repression also requires CcdB.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:27357537") obo:IAO_0000115 obo:MOBIO_0000052 "Labile antitoxin with a half-life of about 1 hour in the presence of CcdB. Binds to and blocks the activity of CcdB; will also remove bound CcdB protein from the CcdB-GyrA complex by forming a CcdA-CcdB complex, a process termed rejuvenation.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000052 "CcdA")
 SubClassOf(obo:MOBIO_0000052 obo:MOBIO_0000049)
 SubClassOf(obo:MOBIO_0000052 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000079))
@@ -633,40 +585,41 @@ AnnotationAssertion(rdfs:label obo:MOBIO_0000053 "CcdB")
 SubClassOf(obo:MOBIO_0000053 obo:MOBIO_0000051)
 SubClassOf(obo:MOBIO_0000053 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000079))
 
-# Class: obo:MOBIO_0000054 (replication initiation protein RepE)
+# Class: obo:MOBIO_0000054 (RepE)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000054 "Replication initiator in the monomeric form, and autogenous repressor in the dimeric form.")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000054 "RepE")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000054 "replication initiation protein RepE")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000054 "RepE")
 SubClassOf(obo:MOBIO_0000054 obo:MOBIO_0000046)
 
-# Class: obo:MOBIO_0000055 (plasmid partition system)
+# Class: obo:MOBIO_0000055 (plasmid partition systems)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000055 "A plasmid partition system is the mechanism that assures the stable transmission of plasmids during bacterial cell division. Each plasmid has its independent replication system which control the number of copy of a plasmid in a cell.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000055 "plasmid partition system")
-SubClassOf(obo:MOBIO_0000055 obo:MOBIO_0000011)
+AnnotationAssertion(rdfs:label obo:MOBIO_0000055 "plasmid partition systems")
+SubClassOf(obo:MOBIO_0000055 obo:MOBIO_0000185)
 
 # Class: obo:MOBIO_0000056 (Type I Partition System)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000056 "This system is also used by most bacteria for chromosome segregation. Type I partition system are composed of an ATPase which contains Walker motifs and a CBP which is structurally distinct in type Ia and Ib. ATPases and CBP from type Ia are longer than the one from type Ib, but both CBPs contain an arginine finger in their N-terminal part. ParA proteins from different plasmids and bacterial species show 25 to 30% of sequence identity to the protein ParA of the plasmid P1. The partition of type I system uses a \"diffusion-ratchet\" mechanism. ")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000056 "Type I partition system are composed of an ATPase which contains Walker motifs and a CBP which is structurally distinct in type Ia and Ib.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000056 "Type 1 Partition System")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000056 "Type I Partition System")
 SubClassOf(obo:MOBIO_0000056 obo:MOBIO_0000055)
 
-# Class: obo:MOBIO_0000057 (Type Ia Partition System)
+# Class: obo:MOBIO_0000057 (Type Ia partition system)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000057 "def")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000057 "Type Ia Partition System")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000057 "plasmid partition system that synthesis ParA - ParB proteins")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000057 "Type Ia partition system")
 SubClassOf(obo:MOBIO_0000057 obo:MOBIO_0000056)
 
 # Class: obo:MOBIO_0000058 (Type Ib partition system)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000058 "partition system")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000058 "The Type Ib partion system encodes ParB that plays a role in Gram-Positive Bacteria and are unrelated to Type Ia ParB protein")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> obo:MOBIO_0000058 "Yin P, Li TY, Xie MH, Jiang L, Zhang Y. A Type Ib ParB protein involved in plasmid partitioning in a gram-positive bacterium. Journal of bacteriology. 2006 Dec 1;188(23):8103-8.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000058 "Type Ib partition system")
+SubClassOf(obo:MOBIO_0000058 obo:MOBIO_0000056)
 
 # Class: obo:MOBIO_0000059 (Type II Partition System)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000059 "This system is composed of an actin-like ATPase, ParM, and a CBP called ParR. The centromere-like site, parC contains two sets of five 11 base pair direct repeats separated by the parMR promoter. The amino-acid sequence identity can go down to 15% between ParM and other actin-like ATPase.")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000059 "This system is composed of an actin-like ATPase, ParM, and a CBP called ParR. The centromere-like site, parC contains two sets of five 11 base pair direct repeats separated by the parMR promoter.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000059 "Type II Partition System")
 SubClassOf(obo:MOBIO_0000059 obo:MOBIO_0000055)
 
@@ -684,13 +637,14 @@ SubClassOf(obo:MOBIO_0000061 obo:MOBIO_0000055)
 
 # Class: obo:MOBIO_0000062 (pSK1 partition system)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000062 "pSK1 is plasmid from Staphylococcus aureus. This plasmid has a partition system determined by a single gene, par, previously known as orf245. This gene has effect neither on the plasmid copy number nor on the growth rate (excluding its implication in a post-segregational killing system). A centromere-like binding sequence is present upstream the par gene, and is composed of seven direct repeats and one inverted repeat.")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000062 "pSK1 is plasmid from Staphylococcus aureus. This plasmid has a partition system determined by a single gene, par, previously known as orf245. This gene has effect neither on the plasmid copy number nor on the growth rate.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000062 "pSK1 partition system")
 SubClassOf(obo:MOBIO_0000062 obo:MOBIO_0000055)
 
 # Class: obo:MOBIO_0000063 (ParA)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000063 "Partitioning protein - ATPase")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000063 "ParA partitioning protein possesses in-vitro ATPase activity.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/source> obo:MOBIO_0000063 "Davis MA, Martin KA, Austin SJ. Biochemical activities of the ParA partition protein of the P1 plasmid. Molecular microbiology. 1992 May;6(9):1141-7.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000063 "ParA")
 SubClassOf(obo:MOBIO_0000063 obo:MOBIO_0000186)
 SubClassOf(obo:MOBIO_0000063 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000058))
@@ -701,13 +655,12 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:7883717") obo:IAO_000011
 AnnotationAssertion(rdfs:label obo:MOBIO_0000064 "pifA")
 SubClassOf(obo:MOBIO_0000064 obo:MOBIO_0000193)
 
-# Class: obo:MOBIO_0000065 (replication initiation protein RepB)
+# Class: obo:MOBIO_0000065 (RepB)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18375554") obo:IAO_0000115 obo:MOBIO_0000065 "Is essential for plasmid replication. Nicks the positive strand at the plus origin of replication.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000065 "Pi protein")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000065 "RepB")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000065 "pir")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000065 "replication initiation protein RepB")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000065 "RepB")
 SubClassOf(obo:MOBIO_0000065 obo:MOBIO_0000046)
 
 # Class: obo:MOBIO_0000066 (replication regulatory protein)
@@ -724,29 +677,29 @@ SubClassOf(obo:MOBIO_0000067 obo:MOBIO_0000066)
 
 # Class: obo:MOBIO_0000068 (SopA)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") Annotation(oboInOwl:hasDbXref "PMID:2670941") obo:IAO_0000115 obo:MOBIO_0000068 "This protein is essential for plasmid partition. It ensures the proper distribution of newly replicated plasmids to daughter cells during cell division. SopA is trans-acting and binds to a sequence in the sopAB operon, thus regulating the expression of the operon. ")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") Annotation(oboInOwl:hasDbXref "PMID:2670941") obo:IAO_0000115 obo:MOBIO_0000068 "SopA ensures the proper distribution of newly replicated plasmids to daughter cells during cell division.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000068 "SopA")
 SubClassOf(obo:MOBIO_0000068 obo:MOBIO_0000186)
 SubClassOf(obo:MOBIO_0000068 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000058))
 
 # Class: obo:MOBIO_0000069 (SopB)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") Annotation(oboInOwl:hasDbXref "PMID:2670941") obo:IAO_0000115 obo:MOBIO_0000069 "SopB is involved in the control of plasmid partitioning. It is trans-acting and binds specifically with the DNA segment containing the sopC region. The presence of SopB in the SopAB complex enhances SopA binding to the target DNA sequence.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") Annotation(oboInOwl:hasDbXref "PMID:2670941") obo:IAO_0000115 obo:MOBIO_0000069 "SopB is trans-acting and binds specifically with the DNA segment containing the sopC region. The presence of SopB in the SopAB complex enhances SopA binding to the target DNA sequence.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000069 "SopB")
 SubClassOf(obo:MOBIO_0000069 obo:MOBIO_0000186)
 SubClassOf(obo:MOBIO_0000069 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000058))
 
-# Class: obo:MOBIO_0000070 (antirestriction protein KlcA)
+# Class: obo:MOBIO_0000070 (KlcA)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:20007596") obo:IAO_0000115 obo:MOBIO_0000070 "Bacterial cells often contain type I DNA and restriction modification (RM) systems that degrade foreign DNA during bacterial conjugation. KlcA could be involved in inhibiting the RM systems and enhancing the success of conjugation.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000070 "antirestriction protein KlcA")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000070 "KlcA")
 SubClassOf(obo:MOBIO_0000070 obo:MOBIO_0000025)
 
 # Class: obo:MOBIO_0000071 (group II intron reverse transcriptase/maturase)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000071 "Members of this protein family are multifunctional proteins encoded in most examples of bacterial group II introns. Member proteins have an N-terminal reverse transcriptase (RNA-directed DNA polymerase) domain followed by an RNA-binding maturase domain. These proteins play a role in site-specific DNA insertion.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000071 "group II intron reverse transcriptase/maturase")
-SubClassOf(obo:MOBIO_0000071 obo:MOBIO_0000190)
+SubClassOf(obo:MOBIO_0000071 obo:MOBIO_0000403)
 
 # Class: obo:MOBIO_0000072 (hydrolase)
 
@@ -756,7 +709,7 @@ SubClassOf(obo:MOBIO_0000072 obo:MOBIO_0000188)
 
 # Class: obo:MOBIO_0000073 (single stranded DNA binding protein)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000073 "Single-strand DNA-binding protein (SSB) binds to single-stranded regions of deoxyribonucleic acid (DNA). Single-stranded DNA is produced during all aspects of DNA metabolism: replication, recombination, and repair.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000073 "Single-strand DNA-binding protein (SSB) binds to single-stranded regions of deoxyribonucleic acid (DNA). Single-stranded DNA are produced during all aspects of DNA metabolism: replication, recombination, and repair.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000073 "single stranded DNA binding protein")
 SubClassOf(obo:MOBIO_0000073 obo:MOBIO_0000187)
 
@@ -774,7 +727,7 @@ SubClassOf(obo:MOBIO_0000075 obo:MOBIO_0000195)
 
 # Class: obo:MOBIO_0000076 (Plasmid SOS inhibition)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000076 "The process of bacterial conjugation involves the transfer of a conjugative plasmid as a single strand. The potentially deleterious SOS response, which is normally triggered by the appearance of single-stranded DNA, is suppressed in the recipient cell by a complex involving the PsiB protein. This complex inhibits the activity of RecA, preventing RecA from catalyzing the auto-cleavage of LexA, which activates the SOS response. SOS inhibition allows for the successful transfer of plasmid genetic information between bacterial cells through conjugation.")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000076 "The process of bacterial conjugation involves the transfer of a conjugative plasmid as a single strand. SOS inhibition allows for the successful transfer of plasmid genetic information between bacterial cells through conjugation.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000076 "Plasmid SOS inhibition")
 SubClassOf(obo:MOBIO_0000076 obo:MOBIO_0000019)
 SubClassOf(obo:MOBIO_0000076 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000017))
@@ -795,7 +748,7 @@ SubClassOf(obo:MOBIO_0000078 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000
 
 # Class: obo:MOBIO_0000079 (CcdA/CcdB Type II Toxin-antitoxin system)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000079 "The CcdA/CCdB Type II Toxin-antitoxin system is one example of the bacterial toxin-antitoxin (TA) systems that encode two proteins, one a potent inhibitor of cell proliferation (toxin) and the other its specific antidote (antitoxin). These systems preferentially guarantee growth of plasmid-carrying daughter cells in a bacterial population by killing newborn bacteria that have not inherited a plasmid copy at cell division (post-segregational killing).")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000079 "The CcdA/CCdB Type II Toxin-antitoxin system are a type of bacterial toxin-antitoxin (TA) systems that encode two proteins, one a potent inhibitor of cell proliferation (toxin) and the other its specific antidote (antitoxin)")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000079 "CcdA/CcdB Type II Toxin-antitoxin system")
 SubClassOf(obo:MOBIO_0000079 obo:MOBIO_0000023)
 
@@ -823,43 +776,43 @@ SubClassOf(obo:MOBIO_0000082 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000083 "Conjugative DNA transfer (CDT) is the unidirectional transfer of ssDNA plasmid from a donor to a recipient cell. It is the central mechanism by which antibiotic resistance and virulence factors are propagated in bacterial populations. Part of the relaxosome, which facilitates a site- and strand-specific cut in the origin of transfer by TraI, at the nic site. Cooperatively binds 3 regions in the F plasmid oriT locus; 2 are required for autoregulation while the other is required for plasmid transfer. Bends oriT DNA less than 50 degrees. Plasmid specificity is conferred by the TraD-TraM pair.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000083 "TraM")
-SubClassOf(obo:MOBIO_0000083 obo:MOBIO_0000182)
+SubClassOf(obo:MOBIO_0000083 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000084 (TraJ)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000084 "TraJ is a conjugal transfer transcriptional regulator.It recruits the relaxasome complex to the oriT site")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000084 "TraJ")
-SubClassOf(obo:MOBIO_0000084 obo:MOBIO_0000182)
+SubClassOf(obo:MOBIO_0000084 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000085 (TraY)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000085 "TraY is a subunit of the relaxosome. It facilitates the binding of the relaxase to the oriT, and enhances cleaving activity.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000085 "TraY")
-SubClassOf(obo:MOBIO_0000085 obo:MOBIO_0000182)
+SubClassOf(obo:MOBIO_0000085 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000086 (TraA)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000086 "The traA gene codes for relaxase, which is an enzyme that initiates plasmid DNA transfer during bacterial conjugation. Relaxase forms a relaxosome complex with auxiliary proteins to initiate conjugation. Relaxosome binds to the origin of transfer (oriT) sequence and cleaves the DNA strand that will be transferred (the T strand).")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000086 "The traA gene codes for relaxase, which is an enzyme that initiates plasmid DNA transfer during bacterial conjugation. Relaxase forms a relaxosome complex with auxiliary proteins to initiate conjugation")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000086 "TraA")
-SubClassOf(obo:MOBIO_0000086 obo:MOBIO_0000120)
+SubClassOf(obo:MOBIO_0000086 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000087 (TraL)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000087 "Membrane protein involved in F pilin formation")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000087 "TraL")
-SubClassOf(obo:MOBIO_0000087 obo:MOBIO_0000183)
+SubClassOf(obo:MOBIO_0000087 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000088 (traK)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000088 "conjugal transfer protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000088 "traK")
-SubClassOf(obo:MOBIO_0000088 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000088 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000089 (TraB)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000089 "conjugal transfer protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000089 "TraB")
-SubClassOf(obo:MOBIO_0000089 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000089 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000090 (resolvase)
 
@@ -867,7 +820,6 @@ AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000090 "A family of nucleases inv
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000090 "recombinase")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000090 "resolvase")
 SubClassOf(obo:MOBIO_0000090 obo:MOBIO_0000190)
-SubClassOf(obo:MOBIO_0000090 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000003))
 
 # Class: obo:MOBIO_0000091 (ResD)
 
@@ -908,7 +860,7 @@ SubClassOf(obo:MOBIO_0000096 obo:MOBIO_0000090)
 
 # Class: obo:MOBIO_0000097 (PemI)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:17416361") Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000097 "Antitoxin component of a type II toxin-antitoxin (TA) module. Labile antitoxin that binds to its cognate PemK endoribonuclease toxin and neutralizes its activity. Responsible for the stable maintenance of the plasmid during cell division. Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:17416361") Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000097 "Labile antitoxin that binds to its cognate PemK endoribonuclease toxin and neutralizes its activity.Both PemI and PemK proteins bind to the promoter region of the pem operon to autoregulate their synthesis.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000097 "PemI")
 SubClassOf(obo:MOBIO_0000097 obo:MOBIO_0000049)
 SubClassOf(obo:MOBIO_0000097 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000124))
@@ -935,15 +887,15 @@ SubClassOf(obo:MOBIO_0000100 obo:MOBIO_0000045)
 
 # Class: obo:MOBIO_0000101 (TraI)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26899414") obo:IAO_0000115 obo:MOBIO_0000101 "TraI codes for a relaxase of F plasmids, which cleaves the DNA in the initiationof plasmid conjugation. It has also been identified as DNA helicase I. DNA helicase I is a potent, highly processive DNA-dependent ATPase, able to unwind about 1.1 kb dsDNA per second in a 5' to 3' manner.  TraI forms a covalent 5'-phosphotyrosine intermediate linkage to the ssDNA. The transesterified T-strand moves from the donor cell to the recipient cell in a 5'to 3' direction, with the DNA helicase activity of TraI unwinding the DNA")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26899414") obo:IAO_0000115 obo:MOBIO_0000101 "TraI codes for a relaxase of F plasmids, which cleaves the DNA in the initiatio nof plasmid conjugation.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000101 "TraI")
-SubClassOf(obo:MOBIO_0000101 obo:MOBIO_0000120)
+SubClassOf(obo:MOBIO_0000101 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000102 (TraX)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") obo:IAO_0000115 obo:MOBIO_0000102 "conjugal transfer protein - pilus acetylase")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000102 "TraX")
-SubClassOf(obo:MOBIO_0000102 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000102 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000103 (MarR famiy transcriptional regulator)
 
@@ -1018,50 +970,41 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26899414") obo:IAO_00001
 AnnotationAssertion(rdfs:label obo:MOBIO_0000115 "Tn3 family transposase")
 SubClassOf(obo:MOBIO_0000115 obo:MOBIO_0000038)
 
-# Class: obo:MOBIO_0000116 (IncFII family plasmid replication intiator RepA)
+# Class: obo:MOBIO_0000116 (RepA)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26899414") obo:IAO_0000115 obo:MOBIO_0000116 "Initiates plasmid replication.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000116 "IncFII family plasmid replication intiator RepA")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26899414") obo:IAO_0000115 obo:MOBIO_0000116 "This protein is essential for plasmid replication; it is involved in copy control functions")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000116 "RepA")
 SubClassOf(obo:MOBIO_0000116 obo:MOBIO_0000046)
 
-# Class: obo:MOBIO_0000117 (Fertility inhibition protein)
+# Class: obo:MOBIO_0000117 (fertility inhibition protein)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") Annotation(oboInOwl:hasDbXref "PMID:26899414") Annotation(oboInOwl:hasDbXref "PMID:9819055") obo:IAO_0000115 obo:MOBIO_0000117 "One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes. The transfer genes are responsible for the process, called conjugal transfer, in which DNA is transmitted from one bacterial host to another. RNA-binding that interacts with the traJ mRNA and its antisense RNA, finP, stabilizing finP against endonucleolytic degradation and facilitating sense-antisense RNA recognition.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25753630") Annotation(oboInOwl:hasDbXref "PMID:26899414") Annotation(oboInOwl:hasDbXref "PMID:9819055") obo:IAO_0000115 obo:MOBIO_0000117 "One of the components on the FinOP fertility inhibition complex, which inhibits the expression of traJ gene, which in turn regulates the expression of some 20 transfer genes.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000117 "FinO")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000117 "Fertility inhibition protein")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000117 "fertility inhibition protein")
 SubClassOf(obo:MOBIO_0000117 obo:MOBIO_0000025)
 SubClassOf(obo:MOBIO_0000117 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000007))
-
-# Class: obo:MOBIO_0000118 (relaxase)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000118 "Enzymes that catalyze the cleavage of phosphodiester bonds in DNA in a site- and strand- specific manner, creating nicks that initiate either the processes of plasmid conjugation or rolling circle replication.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000118 "relaxase")
-SubClassOf(obo:MOBIO_0000118 obo:MOBIO_0000025)
-SubClassOf(obo:MOBIO_0000118 obo:MOBIO_0000187)
-SubClassOf(obo:MOBIO_0000118 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000127))
-SubClassOf(obo:MOBIO_0000118 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000015))
 
 # Class: obo:MOBIO_0000119 (replicative relaxase)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000119 "The nicks produced by Rep relaxases initiate plasmid or virus RCR")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000119 "replicative relaxase")
-SubClassOf(obo:MOBIO_0000119 obo:MOBIO_0000118)
+SubClassOf(obo:MOBIO_0000119 obo:ICEO_0000036)
 
 # Class: obo:MOBIO_0000120 (mobility relaxase)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000120 "Mob relaxases nick at origin of transfer (oriT) to initiate the process of DNA mobilization and transfer known as bacterial conjugation. Mob relaxases are part of the relaxosome.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000120 "mobility relaxase")
-SubClassOf(obo:MOBIO_0000120 obo:MOBIO_0000118)
+SubClassOf(obo:MOBIO_0000120 obo:ICEO_0000036)
 
-# Class: obo:MOBIO_0000121 (Coupling protein TraD)
+# Class: obo:MOBIO_0000121 (TraD)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26899414") obo:IAO_0000115 obo:MOBIO_0000121 "Conjugative DNA transfer (CDT) is the unidirectional transfer of ssDNA plasmid from a donor to a recipient cell. It is the central mechanism by which antibiotic resistance and virulence factors are propagated in bacterial populations. Couples the transferosome to a type IV secretion system. Probably forms a pore through which single-stranded plasmid DNA is transferred to the secretion system. The last 37 residues are important for determining plasmid specificity and transfer efficiency, with additional specificity conferred by the TraD-TraM pair.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000121 "Coupling protein TraD")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26899414") obo:IAO_0000115 obo:MOBIO_0000121 "TraD plays distinct roles in oligomerization processes")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000121 "TraD")
 SubClassOf(obo:MOBIO_0000121 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000122 (RelB)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000122 "Antitoxin component of a type II toxin-antitoxin (TA) module. Counteracts the effect of cognate toxin RelE via direct protein-protein interaction, preventing RelE from entering the ribosome A site and thus inhibiting its endoribonuclease activity. An autorepressor of relBE operon transcription. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity. Increased transcription rate of relBE and activation of relE is consistent with a lower level of RelB in starved cells due to degradation of RelB by protease Lon.")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000122 "Antitoxin component of a type II toxin-antitoxin (TA) module. Counteracts the effect of cognate toxin RelE via direct protein-protein interaction, preventing RelE from entering the ribosome A site and thus inhibiting its endoribonuclease activity. An autorepressor of relBE operon transcription")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000122 "DinJ")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000122 "RelB")
 SubClassOf(obo:MOBIO_0000122 obo:MOBIO_0000049)
@@ -1069,7 +1012,7 @@ SubClassOf(obo:MOBIO_0000122 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000
 
 # Class: obo:MOBIO_0000123 (RelB/RelE Type II toxin-antitoxin system)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000123 "RelB is the antitoxin component of a type II toxin-antitoxin (TA) module. Counteracts the effect of cognate toxin RelE via direct protein-protein interaction, preventing RelE from entering the ribosome A site and thus inhibiting its endoribonuclease activity. An autorepressor of relBE operon transcription. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity. Increased transcription rate of relBE and activation of relE is consistent with a lower level of RelB in starved cells due to degradation of RelB by protease Lon.RelE is the toxic component of a type II toxin-antitoxin (TA) module. A sequence-specific, ribosome-dependent mRNA endoribonuclease that inhibits translation during amino acid starvation (the stringent response). In vitro acts by cleaving mRNA with high codon specificity in the ribosomal A site between positions 2 and 3. The stop codon UAG is cleaved at a fast rate while UAA and UGA are cleaved with intermediate and slow rates. In vitro mRNA cleavage can also occur in the ribosomal E site after peptide release from peptidyl-tRNA in the P site as well as on free 30S subunits. In vivo cuts frequently in the first 100 codons, most frequently after the second and third base and rarely near the stop codon. Overexpression of RelE results in the inhibition of bacterial growth and a sharp decrease in colony-forming ability which is neutralized by the labile cognate antitoxin RelB. Overexpression also sharply increases persisters (cells that neither grow nor die in the presence of bactericidal agents and are largely responsible for high levels of biofilm tolerance to antimicrobials). Plays a role in dormancy when expressed in high-density cells in the absence of antitoxin RelB; amino acid starvation and an unidentified extracellular factor promote dormancy, while expression of antitoxin RelB restores cell culturability. Acts with RelB as a corepressor of relBE transcription, considerably increasing the repression of RelB alone. 2 RelB dimers bind to 2 operator sequences; DNA-binding and repression is stronger when complexed with toxin/corepressor RelE by conditional cooperativity.")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000123 "RelB is the antitoxin component of a type II toxin-antitoxin (TA) module. Counteracts the effect of cognate toxin RelE via direct protein-protein interaction, preventing RelE from entering the ribosome A site and thus inhibiting its endoribonuclease activity.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000123 "RelB/RelE Type II toxin-antitoxin system")
 SubClassOf(obo:MOBIO_0000123 obo:MOBIO_0000023)
 
@@ -1085,11 +1028,11 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25917909") obo:IAO_00001
 AnnotationAssertion(rdfs:label obo:MOBIO_0000125 "HicA")
 SubClassOf(obo:MOBIO_0000125 obo:MOBIO_0000051)
 
-# Class: obo:MOBIO_0000126 (mobC)
+# Class: obo:MOBIO_0000126 (MobC)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:24905728") obo:IAO_0000115 obo:MOBIO_0000126 "The relaxosome protein MobC promotes conjugal plasmid mobilization by extending DNA strand separation to the nick site at the origin of transfer")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000126 "mobC")
-SubClassOf(obo:MOBIO_0000126 obo:MOBIO_0000182)
+AnnotationAssertion(rdfs:label obo:MOBIO_0000126 "MobC")
+SubClassOf(obo:MOBIO_0000126 obo:MOBIO_0000120)
 
 # Class: obo:MOBIO_0000127 (relaxosome)
 
@@ -1100,17 +1043,17 @@ SubClassOf(obo:MOBIO_0000127 obo:MOBIO_0000190)
 SubClassOf(obo:MOBIO_0000127 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000007))
 SubClassOf(obo:MOBIO_0000127 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000017))
 
-# Class: obo:MOBIO_0000128 (mobA)
+# Class: obo:MOBIO_0000128 (MobA)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000128 "DNA strand transferase,conjugal transfer relaxase TraA,Ti-type conjugative transfer relaxase TraA,MobA/MobL family")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000128 "mobA")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000128 "MobA")
 SubClassOf(obo:MOBIO_0000128 obo:MOBIO_0000120)
 
 # Class: obo:MOBIO_0000129 (MobB)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000129 "MobB promotes the specific transfer of the plasmid in the presence of conjugative plasmids.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000129 "MobB")
-SubClassOf(obo:MOBIO_0000129 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000129 obo:MOBIO_0000120)
 
 # Class: obo:MOBIO_0000130 (ParDE type II toxin-antitoxin system)
 
@@ -1151,10 +1094,10 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:18411315") obo:IAO_00001
 AnnotationAssertion(rdfs:label obo:MOBIO_0000135 "Acinetobacter baumannii ACICU plasmid pACICU1 addiction module antitoxin")
 SubClassOf(obo:MOBIO_0000135 obo:MOBIO_0000049)
 
-# Class: obo:MOBIO_0000136 (phd)
+# Class: obo:MOBIO_0000136 (Phd)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:10358024") obo:IAO_0000115 obo:MOBIO_0000136 "The product of the prevent host death (phd) gene is a type II antitoxin that is part of the doc/phd TA system.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000136 "phd")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000136 "Phd")
 SubClassOf(obo:MOBIO_0000136 obo:MOBIO_0000049)
 SubClassOf(obo:MOBIO_0000136 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000192))
 
@@ -1167,7 +1110,7 @@ SubClassOf(obo:MOBIO_0000137 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000
 
 # Class: obo:MOBIO_0000138 (ParB)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000138 "Involved in plasmid partition. Localize to both poles of the predivisional cell following completion of DNA replication. Binds to the DNA origin of replication.")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000138 "ParB is involved in plasmid partition. Localize to both poles of the predivisional cell following completion of DNA replication. Binds to the DNA origin of replication.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000138 "ParB")
 SubClassOf(obo:MOBIO_0000138 obo:MOBIO_0000186)
 SubClassOf(obo:MOBIO_0000138 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000058))
@@ -1287,7 +1230,7 @@ SubClassOf(obo:MOBIO_0000156 obo:MOBIO_0000049)
 
 # Class: obo:MOBIO_0000157 (TraG)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000157 "conjugal transfer mating pair stabilization protein")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000157 "TraG is a conjugal transfer mating pair stabilization protein that has a role in type !V secretion systems")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000157 "TraG")
 SubClassOf(obo:MOBIO_0000157 obo:MOBIO_0000181)
 
@@ -1295,79 +1238,79 @@ SubClassOf(obo:MOBIO_0000157 obo:MOBIO_0000181)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") Annotation(oboInOwl:hasDbXref "PMID:337311") obo:IAO_0000115 obo:MOBIO_0000158 "TraS is an entry exclusion protein, involved in blocking the transfer of redundant DNA between donor cells.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000158 "TraS")
-SubClassOf(obo:MOBIO_0000158 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000158 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000159 (TraH)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000159 "conjugal transfer pilus assembly protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000159 "TraH")
-SubClassOf(obo:MOBIO_0000159 obo:MOBIO_0000182)
+SubClassOf(obo:MOBIO_0000159 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000160 (TrbB)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000160 "conjugal transfer pilin assembly thiol-disulfide isomerase")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000160 "TrbB")
-SubClassOf(obo:MOBIO_0000160 obo:MOBIO_0000183)
+SubClassOf(obo:MOBIO_0000160 obo:MOBIO_0000025)
 
 # Class: obo:MOBIO_0000161 (TraQ)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000161 "conjugal transfer pilin chaperone")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000161 "TraQ")
-SubClassOf(obo:MOBIO_0000161 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000161 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000162 (TraF)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000162 "conjugal transfer pilus assembly protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000162 "TraF")
-SubClassOf(obo:MOBIO_0000162 obo:MOBIO_0000183)
+SubClassOf(obo:MOBIO_0000162 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000163 (TraN)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000163 "conjugal transfer mating-pair stabilization protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000163 "TraN")
-SubClassOf(obo:MOBIO_0000163 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000163 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000164 (TrbC)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000164 "conjugal transfer pilus assembly protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000164 "TrbC")
-SubClassOf(obo:MOBIO_0000164 obo:MOBIO_0000183)
+SubClassOf(obo:MOBIO_0000164 obo:MOBIO_0000025)
 
 # Class: obo:MOBIO_0000165 (TraU)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000165 "conjugal transfer pilus assembly protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000165 "TraU")
-SubClassOf(obo:MOBIO_0000165 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000165 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000166 (TrbI)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000166 "conjugal transfer protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000166 "TrbI")
-SubClassOf(obo:MOBIO_0000166 obo:MOBIO_0000183)
+SubClassOf(obo:MOBIO_0000166 obo:MOBIO_0000025)
 
 # Class: obo:MOBIO_0000167 (TraC)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000167 "TraC is an ATPase")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000167 "TraC")
-SubClassOf(obo:MOBIO_0000167 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000167 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000168 (TraW)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000168 "conjugal transfer pilus assembly protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000168 "TraW")
-SubClassOf(obo:MOBIO_0000168 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000168 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000169 (TraP)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000169 "conjugal transfer protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000169 "TraP")
-SubClassOf(obo:MOBIO_0000169 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000169 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000170 (TraV)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11150665") obo:IAO_0000115 obo:MOBIO_0000170 "conjugal transfer protein")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000170 "TraV")
-SubClassOf(obo:MOBIO_0000170 obo:MOBIO_0000182)
+SubClassOf(obo:MOBIO_0000170 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000171 (MazG)
 
@@ -1391,16 +1334,15 @@ SubClassOf(obo:MOBIO_0000173 obo:MOBIO_0000194)
 
 # Class: obo:MOBIO_0000174 (DNA polymerase)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000174 "DNA polymerases are enzymes that synthesize DNA molecules from deoxyribonucleotides, the building blocks of DNA. These enzymes are essential to DNA replication and usually work in pairs to create two identical DNA strands from a single original DNA molecule. During this process, DNA polymerase \"reads\" the existing DNA strands to create two new strands that match the existing ones.")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000174 "DNA polymerases are enzymes that synthesize DNA molecules from deoxyribonucleotides, the building blocks of DNA.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000174 "DNA polymerase")
 SubClassOf(obo:MOBIO_0000174 obo:MOBIO_0000187)
-SubClassOf(obo:MOBIO_0000174 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000013))
 
 # Class: obo:MOBIO_0000175 (TraO)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:23357767") obo:IAO_0000115 obo:MOBIO_0000175 "conjugal transfer protein the forms the bulk of type IV secretion complex that spans outer membrane and periplasm")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000175 "TraO")
-SubClassOf(obo:MOBIO_0000175 obo:MOBIO_0000025)
+SubClassOf(obo:MOBIO_0000175 obo:MOBIO_0000181)
 
 # Class: obo:MOBIO_0000176 (tnpA)
 
@@ -1412,7 +1354,7 @@ SubClassOf(obo:MOBIO_0000176 obo:MOBIO_0000038)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000177 "A transcription termination factor")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000177 "transcription termination factor NusG")
-SubClassOf(obo:MOBIO_0000177 obo:MOBIO_0000013)
+SubClassOf(obo:MOBIO_0000177 obo:GO_0070582)
 
 # Class: obo:MOBIO_0000178 (DNA-invertase hin)
 
@@ -1422,7 +1364,7 @@ SubClassOf(obo:MOBIO_0000178 obo:MOBIO_0000090)
 
 # Class: obo:MOBIO_0000179 (LexA)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000179 "LexA is a transcriptional repressor that represses SOS response genes coding primarily for error-prone DNA polymerases, DNA repair enzymes and cell division inhibitors. LexA forms de facto a two-component regulatory system with RecA, which senses DNA damage at stalled replication forks, forming monofilaments and acquiring an active conformation capable of binding to LexA and causing LexA to cleave itself, in a process called autoproteolysis")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000179 "LexA is a transcriptional repressor that represses SOS response genes coding primarily for error-prone DNA polymerases, DNA repair enzymes and cell division inhibitors")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000179 "LexA")
 SubClassOf(obo:MOBIO_0000179 obo:MOBIO_0000194)
 
@@ -1432,35 +1374,22 @@ AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:12867448") Annotation(ob
 AnnotationAssertion(rdfs:label obo:MOBIO_0000180 "adiY")
 SubClassOf(obo:MOBIO_0000180 obo:MOBIO_0000045)
 
-# Class: obo:MOBIO_0000181 (conjugation coupling protein)
+# Class: obo:MOBIO_0000181 (conjugative coupling protein)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26104193") obo:IAO_0000115 obo:MOBIO_0000181 "During the process of conjugation, the coupling protein link the relaxosome and the mating pair formation complex to facilitate the movement of the DNA transfer intermediate through the channel between the cells.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000181 "conjugation coupling protein")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000181 "conjugative coupling protein")
 SubClassOf(obo:MOBIO_0000181 obo:MOBIO_0000025)
 
-# Class: obo:MOBIO_0000182 (subunit of relaxosome)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000182 "Subunits of relaxosomes, which are needed for conjugation of plasmids.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000182 "subunit of relaxosome")
-SubClassOf(obo:MOBIO_0000182 obo:MOBIO_0000025)
-SubClassOf(obo:MOBIO_0000182 ObjectSomeValuesFrom(obo:BFO_0000050 obo:MOBIO_0000127))
-
-# Class: obo:MOBIO_0000183 (subunit of mating pair formation complex)
+# Class: obo:MOBIO_0000183 (mating pair formation complex)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000183 "Subunits of mating pair formation complexes, which are needed for conjugation of plasmids.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000183 "subunit of mating pair formation complex")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000183 "mating pair formation complex")
 SubClassOf(obo:MOBIO_0000183 obo:MOBIO_0000025)
 
-# Class: obo:MOBIO_0000184 (process or component of mobile genetic element biology or chemistry)
+# Class: obo:MOBIO_0000185 (plasmid maitenance)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000184 "Genes, proteins, other biological or chemical compounds, their shared components, and their associated mechanisms as they relate to mobile genetic element molecular biology and evolution.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000184 "process or component of mobile genetic element biology or chemistry")
-SubClassOf(obo:MOBIO_0000184 obo:BFO_0000001)
-
-# Class: obo:MOBIO_0000185 (complex or subunit involved in plasmid maitenance)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000185 "Proteins that participate in the partition, movement, stabilization, and replication of plasmids.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000185 "complex or subunit involved in plasmid maitenance")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000185 "Genes and proteins that participate in the partition, movement, stabilization, and replication of plasmids.")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000185 "plasmid maitenance")
 SubClassOf(obo:MOBIO_0000185 obo:MOBIO_0000190)
 
 # Class: obo:MOBIO_0000186 (partitioning protein)
@@ -1469,31 +1398,31 @@ AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000186 "Proteins that are involve
 AnnotationAssertion(rdfs:label obo:MOBIO_0000186 "partitioning protein")
 SubClassOf(obo:MOBIO_0000186 obo:MOBIO_0000185)
 
-# Class: obo:MOBIO_0000187 (subunit or complex involved in plasmid DNA replication)
+# Class: obo:MOBIO_0000187 (elements involved in DNA replication)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000187 "Proteins that are needed for the replication of plasmids.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000187 "subunit or complex involved in plasmid DNA replication")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000187 "genes and proteins that are needed for the replication of plasmids.")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000187 "elements involved in DNA replication")
 SubClassOf(obo:MOBIO_0000187 obo:MOBIO_0000185)
 SubClassOf(obo:MOBIO_0000187 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000012))
 
 # Class: obo:MOBIO_0000188 (subunit or complex involved in stabilization)
 
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000188 "Proteins that are encoded on plasmids and that are promote the stability of the plasmid in the host cell, or confer advantages to the host cell in certain conditions.")
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000188 "Genes and proteins encoded on plasmids and that promote the stability of the plasmid in the host cell, or confer advantages to the host cell in certain conditions.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000188 "subunit or complex involved in stabilization")
 SubClassOf(obo:MOBIO_0000188 obo:MOBIO_0000185)
 SubClassOf(obo:MOBIO_0000188 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000019))
 
-# Class: obo:MOBIO_0000190 (subunit or complex involved in genetic mobility)
+# Class: obo:MOBIO_0000190 (elements involved in mobility)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000190 "Proteins that are involved in the movement of genetic information between different regions on a chromosome, different chromosomes, or different organisms through processes such as genetic recombination.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000190 "subunit or complex involved in genetic mobility")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000190 "elements involved in mobility")
 SubClassOf(obo:MOBIO_0000190 obo:BFO_0000030)
 
-# Class: obo:MOBIO_0000191 (component of a TA system)
+# Class: obo:MOBIO_0000191 (component of a Toxin-Antitoxin system)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000191 "Proteins, and genes, and RNAs that are part of toxin-antitoxin systems encoded on plasmids.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000191 "component of a TA system")
-SubClassOf(obo:MOBIO_0000191 obo:MOBIO_0000188)
+AnnotationAssertion(rdfs:label obo:MOBIO_0000191 "component of a Toxin-Antitoxin system")
+SubClassOf(obo:MOBIO_0000191 obo:GO_0110001)
 
 # Class: obo:MOBIO_0000192 (Doc/Phd Type II TA System)
 
@@ -1521,79 +1450,55 @@ AnnotationAssertion(rdfs:label obo:MOBIO_0000195 "SOS response inhibitor")
 SubClassOf(obo:MOBIO_0000195 obo:MOBIO_0000188)
 SubClassOf(obo:MOBIO_0000195 ObjectSomeValuesFrom(obo:RO_0000056 obo:MOBIO_0000076))
 
-# Class: obo:MOBIO_0000196 (mechanism of plasmid mobility)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000196 "The mechanisms that mediate the intercellular movement of plasmids.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000196 "mechanism of plasmid mobility")
-SubClassOf(obo:MOBIO_0000196 obo:MOBIO_0000011)
-
-# Class: obo:MOBIO_0000197 (recombinase activity)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000197 "Activity and mechanisms related to recombination in mobile genetic elements, including bacteriophage, plasmids and transposons")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000197 "recombinase activity")
-SubClassOf(obo:MOBIO_0000197 obo:BFO_0000015)
-
 # Class: obo:MOBIO_0000198 (DDE-based recombinase activity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000198 "DDE-based recombinase activity refers to DNA transposases with RNase H-like catalytic domains. The active site of such transposases contains an amino acid motif, DDE or sometimes DDD, which coordinates nucleophilic cleavage of a phosphodiester bond and joining by transesterification.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000198 "DDE-based recombinase activity")
-SubClassOf(obo:MOBIO_0000198 obo:MOBIO_0000197)
+SubClassOf(obo:MOBIO_0000198 obo:GO_0000150)
 
 # Class: obo:MOBIO_0000199 (serine-based recombinase activity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000199 "DNA cleavage by serine recombinases involves an active site serine nucleophile that attacks a phosphate group, without requiring a cofactor.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000199 "serine-based recombinase activity")
-SubClassOf(obo:MOBIO_0000199 obo:MOBIO_0000197)
+SubClassOf(obo:MOBIO_0000199 obo:GO_0000150)
 
 # Class: obo:MOBIO_0000200 (tyrosine-based recombinase activity)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000200 "A mechanism of transposition and recombination whereby DNA is cleaved by an active site tyrosine residue.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000200 "tyrosine-based recombinase activity")
-SubClassOf(obo:MOBIO_0000200 obo:MOBIO_0000197)
+SubClassOf(obo:MOBIO_0000200 obo:GO_0000150)
 
 # Class: obo:MOBIO_0000201 (group II intron)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000201 "Group II introns are mobile genetic elements and mobile ribozymes that self-splice from precursor RNA to produce intron lariat RNA. A reverse transcriptase encoded by the intron stabilize the RNA structure for forward and reverse splicing, then the integrated intron RNA is converted back to DNA.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000201 "group II intron")
-SubClassOf(obo:MOBIO_0000201 obo:MOBIO_0000001)
+SubClassOf(obo:MOBIO_0000201 obo:MOBIO_0000401)
 
 # Class: obo:MOBIO_0000202 (group I intron)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000202 "Group I introns on mobile genetic elements and self-splicing ribozymes. In group I introns, self-splicing is assisted and catalyzed by guanosine-initiated processes, unlike group II introns.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000202 "group I intron")
-SubClassOf(obo:MOBIO_0000202 obo:MOBIO_0000001)
-
-# Class: obo:MOBIO_0000203 (genomic island)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000203 "A genomic island is a type of mobile genetic element with evidence of horizontal gene transfer. Genomic islands are often large segments of DNA which carry accessory genes. These accessory genes may be integrase enzymes related to plasmid conjugation or bacteriophages, insertion elements or transposons for mobilization, and/or selective advantages. Genomic islands are well-known to carry genes associated with pathogenicity, symbiosis, metabolic fitness and/or antibiotic resistance.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000203 "genomic island")
-SubClassOf(obo:MOBIO_0000203 obo:MOBIO_0000001)
+SubClassOf(obo:MOBIO_0000202 obo:MOBIO_0000401)
 
 # Class: obo:MOBIO_0000204 (class I transposable element)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000204 "A class I transposable element, or Retrotransposon, uses an RNA intermediate to facilitate movement and copying. The transposable element is first transcribed from DNA to RNA, and the RNA copy is inserted into the genome via reverse transcription catalyzed by reverse transcriptase. The reverse transcriptase enzyme is generally encoded by the transposon")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000204 "retrotransposon")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000204 "class I transposable element")
-SubClassOf(obo:MOBIO_0000204 obo:MOBIO_0000003)
+SubClassOf(obo:MOBIO_0000204 obo:SO_0000101)
 
 # Class: obo:MOBIO_0000205 (class II transposable element)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000205 "Class II transposable elements, also known as DNA transposons, are catalyzed by transposase enzymes and do not use an RNA intermediate. The class II mechanism involves a staggered cut at a target site producing so-called \"sticky ends\" with a transposase. The DNA transposon can then be excised and ligated to the target site, where the gaps produced by \"sticky ends\" are filled by DNA polymerase. This produces a characteristic site duplication at the insertion site which may be identified by short direct repeats followed by inverted repeats.")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:MOBIO_0000205 "DNA transposon")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000205 "class II transposable element")
-SubClassOf(obo:MOBIO_0000205 obo:MOBIO_0000003)
-
-# Class: obo:MOBIO_0000206 (transduction)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000206 "Transduction is a type of gene transfer mediate by a bacteriophage. When bacteriophage proteins assemble following replication, segments of host DNA may be accidentally included; this DNA is then injected into the next host, where it can recombine and be inherited.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000206 "transduction")
-SubClassOf(obo:MOBIO_0000206 obo:MOBIO_0000016)
+SubClassOf(obo:MOBIO_0000205 obo:SO_0000101)
 
 # Class: obo:MOBIO_0000207 (plasmid typing scheme)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000207 "Methods of classifying and separating plasmids based on given criteria.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000207 "plasmid typing scheme")
-SubClassOf(obo:MOBIO_0000207 obo:MOBIO_0000002)
+SubClassOf(obo:MOBIO_0000207 obo:SO_0000155)
 
 # Class: obo:MOBIO_0000208 (replicon typing method)
 
@@ -1619,12 +1524,6 @@ AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000211 "A method wherein plasmids
 AnnotationAssertion(rdfs:label obo:MOBIO_0000211 "replicon probe hybridization")
 SubClassOf(obo:MOBIO_0000211 obo:MOBIO_0000208)
 
-# Class: obo:MOBIO_0000212 (replicon subtyping)
-
-AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000212 "A plasmid typing method wherein allelic profiles are assessed at six loci. Plasmids are assigned a pMLST subtype nesting within the broader replicon type. This can be performed with PCR-based or in silico methods.")
-AnnotationAssertion(rdfs:label obo:MOBIO_0000212 "replicon subtyping")
-SubClassOf(obo:MOBIO_0000212 obo:MOBIO_0000208)
-
 # Class: obo:MOBIO_0000213 (PCR-based MOB typing)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000213 "PCR-based degenerate primer MOB typing is used to type Proteobacterial and Enterococcal plasmids.")
@@ -1645,7 +1544,7 @@ SubClassOf(obo:MOBIO_0000215 obo:MOBIO_0000205)
 
 # Class: obo:MOBIO_0000216 (Tn4401)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:21844325") obo:IAO_0000115 obo:MOBIO_0000216 "Tn4401 is a Tn3-like transposon of which there are 5 subtypes (Tn4401a-e). Tn4401 has been shown to carry KPC family carbapenemases and are involved in KPC gene mobilization.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:21844325") obo:IAO_0000115 obo:MOBIO_0000216 "Tn4401 is a Tn3-like transposon of which there are 8 subtypes (Tn4401a-h). Tn4401 has been shown to carry KPC family carbapenemases and are involved in KPC gene mobilization.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000216 "Tn4401")
 SubClassOf(obo:MOBIO_0000216 obo:MOBIO_0000215)
 
@@ -1660,6 +1559,7 @@ SubClassOf(obo:MOBIO_0000217 obo:MOBIO_0000215)
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000218 "A plasmid incompatibility group, IncA/C plasmids are large, low copy number, theta-replicating plasmids.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000218 "IncA/C")
 SubClassOf(obo:MOBIO_0000218 obo:MOBIO_0000209)
+SubClassOf(obo:MOBIO_0000218 ObjectSomeValuesFrom(obo:RO_0000087 obo:MOBIO_0000012))
 
 # Class: obo:MOBIO_0000219 (IncF)
 
@@ -1678,12 +1578,42 @@ SubClassOf(obo:MOBIO_0000220 obo:MOBIO_0000209)
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000221 "IncL/M plasmid incompatibility group. IncL/M plasmids have been associated with aminoglycoside resistance, beta-lactam resistance (CTX-M, TEM, SHV, IMP) and fluoroquinolone resistance genes.")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000221 "IncL/M")
 SubClassOf(obo:MOBIO_0000221 obo:MOBIO_0000209)
+SubClassOf(obo:MOBIO_0000221 ObjectSomeValuesFrom(obo:RO_0000087 obo:MOBIO_0000187))
 
 # Class: obo:MOBIO_0000222 (pKPC-484)
 
 AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000222 "Resistance plasmids carrying KPC Carbapenemases found in Klebsiella pneumoniae")
 AnnotationAssertion(rdfs:label obo:MOBIO_0000222 "pKPC-484")
 SubClassOf(obo:MOBIO_0000222 obo:MOBIO_0000008)
+
+# Class: obo:MOBIO_0000400 (plasmid partitioning)
+
+AnnotationAssertion(obo:IAO_0000115 obo:MOBIO_0000400 "process of segregation or partition of replicated DNA essential in stable genome transmission")
+AnnotationAssertion(oboInOwl:created_by obo:MOBIO_0000400 "Aishwarya Sridhar")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000400 "plasmid partitioning"@en)
+SubClassOf(obo:MOBIO_0000400 obo:GO_0006276)
+
+# Class: obo:MOBIO_0000401 (intron)
+
+AnnotationAssertion(oboInOwl:created_by obo:MOBIO_0000401 "Aishwarya Sridhar")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000401 "intron"@en)
+SubClassOf(obo:MOBIO_0000401 obo:SO_0001037)
+
+# Class: obo:MOBIO_0000402 (integrative and conjugative elements)
+
+AnnotationAssertion(oboInOwl:created_by obo:MOBIO_0000402 "AIshwarya Sridhar")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000402 "integrative and conjugative elements"@en)
+SubClassOf(obo:MOBIO_0000402 obo:SO_0001037)
+
+# Class: obo:MOBIO_0000403 (transcriptase)
+
+AnnotationAssertion(obo:IAO000017 obo:MOBIO_0000403 "AIshwarya Sridhar")
+AnnotationAssertion(rdfs:label obo:MOBIO_0000403 "transcriptase"@en)
+SubClassOf(obo:MOBIO_0000403 obo:MOBIO_0000190)
+
+# Class: <http://purl.obolibrary.org/obo/mobio/MOBIO_0000290> (TnAs3)
+
+SubClassOf(<http://purl.obolibrary.org/obo/mobio/MOBIO_0000290> obo:SO_0000101)
 
 
 )

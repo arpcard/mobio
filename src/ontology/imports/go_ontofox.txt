@@ -1,0 +1,57 @@
+[URI of the OWLoutput file]
+http://purl.obolibrary.org/obo/mobio/imports/go_import.owl
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+
+includeAllAnnotationProperties
+
+http://purl.obolibrary.org/obo/GO_0101031 # chaperone complex
+http://purl.obolibrary.org/obo/GO_0000150 # recombinase activity
+http://purl.obolibrary.org/obo/GO_0004803 # transposase activity
+http://purl.obolibrary.org/obo/GO_0006276 # plasmid maintenance
+http://purl.obolibrary.org/obo/GO_0070582 # theta DNA replication
+http://purl.obolibrary.org/obo/GO_0000732 # strand displacement
+http://purl.obolibrary.org/obo/GO_0070581 # rolling circle DNA replication
+http://purl.obolibrary.org/obo/GO_0009294 # DNA-mediated transformation
+http://purl.obolibrary.org/obo/GO_0110001 # toxin-antitoxin complex
+http://purl.obolibrary.org/obo/GO_0009293 # transduction
+
+[Top level source term URIs and target direct superclass URIs]
+
+http://purl.obolibrary.org/obo/GO_0000150 # recombinase activity
+subClassOf http://purl.obolibrary.org/obo/MOBIO_0000016 #genetic mobility
+
+http://purl.obolibrary.org/obo/GO_0004803 # transposase activity
+subClassOf http://purl.obolibrary.org/obo/MOBIO_0000017 #conjugation
+
+http://purl.obolibrary.org/obo/GO_0006276 # plasmid maintenance
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://purl.obolibrary.org/obo/GO_0070582 # theta DNA replication
+subClassOf http://purl.obolibrary.org/obo/MOBIO_0000012 #replication
+
+http://purl.obolibrary.org/obo/GO_0000732 # strand displacement
+subClassOf http://purl.obolibrary.org/obo/MOBIO_0000012 #replication
+
+http://purl.obolibrary.org/obo/GO_0070581 # rolling circle DNA replication
+subClassOf http://purl.obolibrary.org/obo/MOBIO_0000012 #replication
+
+http://purl.obolibrary.org/obo/GO_0009294 # DNA-mediated transformation
+subClassOf http://purl.obolibrary.org/obo/MOBIO_0000020 #transformation
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://www.geneontology.org/formats/oboInOwl#hasDefinition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+
+
+
+
+

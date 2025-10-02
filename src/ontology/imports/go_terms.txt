@@ -1,3 +1,0 @@
-GO:0000150 ## recombinase activity
-GO:0004803 ## transposase activity
-GO:006276 ## plasmid maintenance
